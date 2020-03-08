@@ -1,0 +1,321 @@
+use minifb::{Key, KeyRepeat, MouseButton, MouseMode, Window, WindowOptions};
+
+use bmp;
+
+use std::{time::Duration, fmt::Debug, collections::BTreeMap};
+
+#[derive(Debug)]
+struct Img {
+    image: Vec<u32>,
+    width: usize,
+    height: usize,
+    objects: BTreeMap<usize, Vec<((usize, usize), Vec<Vec<u32>>)>>,
+    selected: Option<((usize, usize), Vec<Vec<u32>>)>,
+}
+
+impl Img {
+    fn new(width: usize, height: usize) -> Img {
+        let mut ret = Img {
+            image: Vec::new(),
+            width,
+            height,
+            objects: BTreeMap::new(),
+            selected: None,
+        };
+        for _ in 0..ret.dim() { ret.push(0xFFFFFF) }
+        // let background = FromImage(vec![vec![0x0A0A1F; width]; height]);
+        let background = FromImage(vec![vec![0x666666; width]; height]);
+        ret.attach(&background, (0, 0), Some(0));
+        let menu = &VecValImage::new(vec![0xFFFFFF; (width - height) * height], width - height);
+        ret.attach(menu, (0, 0), Some(1));
+        ret
+    }
+    fn width(&self) -> usize {
+        self.width
+    }
+    fn height(&self) -> usize {
+        self.height
+    }
+    fn dim(&self) -> usize {
+        self.height * self.width
+    }
+    fn push(&mut self, val: u32) {
+        self.image.push(val);
+    }
+    fn get_img(&self) -> &[u32] {
+        &self.image
+    }
+    fn _draw(&mut self, x: usize, y: usize, color: u32) {
+        self.image[y * self.width + x] = color;
+    }
+
+
+    fn attach<T>(&mut self, object: &T, coord: (usize, usize), layer: Option<usize>) where T: Draw {
+        let temp = if let Some(a) = layer {
+            self.objects.entry(a).or_insert(Vec::new())
+        } else {
+            if let Some(&a) = self.objects.keys().max() {
+                self.objects.entry(a + 1).or_insert(Vec::new())
+            } else {
+                self.objects.entry(1).or_insert(Vec::new())
+            }
+        };
+        (*temp).push((coord, object.to_format()));
+    }
+    fn update(&mut self) {
+        for (_, objects) in self.objects.iter() {
+            for ((x, y), object) in objects {
+                // println!("{} {}", object.len(), object[0].len());
+                for i in 0..object.len() {
+                    for j in 0..object[0].len() {
+                        
+                        if object[i][j] / 0x1000000 < 1 && object[i][j] != 0xFEFEFE {
+                            self.image[(*y + i) * self.width + (*x + j)] = object[i][j];
+                        }
+                    }
+                }
+            }
+        }
+        if let Some(((x, y), object)) = &self.selected {
+            for i in 0..object.len() {
+                for j in 0..object[0].len() {
+                    if j == 49 {
+                        // println!("{:.x}", object[i][j]);
+                    }
+                    if object[i][j] / 0x1000000 < 1 && object[i][j] != 0xFEFEFE {
+                        self.image[(*y + i) * self.width + (*x + j)] = object[i][j];
+                        // println!("{} {} {}", object[i][j], i, j);
+                    }
+                }
+            }
+        }
+
+    }
+    fn select(&mut self, input: ((usize, usize), (usize, usize))) {
+        let (pos, dim) = input;
+        let mut ret = Vec::new();
+        ret.push(vec![0x0; dim.0]);
+        let mut temp = vec![0x0];
+        temp.append(&mut vec![0x1000000; dim.0 - 2]);
+        temp.push(0x0);
+        for _ in 2..dim.1 {
+            ret.push(temp.clone());
+        }
+        ret.push(vec![0x0; dim.0]);
+        self.selected = Some((pos, ret));
+    }
+
+    fn get_item(&self, pos: (usize, usize)) -> Option<(usize, usize)> {
+        let mut i = 0;
+        for (j, vals) in self.objects.iter().rev() {
+            for ((x, y), object) in vals {
+                if pos.0 < object[0].len() + x
+                && pos.0 > *x
+                && pos.1 < object.len() + y
+                && pos.1 > *y {
+                    return Some((*j, i))
+                }
+                i += 1;
+            }
+            i = 0;
+        }
+        None
+    }
+    ///returns (position, width/height)
+    fn obdim(&self, id: usize, pos: usize) -> ((usize, usize), (usize, usize)) {
+        let (pos, a) = &self.objects[&id][pos];
+        println!("{}, {}, {}, {}", a[0].len(), pos.0, a.len(), pos.1);
+        let ext = dbg!(a[0].len(), a.len());
+        (*pos, ext)
+    }
+}
+
+trait Draw: Debug {
+    // if theres anything in the first byte, -> invisible. 
+    fn to_format(&self) -> Vec<Vec<u32>>;
+    // fn selectable(&self) -> bool;
+}
+
+#[derive(Debug, Eq, Hash, PartialEq, Clone)]
+struct FromImage(Vec<Vec<u32>>);
+
+impl FromImage {
+    fn new(inp: &str) -> Result<FromImage, Box<dyn std::error::Error>> {
+        let mut ret = Vec::new();
+        
+
+        let inp = bmp::open(inp).expect("OK");
+        let width = inp.get_width() - 1;
+
+        let mut pix: bmp::Pixel;
+        let mut temp = Vec::new();
+        for (x, y) in inp.coordinates() {
+            pix = inp.get_pixel(x, y);
+            temp.push((pix.r as u32 * 256 * 256) + (pix.g as u32 * 256) + (pix.b as u32));
+            if x == width {
+                ret.push(temp.clone());
+                temp.clear();
+            }
+        }
+        Ok(FromImage(ret))
+    }
+}
+
+impl Draw for FromImage {
+    fn to_format(&self) -> Vec<Vec<u32>> {
+        self.0.clone()
+    }
+    // fn selectable(&self) -> bool {
+    //     self.selectabl3
+    // }
+}
+
+
+#[derive(Hash, PartialEq, Eq, Debug)]
+struct VecValImage {
+    content: Vec<u32>,
+    width: usize,
+}
+
+impl VecValImage {
+    fn new(content: Vec<u32>, width: usize) -> VecValImage {
+        VecValImage {
+            content, 
+            width
+        }
+    }
+}
+
+
+impl Draw for VecValImage {
+    fn to_format(&self) -> Vec<Vec<u32>> {
+        let mut ret = vec![vec![0; self.width]; self.content.len() / self.width];
+        let mut data = self.content.iter();
+        for i in 0..self.content.len() / self.width {
+            for j in 0..self.width {
+                ret[i][j] = *data.next().unwrap();
+            }
+        }
+        ret
+    }
+}
+
+
+// #[derive(Hash, PartialEq, Eq, Debug)]
+// struct Selected {
+//     dim: (usize, usize),
+// }
+
+// impl Selected {
+//     fn new(dx: usize, dy: usize) -> Selected {
+//         Selected {
+//            dim: (
+//                dx,
+//                dy
+//            ) 
+//         }
+//     }
+// }
+
+// impl Draw for Selected {
+//     fn to_format(&self) -> Vec<Vec<u32>> {
+//         let mut ret = Vec::new();
+//         ret.push(vec![0x0; self.dim.0]);
+//         let mut temp = vec![0x0];
+//         temp.append(&mut vec![0x1000000; self.dim.1 - 2]);
+//         temp.push(0x0);
+//         for _ in 2..self.dim.1 {
+//             ret.push(temp.clone());
+//         }
+//         ret.push(vec![0x0; self.dim.0]);
+//         ret
+//     }
+// }
+
+
+fn make_shit(mut w: usize, mut h: usize) -> Result<(), Box<dyn std::error::Error>> {
+    if h > w {
+        std::mem::swap(&mut w, &mut h);
+    }
+    let smiley_tester = &VecValImage {
+        content: vec![
+            0x1000000, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0x1000000, 
+            0xFFFFFF,  0x0,      0x0,      0xFFFFFF, 0x0,      0x0,      0xFFFFFF, 
+            0xFFFFFF,  0x0,      0x0,      0xFFFFFF, 0x0,      0x0,      0xFFFFFF, 
+            0xFFFFFF,  0x0,      0x0,      0xFFFFFF, 0x0,      0x0,      0xFFFFFF, 
+            0xFFFFFF,  0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 
+            0xFFFFFF,  0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF,  
+            0xFFFFFF,  0x0,      0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0x0,      0xFFFFFF,  
+            0xFFFFFF,  0x0,      0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0x0,      0xFFFFFF, 
+            0xFFFFFF,  0x0,      0x0,      0x0,      0x0,      0x0,      0xFFFFFF, 
+            0x1000000, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0x1000000, 
+        ],
+        width: 7,
+    };
+    let star = &FromImage::new("./data/star.bmp").unwrap();
+
+    let mut img = Img::new(w, h);
+
+    let mut window = Window::new(
+        "test",
+        img.width(),
+        img.height(),
+        WindowOptions {
+            resize: false,
+            ..WindowOptions::default()
+        },
+    )?;
+
+
+    let mut keep = true;
+    let mut change = true;
+    'outer: while window.is_open() && keep {
+        // img.resize(window.get_size());
+        window.limit_update_rate(Some(Duration::from_millis(5)));
+        if change {
+            img.update();
+            window.update_with_buffer(img.get_img(), img.width(), img.height())?; // gotta switch so it only updates when needed 
+        } else {
+            window.update();
+        }
+        change = false;
+
+        if let Some(coordinates) = window.get_mouse_pos(MouseMode::Clamp) {
+            let (x, y) = (coordinates.0 as usize, coordinates.1 as usize);
+
+            if window.get_mouse_down(MouseButton::Left) {
+                // img.attach(smiley_tester, (x, y), Some(2));
+                // img.select((x, y), (50, 100));
+                if let Some((id, pos)) = img.get_item((x, y)) {
+                    // let a = img.obdim(id, pos);
+                    img.select(img.obdim(id, pos));
+                }
+                change = true;
+            } else if window.get_mouse_down(MouseButton::Right) {
+                img.attach(star, (x, y), Some(3));
+                change = true;
+            }
+        }
+
+        for keys in window.get_keys_pressed(KeyRepeat::No) {
+            for t in keys {
+                match t {
+                    Key::Escape => keep = false,
+                    _ => (),
+                }
+            }
+        }
+
+        window.get_mouse_pos(MouseMode::Clamp).map(|_mouse| {
+            // println!("x {} y {}", mouse.0, mouse.1);
+        });
+    }
+    Ok(())
+}
+
+
+
+fn main() -> Result<(), Box<dyn std::error::Error>> {
+    make_shit(900, 600)?;
+    Ok(())
+}
