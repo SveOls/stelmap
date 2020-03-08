@@ -1,0 +1,10955 @@
+2210.10.19 {
+	species {
+		0 {
+			Kelbrid
+			Kelbrids
+			Kelbran
+			lith4
+			traits {
+				trait_lithoid
+				trait_decadent
+				trait_weak
+				trait_venerable
+				trait_repugnant
+				trait_intelligent
+				trait_pc_alpine_preference
+			}
+		}
+		1 {
+			Bzadi
+			Bzadi
+			Bzadian
+			lith3
+			traits {
+				trait_lithoid
+				trait_syncretic_proles
+				trait_industrious
+				trait_slow_learners
+				trait_sedentary
+				trait_communal
+				trait_pc_alpine_preference
+			}
+		}
+		2 {
+			Tezekian
+			Tezekians
+			
+			avi8
+			traits {
+				trait_nonadaptive
+				trait_wasteful
+				trait_natural_sociologists
+				trait_enduring
+				trait_very_strong
+				trait_pc_tropical_preference
+			}
+		}
+		3 {
+			Robot
+			Robots
+			Robot
+			sd_avi_robot
+			traits {
+				trait_mechanical
+			}
+		}
+		4 {
+			Jhoolian
+			Jhoolians
+			
+			fun8
+			traits {
+				trait_resilient
+				trait_solitary
+				trait_enduring
+				trait_natural_physicists
+				trait_pc_arid_preference
+			}
+		}
+		5 {
+			Aramathi
+			Aramathi
+			
+			mam8
+			traits {
+				trait_industrious
+				trait_pc_arid_preference
+			}
+		}
+		6 {
+			Lyrite
+			Lyrites
+			
+			rep6
+			traits {
+				trait_nonadaptive
+				trait_strong
+				trait_ingenious
+				trait_quick_learners
+				trait_pc_desert_preference
+			}
+		}
+		7 {
+			Bessadon
+			Bessadons
+			
+			rep17
+			traits {
+				trait_wasteful
+				trait_decadent
+				trait_charismatic
+				trait_adaptive
+				trait_pc_savannah_preference
+			}
+		}
+		8 {
+			Obadin
+			Obadinans
+			
+			mol18
+			traits {
+				trait_talented
+				trait_communal
+				trait_pc_ocean_preference
+			}
+		}
+		9 {
+			Estwani
+			Estwani
+			
+			mam3
+			traits {
+				trait_quarrelsome
+				trait_quick_learners
+				trait_very_strong
+				trait_fleeting
+				trait_pc_savannah_preference
+			}
+		}
+		10 {
+			Dekron
+			Dekrons
+			
+			sd_fun_robot
+			traits {
+				trait_machine_unit
+				trait_robot_bulky
+				trait_robot_power_drills
+			}
+		}
+		11 {
+			Cevelli
+			Cevelli
+			
+			humanoid_04
+			traits {
+				trait_cybernetic
+				trait_adaptive
+				trait_natural_sociologists
+				trait_repugnant
+				trait_traditional
+				trait_pc_tropical_preference
+			}
+		}
+		12 {
+			Pelx-Cradonian
+			Pelx-Cradonians
+			
+			avi15
+			traits {
+				trait_agrarian
+				trait_pc_desert_preference
+			}
+		}
+		13 {
+			Suramo
+			Suramos
+			
+			rep12
+			traits {
+				trait_slow_learners
+				trait_deviants
+				trait_natural_sociologists
+				trait_ingenious
+				trait_communal
+				trait_pc_ocean_preference
+			}
+		}
+		14 {
+			Kel-Azaan
+			Azaans
+			Kel-Azaan
+			art8
+			traits {
+				trait_very_strong
+				trait_traditional
+				trait_deviants
+				trait_solitary
+				trait_pc_savannah_preference
+			}
+		}
+		15 {
+			Sirgogg
+			Sirgoggans
+			
+			mol7
+			traits {
+				trait_natural_physicists
+				trait_deviants
+				trait_rapid_breeders
+				trait_pc_tropical_preference
+			}
+		}
+		16 {
+			Prossnakan
+			
+			
+			humanoid_hp_07
+			traits {
+				trait_pc_tundra_preference
+				trait_intelligent
+				trait_thrifty
+				trait_very_strong
+			}
+		}
+		17 {
+			Oviir
+			
+			
+			lith7
+			traits {
+				trait_nerve_stapled
+				trait_strong
+				trait_charismatic
+			}
+		}
+		18 {
+			Akkano
+			
+			
+			humanoid_hp_08
+			traits {
+				trait_extremely_adaptive
+				trait_rapid_breeders
+				trait_nomadic
+				trait_quarrelsome
+				trait_deviants
+			}
+		}
+		19 {
+			Xabir
+			
+			
+			mol7
+			traits {
+				trait_extremely_adaptive
+				trait_slow_breeders
+				trait_sedentary
+				trait_pc_gaia_preference
+			}
+		}
+		20 {
+			Zeppadroggan
+			Zeppadroggans
+			
+			fun4
+			traits {
+				trait_pc_tundra_preference
+				trait_resilient
+				trait_strong
+			}
+		}
+		21 {
+			Vetirisius
+			
+			
+			pla16_baol
+			traits {
+				trait_natural_sociologists
+				trait_enduring
+				trait_pc_ringworld_habitable_preference
+			}
+		}
+		22 {
+			Kalaxenan
+			
+			
+			rep2
+			traits {
+				trait_rapid_breeders
+				trait_pc_ringworld_habitable_preference
+			}
+		}
+		23 {
+			Mandasura
+			
+			
+			pla5
+			traits {
+				trait_conformists
+				trait_pc_ringworld_habitable_preference
+			}
+		}
+		24 {
+			Fevarian
+			
+			
+			mam1
+			traits {
+				trait_enduring
+				trait_slow_learners
+				trait_natural_sociologists
+				trait_decadent
+				trait_adaptive
+				trait_pc_ringworld_habitable_preference
+			}
+		}
+		25 {
+			Baviir
+			
+			
+			avi12
+			traits {
+				trait_pc_continental_preference
+				trait_conservational
+				trait_fleeting
+				trait_natural_physicists
+				trait_traditional
+			}
+		}
+		26 {
+			Pithok
+			
+			
+			art10
+			traits {
+				trait_pc_arctic_preference
+				trait_weak
+				trait_traditional
+				trait_charismatic
+			}
+		}
+		27 {
+			Vengral
+			Vengral
+			Vengral
+			lith1
+			traits {
+				trait_pc_desert_preference
+				trait_lithoid
+				trait_fleeting_lithoid
+				trait_sedentary
+				trait_industrious
+				trait_natural_sociologists
+				trait_talented
+			}
+		}
+		28 {
+			Kobarian
+			
+			
+			humanoid_hp_01
+			traits {
+				trait_pc_continental_preference
+				trait_enduring
+				trait_traditional
+			}
+		}
+		29 {
+			Athanebian
+			Athanebians
+			
+			rep14
+			traits {
+				trait_pc_arid_preference
+				trait_ingenious
+			}
+		}
+		30 {
+			Korinth
+			
+			
+			humanoid_hp_02
+			traits {
+				trait_pc_savannah_preference
+				trait_enduring
+				trait_solitary
+				trait_natural_physicists
+				trait_nomadic
+			}
+		}
+		31 {
+			Kammarian
+			Kammarians
+			
+			rep13
+			traits {
+				trait_pc_tundra_preference
+				trait_sedentary
+				trait_decadent
+				trait_solitary
+				trait_industrious
+				trait_very_strong
+			}
+		}
+		32 {
+			Uv-Xantt
+			
+			
+			avi18
+			traits {
+				trait_pc_tropical_preference
+				trait_intelligent
+			}
+		}
+		33 {
+			Xuri
+			Xuri
+			NAME_Xurian
+			mol16
+			traits {
+				trait_thrifty
+			}
+		}
+		34 {
+			Photecian
+			
+			
+			mam14
+			traits {
+				trait_deviants
+				trait_thrifty
+				trait_natural_physicists
+				trait_pc_alpine_preference
+			}
+		}
+		35 {
+			Giroid
+			Giroids
+			
+			humanoid_hp_12
+			traits {
+				trait_pc_tundra_preference
+				trait_natural_engineers
+				trait_traditional
+			}
+		}
+		36 {
+			Xanyr
+			Xanyrans
+			
+			art9
+			traits {
+				trait_pc_desert_preference
+				trait_sedentary
+				trait_natural_physicists
+				trait_rapid_breeders
+			}
+		}
+		37 {
+			Yaanari
+			Yaanari
+			
+			rep4
+			traits {
+				trait_pc_alpine_preference
+				trait_natural_physicists
+				trait_repugnant
+				trait_nonadaptive
+				trait_agrarian
+				trait_very_strong
+			}
+		}
+		38 {
+			Dima'Xanian
+			Dima'Xanians
+			
+			rep8
+			traits {
+				trait_pc_arid_preference
+				trait_sedentary
+				trait_resilient
+				trait_conservational
+				trait_quarrelsome
+				trait_adaptive
+			}
+		}
+		39 {
+			Rhonzar
+			
+			
+			lith2
+			traits {
+				trait_lithoid
+				trait_lithoid_gaseous_byproducts
+				trait_resilient
+				trait_deviants
+				trait_pc_desert_preference
+			}
+		}
+		40 {
+			Nuurian
+			Nuurians
+			
+			mol4
+			traits {
+				trait_pc_alpine_preference
+				trait_conformists
+			}
+		}
+		41 {
+			Sidimatus
+			
+			
+			pla10
+			traits {
+				trait_slow_breeders
+				trait_enduring
+				trait_sedentary
+				trait_conservational
+				trait_very_strong
+				trait_pc_arctic_preference
+			}
+		}
+		42 {
+			Lilarobius
+			
+			
+			pla6
+			traits {
+				trait_natural_engineers
+				trait_communal
+				trait_pc_desert_preference
+			}
+		}
+		43 {
+			Lavis
+			Lavii
+			
+			pla13
+			traits {
+				trait_pc_continental_preference
+				trait_slow_breeders
+				trait_decadent
+				trait_venerable
+				trait_strong
+			}
+		}
+		44 {
+			Tavurite
+			
+			
+			lith6
+			traits {
+				trait_lithoid
+				trait_quick_learners
+				trait_natural_engineers
+				trait_pc_ocean_preference
+			}
+		}
+		45 {
+			Ferbanite
+			
+			
+			lith11
+			traits {
+				trait_lithoid
+				trait_ingenious
+				trait_pc_ocean_preference
+			}
+		}
+		46 {
+			Yax'Kalock
+			
+			
+			art5
+			traits {
+				trait_communal
+				trait_quick_learners
+				trait_pc_savannah_preference
+			}
+		}
+		47 {
+			Khessam
+			
+			
+			avi14
+			traits {
+				trait_resilient
+				trait_enduring
+				trait_slow_breeders
+				trait_charismatic
+				trait_pc_arid_preference
+			}
+		}
+		48 {
+			Miidari
+			
+			
+			avi9
+			traits {
+				trait_strong
+				trait_conservational
+				trait_pc_ocean_preference
+			}
+		}
+		49 {
+			Erissu
+			
+			
+			avi10
+			traits {
+				trait_resilient
+				trait_talented
+				trait_pc_tropical_preference
+			}
+		}
+		50 {
+			Mishar
+			Mishars
+			
+			humanoid_03
+			traits {
+				trait_pc_arid_preference
+				trait_adaptive
+			}
+		}
+		51 {
+			Human
+			Humans
+			Human
+			human
+			traits {
+				trait_adaptive
+				trait_nomadic
+				trait_wasteful
+				trait_pc_continental_preference
+			}
+		}
+		52 {
+			Heejam
+			Heejami
+			
+			mol14
+			traits {
+				trait_pc_arid_preference
+				trait_weak
+				trait_slow_breeders
+				trait_agrarian
+				trait_ingenious
+				trait_conservational
+			}
+		}
+		53 {
+			Giranshu
+			Giranshu
+			
+			humanoid_hp_09
+			traits {
+				trait_pc_ocean_preference
+				trait_talented
+				trait_nomadic
+			}
+		}
+		54 {
+			Oned'Qarak
+			Oned'Qaraki
+			
+			mam5
+			traits {
+				trait_pc_savannah_preference
+				trait_repugnant
+				trait_conformists
+				trait_natural_sociologists
+				trait_strong
+			}
+		}
+		55 {
+			Rackuddon
+			
+			
+			pre_avi1
+			traits {
+				trait_presapient_irradiated
+				trait_pc_continental_preference
+			}
+		}
+		56 {
+			Hythean
+			
+			
+			pre_mol3
+			traits {
+				trait_presapient_natural_intellectuals
+				trait_pc_alpine_preference
+			}
+		}
+		57 {
+			Ozkox
+			
+			
+			pre_avi12
+			traits {
+				trait_presapient_proles
+				trait_pc_desert_preference
+			}
+		}
+	}
+	empires {
+		0 {
+			Kelbrid Domains
+			Domain
+			ethics {
+				Authoritarian
+				Materialist
+				Materialist
+			}
+			planets {
+				4 {
+					Shapara
+					pc_alpine
+					18
+					pops {
+0	1	Militarist	miner	worker	false	
+1	1	Authoritarian	miner	worker	false	
+2	1	Materialist	technician	worker	false	
+3	1	Materialist	miner	worker	false	
+4	1	Authoritarian	miner	worker	false	
+5	1	Authoritarian	miner	worker	false	
+6	1	Materialist	technician	worker	false	
+7	1	Authoritarian	miner	worker	false	
+8	1	Materialist	miner	worker	false	
+9	1	Authoritarian	miner	worker	false	
+10	1	Materialist	miner	worker	false	
+11	1	Materialist	miner	worker	false	
+12	0	Xenophobe	enforcer	specialist	false	
+13	0	Authoritarian	foundry	specialist	false	
+14	0	Authoritarian	entertainer	specialist	false	
+15	0	Xenophobe	technician	worker	false	
+16	0	Xenophobe		specialist	false	
+17	0	Xenophobe	artisan	specialist	false	
+18	0	Materialist	foundry	specialist	false	
+19	0	Materialist		specialist	false	
+20	0	Xenophobe	administrator	ruler	false	
+21	0	Authoritarian	entertainer	specialist	false	
+22	0	Authoritarian		specialist	false	
+23	0	Materialist	administrator	ruler	false	
+867	0	Xenophile	technician	worker	false	
+869	0	Authoritarian	technician	worker	false	
+878	0	Authoritarian	technician	worker	false	
+880	0	Authoritarian	technician	worker	false	
+892	0	Xenophile	artisan	specialist	false	
+895	0	Materialist	technician	worker	false	
+928	0	Materialist	clerk	worker	false	
+					}
+				}
+				396 {
+					Starflung Roost
+					pc_tropical
+					24
+					pops {
+929	2	Materialist	colonist	specialist	false	
+					}
+				}
+				472 {
+					Forexod
+					pc_ocean
+					20
+					pops {
+912	13	Materialist	colonist	specialist	false	
+					}
+				}
+				488 {
+					Gluggobder
+					pc_tropical
+					18
+					pops {
+900	15	Materialist	colonist	specialist	false	
+					}
+				}
+			}
+			colors {
+				dark_grey
+				dark_brown
+				None
+				None
+			}
+		}
+		1 {
+			Tezekian Committee
+			Tezekian
+			ethics {
+				Authoritarian
+				Materialist
+				Materialist
+			}
+			planets {
+				279 {
+					Sceptrum III
+					pc_alpine
+					13
+					pops {
+915	56	Gestalt	pre_sapient	pre_sapients	false	
+916	56	Gestalt	pre_sapient	pre_sapients	false	
+917	56	Gestalt	pre_sapient	pre_sapients	false	
+					}
+				}
+				24 {
+					Tezek
+					pc_tropical
+					16
+					pops {
+24	3	Gestalt	farmer	robot_servant	false	
+25	3	Gestalt	miner	robot_servant	false	
+26	3	Gestalt	farmer	robot_servant	false	
+27	3	Gestalt	farmer	robot_servant	false	
+28	3	Gestalt	miner	robot_servant	false	
+29	3	Gestalt	miner	robot_servant	false	
+30	3	Gestalt	farmer	robot_servant	false	
+31	3	Gestalt	miner	robot_servant	false	
+32	2	Materialist	roboticist	specialist	false	
+33	2	Authoritarian	enforcer	specialist	false	
+34	2	Authoritarian	miner	worker	false	
+35	2	Materialist	researcher	specialist	false	
+36	2	Materialist	researcher	specialist	false	
+37	2	Materialist	artisan	specialist	false	
+38	2	Materialist	technician	worker	false	
+39	2	Materialist	entertainer	specialist	false	
+40	2	Materialist	miner	worker	false	
+41	2	Materialist	technician	worker	false	
+42	2	Authoritarian	miner	worker	false	
+43	2	Materialist	artisan	specialist	false	
+44	2	Authoritarian	foundry	specialist	false	
+45	2	Materialist	technician	worker	false	
+46	2	Materialist	entertainer	specialist	false	
+47	2	Materialist	culture_worker	specialist	false	
+48	2	Materialist	administrator	ruler	false	
+49	2	Authoritarian	foundry	specialist	false	
+50	2	Materialist	administrator	ruler	false	
+16777355	2	Materialist	culture_worker	specialist	false	
+860	2	Authoritarian	miner	worker	false	
+873	3	Gestalt	miner	robot_servant	false	
+881	2	Authoritarian	technician	worker	false	
+902	2	Materialist	miner	worker	false	
+903	3	Gestalt	miner	robot_servant	false	
+					}
+				}
+			}
+			colors {
+				dark_grey
+				green
+				green
+				None
+			}
+		}
+		2 {
+			Jhoolian Commissariat
+			Jhoolian
+			ethics {
+				Egalitarian
+				Militarist
+				Militarist
+			}
+			planets {
+				373 {
+					Zaktic Zajkax
+					pc_savannah
+					13
+					pops {
+911	14	Militarist	colonist	specialist	false	
+					}
+				}
+				33 {
+					Jhool Prime
+					pc_arid
+					17
+					pops {
+51	4	Egalitarian	enforcer	specialist	false	
+52	4	Militarist	researcher	specialist	false	
+53	4	Militarist	miner	worker	false	
+54	4	Materialist	miner	worker	false	
+55	4	Egalitarian	artisan	specialist	false	
+56	4	Militarist	farmer	worker	false	
+57	4	Materialist	miner	worker	false	
+58	4	Militarist	miner	worker	false	
+59	4	Egalitarian	researcher	specialist	false	
+60	4	Militarist	miner	worker	false	
+61	4	Egalitarian	technician	worker	false	
+62	4	Militarist	artisan	specialist	false	
+63	4	Militarist	miner	worker	false	
+64	4	Egalitarian	miner	worker	false	
+65	4	Militarist	technician	worker	false	
+66	4	Materialist	farmer	worker	false	
+67	4	Militarist	farmer	worker	false	
+68	4	Egalitarian	administrator	ruler	false	
+69	4	Militarist	foundry	specialist	false	
+70	4	Militarist	entertainer	specialist	false	
+71	4	Egalitarian	foundry	specialist	false	
+72	4	Egalitarian	miner	worker	false	
+73	4	Egalitarian	administrator	ruler	false	
+74	4	Militarist	culture_worker	specialist	false	
+850	4	Materialist	entertainer	specialist	false	
+858	4	Militarist	culture_worker	specialist	false	
+879	4	Militarist	farmer	worker	false	
+899	4	Egalitarian	technician	worker	false	
+930	4	Militarist	technician	worker	false	
+					}
+				}
+			}
+			colors {
+				dark_blue
+				black
+				blue
+				None
+			}
+		}
+		3 {
+			Aramathi Regime
+			Aramathian
+			ethics {
+				Authoritarian
+				Authoritarian
+				Materialist
+			}
+			planets {
+				42 {
+					Arakim
+					pc_arid
+					20
+					pops {
+75	5	Xenophile	enforcer	specialist	false	
+76	5	Authoritarian	technician	worker	false	
+77	5	Materialist	miner	slave	true	
+78	5	Authoritarian	technician	worker	false	
+79	5	Authoritarian	entertainer	specialist	false	
+80	5	Authoritarian	miner	slave	true	
+81	5	Authoritarian	culture_worker	specialist	false	
+82	5	Materialist	farmer	slave	true	
+83	5	Authoritarian	artisan	specialist	false	
+84	5	Materialist	technician	worker	false	
+85	5	Authoritarian	farmer	slave	true	
+86	5	Authoritarian	foundry	specialist	false	
+87	5	Materialist	farmer	slave	true	
+88	5	Authoritarian	entertainer	specialist	false	
+89	5	Authoritarian	culture_worker	specialist	false	
+90	5	Materialist	miner	slave	true	
+91	5	Egalitarian	researcher	specialist	false	
+92	5	Authoritarian	miner	slave	true	
+93	5	Authoritarian	administrator	ruler	false	
+94	5	Materialist	artisan	specialist	false	
+95	5	Authoritarian	miner	slave	true	
+96	5	Materialist	foundry	specialist	false	
+97	5	Materialist	miner	slave	true	
+98	5	Egalitarian	administrator	ruler	false	
+854	5	Egalitarian	researcher	specialist	false	
+861	5	Authoritarian	farmer	slave	true	
+882	5	Authoritarian	technician	worker	false	
+904	5	Authoritarian	technician	slave	true	
+					}
+				}
+			}
+			colors {
+				turquoise
+				indigo
+				black
+				None
+			}
+		}
+		4 {
+			Sovereign Lyrite Coalition
+			Lyritan
+			ethics {
+				Egalitarian
+				Materialist
+				Materialist
+			}
+			planets {
+				178 {
+					Azak
+					pc_savannah
+					18
+					pops {
+280	14	Spiritualist	enforcer	specialist	false	
+281	14	Egalitarian	culture_worker	specialist	false	
+282	14	Militarist		specialist	false	
+283	14	Militarist	technician	worker	false	
+284	14	Militarist	miner	worker	false	
+285	14	Militarist		specialist	false	
+286	14	Egalitarian		specialist	false	
+287	14	Militarist	miner	worker	false	
+288	14	Egalitarian	culture_worker	specialist	false	
+289	14	Egalitarian	farmer	worker	false	
+290	14	Militarist	technician	worker	false	
+291	14	Militarist	miner	worker	false	
+292	14	Militarist	farmer	worker	false	
+293	14	Militarist		specialist	false	
+294	14	Militarist	miner	worker	false	
+295	14	Militarist	miner	worker	false	
+296	14	Egalitarian	artisan	specialist	false	
+297	14	Militarist	technician	worker	false	
+298	14	Egalitarian	farmer	worker	false	
+299	14	Egalitarian	foundry	specialist	false	
+300	14	Militarist	artisan	specialist	false	
+301	14	Militarist	foundry	specialist	false	
+302	14	Militarist	administrator	ruler	false	
+303	14	Egalitarian	administrator	ruler	false	
+859	14	Egalitarian	miner	worker	false	
+865	14	Militarist	technician	worker	false	
+887	14	Militarist	farmer	worker	false	
+901	14	Egalitarian	miner	worker	false	
+					}
+				}
+				358 {
+					Keak Roost
+					pc_desert
+					16
+					pops {
+909	12	Spiritualist	colonist	specialist	false	
+					}
+				}
+				62 {
+					Lyrass
+					pc_desert
+					20
+					pops {
+99	6	Militarist	enforcer	specialist	false	
+100	6	Egalitarian	technician	worker	false	
+101	6	Materialist	miner	worker	false	
+102	6	Materialist	farmer	worker	false	
+103	6	Materialist		specialist	false	
+104	6	Materialist	culture_worker	specialist	false	
+105	6	Materialist	miner	worker	false	
+106	6	Materialist	entertainer	specialist	false	
+107	6	Egalitarian	farmer	worker	false	
+108	6	Materialist	farmer	worker	false	
+109	6	Materialist	miner	worker	false	
+110	6	Materialist	miner	worker	false	
+111	6	Materialist	culture_worker	specialist	false	
+112	6	Egalitarian	miner	worker	false	
+113	6	Materialist	entertainer	specialist	false	
+114	6	Egalitarian	technician	worker	false	
+115	6	Materialist	technician	worker	false	
+116	6	Egalitarian	foundry	specialist	false	
+117	6	Materialist	artisan	specialist	false	
+118	6	Egalitarian	artisan	specialist	false	
+119	6	Materialist	technician	worker	false	
+120	6	Egalitarian	foundry	specialist	false	
+121	6	Materialist	administrator	ruler	false	
+122	6	Egalitarian	administrator	ruler	false	
+862	6	Egalitarian	farmer	worker	false	
+872	6	Materialist	miner	worker	false	
+883	6	Materialist		specialist	false	
+905	6	Materialist	miner	worker	false	
+					}
+				}
+				224 {
+					Pan'Kischa
+					pc_desert
+					20
+					pops {
+918	6	Materialist	colonist	specialist	false	
+					}
+				}
+			}
+			colors {
+				purple
+				red
+				black
+				None
+			}
+		}
+		5 {
+			Bessadon Hierarchy
+			Bessadon
+			ethics {
+				Xenophobe
+				Spiritualist
+				Spiritualist
+			}
+			planets {
+				78 {
+					Bessqa
+					pc_savannah
+					19
+					pops {
+123	7	Xenophobe	enforcer	specialist	false	
+124	7	Spiritualist	artisan	specialist	false	
+125	7	Authoritarian	researcher	specialist	false	
+126	7	Spiritualist	researcher	specialist	false	
+127	7	Xenophobe	administrator	ruler	false	
+128	7	Xenophobe	researcher	specialist	false	
+129	7	Xenophobe	researcher	specialist	false	
+130	7	Spiritualist	clerk	worker	false	
+131	7	Spiritualist	clerk	worker	false	
+132	7	Authoritarian	clerk	worker	false	
+133	7	Xenophobe	miner	worker	false	
+134	7	Authoritarian	miner	worker	false	
+135	7	Spiritualist	technician	worker	false	
+136	7	Spiritualist	technician	worker	false	
+137	7	Authoritarian	miner	worker	false	
+138	7	Spiritualist	farmer	worker	false	
+140	7	Xenophobe	farmer	worker	false	
+141	7	Authoritarian	foundry	specialist	false	
+142	7	Spiritualist	administrator	ruler	false	
+143	7	Spiritualist	artisan	specialist	false	
+144	7	Xenophobe	foundry	specialist	false	
+146	7	Authoritarian	priest	specialist	false	
+856	7	Pacifist	priest	specialist	false	
+868	7	Authoritarian	miner	worker	false	
+876	7	Xenophobe	technician	worker	false	
+896	7	Spiritualist	farmer	worker	false	
+926	7	Authoritarian	technician	worker	false	
+					}
+				}
+				327 {
+					Lulululu
+					pc_savannah
+					13
+					pops {
+910	7	Xenophobe	colonist	specialist	false	
+					}
+				}
+			}
+			colors {
+				pink
+				dark_grey
+				pink
+				None
+			}
+		}
+		6 {
+			Great Obadin Hierarchy
+			Obadin
+			ethics {
+				Xenophobe
+				Militarist
+				Militarist
+			}
+			planets {
+				89 {
+					Obadin
+					pc_ocean
+					16
+					pops {
+147	8	Militarist	enforcer	specialist	false	
+148	8	Xenophobe	miner	worker	false	
+149	8	Xenophobe	miner	worker	false	
+150	8	Militarist	technician	worker	false	
+151	8	Xenophobe	entertainer	specialist	false	
+152	8	Militarist	culture_worker	specialist	false	
+153	8	Xenophobe	miner	worker	false	
+154	8	Xenophobe	farmer	worker	false	
+155	8	Militarist	miner	worker	false	
+156	8	Militarist	technician	worker	false	
+157	8	Militarist	miner	worker	false	
+158	8	Xenophobe	entertainer	specialist	false	
+159	8	Xenophobe	culture_worker	specialist	false	
+160	8	Militarist	artisan	specialist	false	
+161	8	Militarist	farmer	worker	false	
+162	8	Xenophobe	farmer	worker	false	
+163	8	Xenophobe	technician	worker	false	
+164	8	Xenophobe		specialist	false	
+165	8	Militarist	miner	worker	false	
+166	8	Militarist	foundry	specialist	false	
+167	8	Militarist	farmer	worker	false	
+168	8	Xenophobe	administrator	ruler	false	
+169	8	Militarist	foundry	specialist	false	
+170	8	Militarist	administrator	ruler	false	
+855	8	Xenophobe		specialist	false	
+857	8	Militarist	artisan	specialist	false	
+877	8	Militarist	technician	worker	false	
+897	8	Xenophobe	miner	worker	false	
+920	8	Militarist	miner	worker	false	
+					}
+				}
+			}
+			colors {
+				dark_teal
+				orange
+				black
+				None
+			}
+		}
+		7 {
+			Estwani Syndicate
+			Estwanian
+			ethics {
+				Authoritarian
+				Xenophile
+				Xenophile
+			}
+			planets {
+				388 {
+					Veit IV
+					pc_desert
+					13
+					pops {
+921	57	Gestalt	pre_sapient	pre_sapients	false	
+922	57	Gestalt	pre_sapient	pre_sapients	false	
+923	57	Gestalt	pre_sapient	pre_sapients	false	
+					}
+				}
+				114 {
+					Estwaana
+					pc_savannah
+					17
+					pops {
+16777361	9	Xenophile	miner	worker	false	
+171	9	Xenophobe	enforcer	specialist	false	
+172	9	Authoritarian	manager	specialist	false	
+173	9	Xenophile	researcher	specialist	false	
+174	9	Authoritarian	researcher	specialist	false	
+175	9	Militarist	researcher	specialist	false	
+176	9	Xenophile	farmer	worker	false	
+177	9	Authoritarian	miner	worker	false	
+178	9	Authoritarian	technician	worker	false	
+179	9	Xenophile	miner	worker	false	
+180	9	Authoritarian	manager	specialist	false	
+181	9	Militarist	farmer	worker	false	
+182	9	Xenophile	farmer	worker	false	
+183	9	Authoritarian	miner	worker	false	
+184	9	Authoritarian	technician	worker	false	
+185	9	Xenophile	miner	worker	false	
+186	9	Authoritarian	foundry	specialist	false	
+187	9	Xenophile	researcher	specialist	false	
+188	9	Xenophile	artisan	specialist	false	
+189	9	Xenophile	artisan	specialist	false	
+190	9	Authoritarian	miner	worker	false	
+191	9	Xenophile	farmer	worker	false	
+192	9	Xenophile	executive	ruler	false	
+193	9	Authoritarian	miner	worker	false	
+194	9	Xenophile	foundry	specialist	false	
+195	9	Xenophile	executive	ruler	false	
+196	9	Authoritarian	miner	worker	false	
+197	9	Xenophile	clerk	worker	false	
+198	9	Militarist	clerk	worker	false	
+863	9	Xenophile	clerk	worker	false	
+884	9	Militarist	clerk	worker	false	
+906	9	Militarist	clerk	worker	false	
+					}
+				}
+				344 {
+					Fridgga
+					pc_savannah
+					12
+					pops {
+908	9	Xenophile	colonist	specialist	false	
+					}
+				}
+			}
+			colors {
+				brown
+				orange
+				black
+				None
+			}
+		}
+		8 {
+			Dekron Animus
+			Dekron
+			ethics {
+				Gestalt
+			}
+			planets {
+				124 {
+					Dekronia
+					pc_tropical
+					16
+					pops {
+199	11	Gestalt	replicator	complex_drone	false	
+200	11	Gestalt	replicator	complex_drone	false	
+201	11	Gestalt	replicator	complex_drone	false	
+202	11	Gestalt	coordinator	complex_drone	false	
+203	11	Gestalt	coordinator	complex_drone	false	
+204	11	Gestalt	patrol_drone	complex_drone	false	
+205	11	Gestalt	fabricator	complex_drone	false	
+206	11	Gestalt	fabricator	complex_drone	false	
+207	11	Gestalt	calculator	complex_drone	false	
+208	11	Gestalt	maintenance_drone	simple_drone	false	
+209	10	Gestalt	coordinator	complex_drone	false	
+210	10	Gestalt	coordinator	complex_drone	false	
+211	10	Gestalt	maintenance_drone	simple_drone	false	
+212	10	Gestalt	maintenance_drone	simple_drone	false	
+213	10	Gestalt	calculator	complex_drone	false	
+214	10	Gestalt	calculator	complex_drone	false	
+215	10	Gestalt	mining_drone	simple_drone	false	
+216	10	Gestalt	fabricator	complex_drone	false	
+217	10	Gestalt	mining_drone	simple_drone	false	
+218	10	Gestalt	maintenance_drone	simple_drone	false	
+219	10	Gestalt	mining_drone	simple_drone	false	
+220	10	Gestalt	calculator	complex_drone	false	
+221	10	Gestalt	maintenance_drone	simple_drone	false	
+222	10	Gestalt	mining_drone	simple_drone	false	
+223	10	Gestalt	mining_drone	simple_drone	false	
+224	10	Gestalt	fabricator	complex_drone	false	
+225	10	Gestalt	mining_drone	simple_drone	false	
+226	10	Gestalt	agri_drone	simple_drone	false	
+227	10	Gestalt	technician_drone	simple_drone	false	
+864	10	Gestalt	technician_drone	simple_drone	false	
+885	11	Gestalt	technician_drone	simple_drone	false	
+886	10	Gestalt	technician_drone	simple_drone	false	
+907	10	Gestalt	technician_drone	simple_drone	false	
+					}
+				}
+			}
+			colors {
+				dark_grey
+				red_orange
+				orange
+				None
+			}
+		}
+		9 {
+			Pelx-Cradonian Eradicators
+			Pelx-Cradonian
+			ethics {
+				Xenophobe
+				Xenophobe
+				Spiritualist
+			}
+			planets {
+				140 {
+					Cradon
+					pc_desert
+					19
+					pops {
+228	12	Xenophobe	enforcer	specialist	false	
+229	12	Spiritualist	researcher	specialist	false	
+230	12	Spiritualist	priest	specialist	false	
+231	12	Spiritualist	farmer	worker	false	
+232	12	Xenophobe	farmer	worker	false	
+233	12	Xenophobe	technician	worker	false	
+234	12	Spiritualist	miner	worker	false	
+235	12	Xenophobe	miner	worker	false	
+236	12	Xenophobe	researcher	specialist	false	
+237	12	Xenophobe	researcher	specialist	false	
+238	12	Xenophobe	miner	worker	false	
+239	12	Xenophobe	technician	worker	false	
+240	12	Xenophobe	miner	worker	false	
+241	12	Xenophobe	farmer	worker	false	
+242	12	Spiritualist	technician	worker	false	
+243	12	Xenophobe	criminal	criminal	false	
+244	12	Spiritualist	priest	specialist	false	
+245	12	Spiritualist	foundry	specialist	false	
+246	12	Xenophobe	artisan	specialist	false	
+247	12	Spiritualist	foundry	specialist	false	
+248	12	Xenophobe	artisan	specialist	false	
+249	12	Xenophobe	administrator	ruler	false	
+250	12	Xenophobe	administrator	ruler	false	
+251	12	Xenophobe	farmer	worker	false	
+852	12	Xenophobe	researcher	specialist	false	
+870	12	Xenophobe	miner	worker	false	
+874	12	Xenophobe	miner	worker	false	
+893	12	Xenophobe	technician	worker	false	
+913	12	Spiritualist	miner	worker	false	
+					}
+				}
+			}
+			colors {
+				orange
+				indigo
+				black
+				None
+			}
+		}
+		10 {
+			Suramo Consumer Products
+			Suramo
+			ethics {
+				Xenophobe
+				Xenophobe
+				Militarist
+			}
+			planets {
+				167 {
+					Suramo Prime
+					pc_ocean
+					16
+					pops {
+252	13	Authoritarian	enforcer	specialist	false	
+253	13	Xenophobe	researcher	specialist	false	
+254	13	Militarist	manager	specialist	false	
+255	13	Xenophobe	artisan	specialist	false	
+256	13	Materialist	researcher	specialist	false	
+257	13	Xenophobe	researcher	specialist	false	
+258	13	Xenophobe	miner	worker	false	
+259	13	Militarist	farmer	worker	false	
+260	13	Xenophobe	farmer	worker	false	
+261	13	Materialist	farmer	worker	false	
+262	13	Xenophobe	miner	worker	false	
+263	13	Militarist	farmer	worker	false	
+264	13	Militarist	miner	worker	false	
+265	13	Militarist	miner	worker	false	
+266	13	Xenophobe	miner	worker	false	
+267	13	Militarist	miner	worker	false	
+268	13	Xenophobe	technician	worker	false	
+269	13	Militarist	technician	worker	false	
+270	13	Militarist	foundry	specialist	false	
+271	13	Xenophobe	foundry	specialist	false	
+272	13	Materialist	executive	ruler	false	
+273	13	Xenophobe	manager	specialist	false	
+274	13	Militarist	miner	worker	false	
+275	13	Xenophobe	researcher	specialist	false	
+276	13	Xenophobe	executive	ruler	false	
+277	13	Xenophobe	clerk	worker	false	
+278	13	Xenophobe	clerk	worker	false	
+279	13	Materialist	clerk	worker	false	
+853	13	Xenophobe	clerk	worker	false	
+866	13	Militarist	miner	worker	false	
+875	13	Xenophobe	artisan	specialist	false	
+894	13	Militarist	clerk	worker	false	
+914	13	Xenophobe	clerk	worker	false	
+					}
+				}
+			}
+			colors {
+				dark_grey
+				red
+				red
+				None
+			}
+		}
+		11 {
+			Kel-Azaan Republic
+			Azaan
+			ethics {
+				Egalitarian
+				Militarist
+				Militarist
+			}
+			planets {
+			}
+			colors {
+				purple
+				dark_purple
+				None
+				None
+			}
+		}
+		12 {
+			Sirgogg Tribes
+			Sirgogg
+			ethics {
+				Xenophobe
+				Militarist
+				Militarist
+			}
+			planets {
+				377 {
+					Gluggasch
+					pc_tropical
+					14
+					pops {
+919	15	Xenophobe	colonist	specialist	false	
+					}
+				}
+				188 {
+					Vasgogg
+					pc_tropical
+					20
+					pops {
+304	15	Spiritualist	enforcer	specialist	false	
+305	15	Xenophobe	artisan	specialist	false	
+306	15	Militarist	artisan	specialist	false	
+307	15	Materialist	foundry	specialist	false	
+308	15	Egalitarian	foundry	specialist	false	
+309	15	Egalitarian	researcher	specialist	false	
+310	15	Militarist	researcher	specialist	false	
+311	15	Xenophobe	farmer	worker	false	
+312	15	Militarist	technician	worker	false	
+313	15	Militarist	researcher	specialist	false	
+314	15	Militarist	technician	worker	false	
+315	15	Egalitarian	farmer	worker	false	
+316	15	Militarist	miner	worker	false	
+317	15	Materialist	technician	worker	false	
+318	15	Xenophobe	technician	worker	false	
+319	15	Militarist	miner	worker	false	
+320	15	Xenophobe	researcher	specialist	false	
+321	15	Militarist	miner	worker	false	
+322	15	Militarist	miner	worker	false	
+323	15	Militarist	technician	worker	false	
+324	15	Xenophobe	farmer	worker	false	
+325	15	Xenophobe	farmer	worker	false	
+326	15	Militarist	miner	worker	false	
+327	15	Xenophobe	culture_worker	specialist	false	
+807	15	Materialist	foundry	specialist	false	
+808	15	Militarist	miner	worker	false	
+809	15	Egalitarian	miner	worker	false	
+810	15	Militarist	technician	worker	false	
+811	15	Materialist	miner	worker	false	
+812	15	Militarist	farmer	worker	false	
+813	15	Xenophobe	culture_worker	specialist	false	
+814	15	Militarist	artisan	specialist	false	
+815	15	Egalitarian	foundry	specialist	false	
+816	15	Xenophobe	artisan	specialist	false	
+817	15	Militarist	duelist	specialist	false	
+818	15	Materialist	duelist	specialist	false	
+819	15	Egalitarian	farmer	worker	false	
+820	15	Militarist	administrator	ruler	false	
+821	15	Militarist	technician	worker	false	
+822	15	Materialist	farmer	worker	false	
+823	15	Xenophobe	technician	worker	false	
+824	15	Militarist	farmer	worker	false	
+825	15	Xenophobe	administrator	ruler	false	
+851	15	Materialist	clerk	worker	false	
+871	15	Militarist	clerk	worker	false	
+891	15	Xenophobe	clerk	worker	false	
+898	15	Materialist	clerk	worker	false	
+927	15	Materialist	clerk	worker	false	
+					}
+				}
+			}
+			colors {
+				indigo
+				pink
+				black
+				None
+			}
+		}
+		13 {
+			Prossnakan Vestige
+			Prossnakan
+			ethics {
+				Xenophobe
+				Xenophobe
+				Xenophobe
+			}
+			planets {
+				622 {
+					NAME_The_Core
+					pc_gaia
+					25
+					pops {
+328	16	Xenophobe	fe_protector	precursor	false	
+329	16	Xenophobe	fe_protector	precursor	false	
+330	16	Xenophobe	fe_protector	precursor	false	
+331	16	Xenophobe	fe_protector	precursor	false	
+332	16	Xenophobe	fe_protector	precursor	false	
+333	16	Xenophobe	fe_protector	precursor	false	
+334	16	Xenophobe	fe_protector	precursor	false	
+335	16	Xenophobe	fe_protector	precursor	false	
+336	16	Xenophobe	fe_protector	precursor	false	
+337	16	Xenophobe	fe_protector	precursor	false	
+338	16	Xenophobe	fe_protector	precursor	false	
+339	16	Xenophobe	fe_protector	precursor	false	
+340	16	Xenophobe	fe_overseer	precursor	false	
+341	16	Xenophobe	fe_overseer	precursor	false	
+342	16	Xenophobe	fe_hedonist	precursor	false	
+343	16	Xenophobe	fe_hedonist	precursor	false	
+344	16	Xenophobe	fe_hedonist	precursor	false	
+345	16	Xenophobe	fe_hedonist	precursor	false	
+346	16	Xenophobe	fe_hedonist	precursor	false	
+347	16	Xenophobe	fe_hedonist	precursor	false	
+348	16	Xenophobe	fe_hedonist	precursor	false	
+349	16	Xenophobe	fe_hedonist	precursor	false	
+350	16	Xenophobe	fe_hedonist	precursor	false	
+351	16	Xenophobe	fe_hedonist	precursor	false	
+352	16	Xenophobe	fe_hedonist	precursor	false	
+353	16	Xenophobe	fe_hedonist	precursor	false	
+354	16	Xenophobe	fe_hedonist	precursor	false	
+355	16	Xenophobe	fe_hedonist	precursor	false	
+356	16	Xenophobe	fe_hedonist	precursor	false	
+357	16	Xenophobe	fe_hedonist	precursor	false	
+358	16	Xenophobe	fe_hedonist	precursor	false	
+359	16	Xenophobe	fe_hedonist	precursor	false	
+360	16	Xenophobe	fe_hedonist	precursor	false	
+361	16	Xenophobe	fe_hedonist	precursor	false	
+362	16	Xenophobe	fe_hedonist	precursor	false	
+363	16	Xenophobe	fe_hedonist	precursor	false	
+364	16	Xenophobe	fe_hedonist	precursor	false	
+365	16	Xenophobe	fe_hedonist	precursor	false	
+366	16	Xenophobe	fe_hedonist	precursor	false	
+367	16	Xenophobe	fe_hedonist	precursor	false	
+368	16	Xenophobe	fe_hedonist	precursor	false	
+369	16	Xenophobe	fe_hedonist	precursor	false	
+370	16	Xenophobe	fe_hedonist	precursor	false	
+371	16	Xenophobe	fe_hedonist	precursor	false	
+372	16	Xenophobe	fe_hedonist	precursor	false	
+373	16	Xenophobe	fe_hedonist	precursor	false	
+374	16	Xenophobe	fe_hedonist	precursor	false	
+375	16	Xenophobe	fe_hedonist	precursor	false	
+376	16	Xenophobe	fe_hedonist	precursor	false	
+377	16	Xenophobe	fe_hedonist	precursor	false	
+378	16	Xenophobe	fe_hedonist	precursor	false	
+379	16	Xenophobe	fe_hedonist	precursor	false	
+380	16	Xenophobe	fe_hedonist	precursor	false	
+381	16	Xenophobe	fe_hedonist	precursor	false	
+382	16	Xenophobe	fe_hedonist	precursor	false	
+383	16	Xenophobe	fe_hedonist	precursor	false	
+384	16	Xenophobe	fe_hedonist	precursor	false	
+385	16	Xenophobe	fe_hedonist	precursor	false	
+386	16	Xenophobe	fe_hedonist	precursor	false	
+387	16	Xenophobe	fe_hedonist	precursor	false	
+388	16	Xenophobe	fe_hedonist	precursor	false	
+389	16	Xenophobe	fe_hedonist	precursor	false	
+390	17	Gestalt	servant	slave	false	
+391	17	Gestalt	servant	slave	false	
+392	17	Gestalt	servant	slave	false	
+393	17	Gestalt	servant	slave	false	
+394	17	Gestalt	servant	slave	false	
+395	17	Gestalt	servant	slave	false	
+396	17	Gestalt	servant	slave	false	
+397	17	Gestalt	servant	slave	false	
+398	17	Gestalt	servant	slave	false	
+399	17	Gestalt	servant	slave	false	
+400	17	Gestalt	servant	slave	false	
+401	17	Gestalt	servant	slave	false	
+402	17	Gestalt	servant	slave	false	
+403	17	Gestalt	servant	slave	false	
+404	17	Gestalt	servant	slave	false	
+405	17	Gestalt	servant	slave	false	
+406	17	Gestalt	servant	slave	false	
+407	17	Gestalt	servant	slave	false	
+408	17	Gestalt	servant	slave	false	
+409	17	Gestalt	servant	slave	false	
+410	17	Gestalt	servant	slave	false	
+411	17	Gestalt	servant	slave	false	
+412	17	Gestalt	servant	slave	false	
+413	17	Gestalt	servant	slave	false	
+414	17	Gestalt	servant	slave	false	
+415	17	Gestalt	servant	slave	false	
+416	17	Gestalt	servant	slave	false	
+417	17	Gestalt	servant	slave	false	
+418	17	Gestalt	servant	slave	false	
+419	17	Gestalt	servant	slave	false	
+420	17	Gestalt	servant	slave	false	
+421	17	Gestalt	servant	slave	false	
+422	17	Gestalt	servant	slave	false	
+423	17	Gestalt	servant	slave	false	
+424	17	Gestalt	servant	slave	false	
+425	17	Gestalt	servant	slave	false	
+426	17	Gestalt	servant	slave	false	
+427	17	Gestalt	servant	slave	false	
+428	17	Gestalt	servant	slave	false	
+429	17	Gestalt	servant	slave	false	
+430	17	Gestalt	servant	slave	false	
+431	17	Gestalt	servant	slave	false	
+432	17	Gestalt	servant	slave	false	
+433	17	Gestalt	servant	slave	false	
+434	17	Gestalt	servant	slave	false	
+435	17	Gestalt	servant	slave	false	
+436	17	Gestalt	servant	slave	false	
+437	17	Gestalt	servant	slave	false	
+438	17	Gestalt	servant	slave	false	
+439	17	Gestalt	servant	slave	false	
+440	17	Gestalt	servant	slave	false	
+441	17	Gestalt	servant	slave	false	
+442	17	Gestalt	servant	slave	false	
+443	17	Gestalt	servant	slave	false	
+444	17	Gestalt	servant	slave	false	
+445	17	Gestalt	servant	slave	false	
+446	17	Gestalt	servant	slave	false	
+447	17	Gestalt	servant	slave	false	
+448	17	Gestalt	servant	slave	false	
+449	17	Gestalt	servant	slave	false	
+450	17	Gestalt	servant	slave	false	
+451	17	Gestalt	servant	slave	false	
+					}
+				}
+				623 {
+					NAME_Boundary
+					pc_gaia
+					12
+					pops {
+452	16	Xenophobe	fe_protector	precursor	false	
+453	16	Xenophobe	fe_protector	precursor	false	
+454	16	Xenophobe	fe_protector	precursor	false	
+455	16	Xenophobe	fe_protector	precursor	false	
+456	16	Xenophobe	fe_protector	precursor	false	
+457	16	Xenophobe	fe_protector	precursor	false	
+458	16	Xenophobe	fe_protector	precursor	false	
+459	16	Xenophobe	fe_protector	precursor	false	
+460	16	Xenophobe	fe_protector	precursor	false	
+461	16	Xenophobe	fe_protector	precursor	false	
+462	16	Xenophobe	fe_protector	precursor	false	
+463	16	Xenophobe	fe_protector	precursor	false	
+464	16	Xenophobe	fe_overseer	precursor	false	
+465	16	Xenophobe	fe_overseer	precursor	false	
+466	16	Xenophobe	fe_hedonist	precursor	false	
+467	16	Xenophobe	fe_hedonist	precursor	false	
+468	16	Xenophobe	fe_hedonist	precursor	false	
+469	16	Xenophobe	fe_hedonist	precursor	false	
+470	16	Xenophobe	fe_hedonist	precursor	false	
+471	16	Xenophobe	fe_hedonist	precursor	false	
+472	16	Xenophobe	fe_hedonist	precursor	false	
+473	16	Xenophobe	fe_hedonist	precursor	false	
+474	16	Xenophobe	fe_hedonist	precursor	false	
+475	16	Xenophobe	fe_hedonist	precursor	false	
+476	16	Xenophobe	fe_hedonist	precursor	false	
+477	16	Xenophobe	fe_hedonist	precursor	false	
+478	16	Xenophobe	fe_hedonist	precursor	false	
+479	16	Xenophobe	fe_hedonist	precursor	false	
+480	16	Xenophobe	fe_hedonist	precursor	false	
+481	16	Xenophobe	fe_hedonist	precursor	false	
+482	16	Xenophobe	fe_hedonist	precursor	false	
+483	16	Xenophobe	fe_hedonist	precursor	false	
+484	16	Xenophobe	fe_hedonist	precursor	false	
+485	17	Gestalt	servant	slave	false	
+486	17	Gestalt	servant	slave	false	
+487	17	Gestalt	servant	slave	false	
+488	17	Gestalt	servant	slave	false	
+489	17	Gestalt	servant	slave	false	
+490	17	Gestalt	servant	slave	false	
+491	17	Gestalt	servant	slave	false	
+492	17	Gestalt	servant	slave	false	
+493	17	Gestalt	servant	slave	false	
+494	17	Gestalt	servant	slave	false	
+495	17	Gestalt	servant	slave	false	
+496	17	Gestalt	servant	slave	false	
+497	17	Gestalt	servant	slave	false	
+498	17	Gestalt	servant	slave	false	
+499	17	Gestalt	servant	slave	false	
+500	17	Gestalt	servant	slave	false	
+501	17	Gestalt	servant	slave	false	
+502	17	Gestalt	servant	slave	false	
+503	17	Gestalt	servant	slave	false	
+504	17	Gestalt	servant	slave	false	
+505	17	Gestalt	servant	slave	false	
+506	17	Gestalt	servant	slave	false	
+507	17	Gestalt	servant	slave	false	
+508	17	Gestalt	servant	slave	false	
+509	17	Gestalt	servant	slave	false	
+510	17	Gestalt	servant	slave	false	
+511	17	Gestalt	servant	slave	false	
+512	17	Gestalt	servant	slave	false	
+513	17	Gestalt	servant	slave	false	
+514	17	Gestalt	servant	slave	false	
+515	17	Gestalt	servant	slave	false	
+516	17	Gestalt	servant	slave	false	
+517	17	Gestalt	servant	slave	false	
+					}
+				}
+				683 {
+					Volmaur III
+					pc_tundra
+					16
+					pops {
+518	16	Xenophobe	fe_overseer	precursor	false	
+519	16	Xenophobe	fe_overseer	precursor	false	
+520	16	Xenophobe	fe_protector	precursor	false	
+521	16	Xenophobe	fe_protector	precursor	false	
+522	16	Xenophobe	fe_hedonist	precursor	false	
+523	16	Xenophobe	fe_hedonist	precursor	false	
+524	16	Xenophobe	fe_hedonist	precursor	false	
+525	16	Xenophobe	fe_hedonist	precursor	false	
+526	17	Gestalt	servant	slave	false	
+527	17	Gestalt	servant	slave	false	
+528	17	Gestalt	servant	slave	false	
+529	17	Gestalt	servant	slave	false	
+530	17	Gestalt	servant	slave	false	
+531	17	Gestalt	servant	slave	false	
+532	17	Gestalt	servant	slave	false	
+533	17	Gestalt	servant	slave	false	
+					}
+				}
+				693 {
+					Bythia I
+					pc_tundra
+					16
+					pops {
+534	16	Xenophobe	fe_overseer	precursor	false	
+535	16	Xenophobe	fe_overseer	precursor	false	
+536	16	Xenophobe	fe_protector	precursor	false	
+537	16	Xenophobe	fe_protector	precursor	false	
+538	16	Xenophobe	fe_hedonist	precursor	false	
+539	16	Xenophobe	fe_hedonist	precursor	false	
+540	16	Xenophobe	fe_hedonist	precursor	false	
+541	16	Xenophobe	fe_hedonist	precursor	false	
+542	17	Gestalt	servant	slave	false	
+543	17	Gestalt	servant	slave	false	
+544	17	Gestalt	servant	slave	false	
+545	17	Gestalt	servant	slave	false	
+546	17	Gestalt	servant	slave	false	
+547	17	Gestalt	servant	slave	false	
+548	17	Gestalt	servant	slave	false	
+549	17	Gestalt	servant	slave	false	
+					}
+				}
+				700 {
+					Qoclite I
+					pc_tundra
+					16
+					pops {
+550	16	Xenophobe	fe_overseer	precursor	false	
+551	16	Xenophobe	fe_overseer	precursor	false	
+552	16	Xenophobe	fe_protector	precursor	false	
+553	16	Xenophobe	fe_protector	precursor	false	
+554	16	Xenophobe	fe_hedonist	precursor	false	
+555	16	Xenophobe	fe_hedonist	precursor	false	
+556	16	Xenophobe	fe_hedonist	precursor	false	
+557	16	Xenophobe	fe_hedonist	precursor	false	
+558	17	Gestalt	servant	slave	false	
+559	17	Gestalt	servant	slave	false	
+560	17	Gestalt	servant	slave	false	
+561	17	Gestalt	servant	slave	false	
+562	17	Gestalt	servant	slave	false	
+563	17	Gestalt	servant	slave	false	
+564	17	Gestalt	servant	slave	false	
+565	17	Gestalt	servant	slave	false	
+					}
+				}
+				717 {
+					Alioth I
+					pc_tundra
+					16
+					pops {
+566	16	Xenophobe	fe_overseer	precursor	false	
+567	16	Xenophobe	fe_overseer	precursor	false	
+568	16	Xenophobe	fe_protector	precursor	false	
+569	16	Xenophobe	fe_protector	precursor	false	
+570	16	Xenophobe	fe_hedonist	precursor	false	
+571	16	Xenophobe	fe_hedonist	precursor	false	
+572	16	Xenophobe	fe_hedonist	precursor	false	
+573	16	Xenophobe	fe_hedonist	precursor	false	
+574	17	Gestalt	servant	slave	false	
+575	17	Gestalt	servant	slave	false	
+576	17	Gestalt	servant	slave	false	
+577	17	Gestalt	servant	slave	false	
+578	17	Gestalt	servant	slave	false	
+579	17	Gestalt	servant	slave	false	
+580	17	Gestalt	servant	slave	false	
+581	17	Gestalt	servant	slave	false	
+					}
+				}
+			}
+			colors {
+				blue
+				red_orange
+				black
+				None
+			}
+		}
+		14 {
+			Akkano Star Tribes
+			Akkano
+			ethics {
+				Xenophobe
+				Militarist
+				Militarist
+			}
+			planets {
+			}
+			colors {
+				black
+				black
+				None
+				None
+			}
+		}
+		15 {
+			Xabir Civilization
+			Xabiran
+			ethics {
+				Pacifist
+				Pacifist
+				Materialist
+			}
+			planets {
+				847 {
+					Dorfil IIa
+					pc_gaia
+					22
+					pops {
+582	19	Pacifist	hunter_gatherer	worker	false	
+583	19	Materialist	hunter_gatherer	worker	false	
+584	19	Pacifist	hunter_gatherer	worker	false	
+585	19	Materialist	hunter_gatherer	worker	false	
+					}
+				}
+			}
+			colors {
+				turquoise
+				green
+				None
+				None
+			}
+		}
+		16 {
+			Sanctuary
+			
+			ethics {
+				None
+			}
+			planets {
+			}
+			colors {
+				dark_grey
+				burgundy
+				red
+				None
+			}
+		}
+		17 {
+			Vetirisius Civilization
+			Vetirisian
+			ethics {
+				Egalitarian
+				Pacifist
+				Materialist
+			}
+			planets {
+				851 {
+					NAME_Sanctuary_A
+					pc_ringworld_habitable
+					5
+					pops {
+586	21	Egalitarian	primitive_noble	ruler	false	
+587	21	Pacifist	primitive_priest	specialist	false	
+588	21	Egalitarian	primitive_warrior	specialist	false	
+589	21	Materialist	primitive_researcher	specialist	false	
+590	21	Pacifist	primitive_laborer	worker	false	
+591	21	Egalitarian	primitive_laborer	worker	false	
+592	21	Egalitarian	primitive_miner	worker	false	
+593	21	Egalitarian	primitive_miner	worker	false	
+594	21	Pacifist	peasant	worker	false	
+595	21	Egalitarian	peasant	worker	false	
+596	21	Materialist	peasant	worker	false	
+597	21	Pacifist	peasant	worker	false	
+598	21	Materialist	peasant	worker	false	
+599	21	Materialist	peasant	worker	false	
+600	21	Egalitarian	peasant	worker	false	
+601	21	Materialist	peasant	worker	false	
+					}
+				}
+			}
+			colors {
+				orange
+				red
+				None
+				None
+			}
+		}
+		18 {
+			Kalaxenan Civilization
+			Kalaxenan
+			ethics {
+				Xenophile
+				Materialist
+				Materialist
+			}
+			planets {
+				854 {
+					NAME_Sanctuary-D
+					pc_ringworld_habitable
+					5
+					pops {
+602	22	Xenophile	primitive_noble	ruler	false	
+603	22	Materialist	primitive_warrior	specialist	false	
+604	22	Materialist	primitive_researcher	specialist	false	
+605	22	Materialist	peasant	worker	false	
+606	22	Materialist	peasant	worker	false	
+607	22	Xenophile	primitive_priest	specialist	false	
+608	22	Materialist	peasant	worker	false	
+609	22	Xenophile	peasant	worker	false	
+610	22	Xenophile	peasant	worker	false	
+611	22	Materialist	peasant	worker	false	
+					}
+				}
+			}
+			colors {
+				light_blue
+				blue
+				None
+				None
+			}
+		}
+		19 {
+			Mandasura Civilization
+			Mandasuran
+			ethics {
+				Authoritarian
+				Pacifist
+				Materialist
+			}
+			planets {
+				857 {
+					NAME_Sanctuary-G
+					pc_ringworld_habitable
+					5
+					pops {
+612	23	Pacifist	hunter_gatherer	worker	false	
+613	23	Authoritarian	hunter_gatherer	worker	false	
+614	23	Materialist	hunter_gatherer	worker	false	
+615	23	Materialist	hunter_gatherer	worker	false	
+					}
+				}
+			}
+			colors {
+				turquoise
+				green
+				None
+				None
+			}
+		}
+		20 {
+			Fevarian Civilization
+			Fevarian
+			ethics {
+				Authoritarian
+				Militarist
+				Militarist
+			}
+			planets {
+				860 {
+					NAME_Sanctuary-J
+					pc_ringworld_habitable
+					5
+					pops {
+616	24	Militarist	primitive_noble	ruler	false	
+617	24	Authoritarian	primitive_researcher	specialist	false	
+618	24	Militarist	primitive_warrior	specialist	false	
+619	24	Authoritarian	primitive_priest	specialist	false	
+620	24	Authoritarian	peasant	worker	false	
+621	24	Authoritarian	peasant	worker	false	
+622	24	Militarist	peasant	worker	false	
+623	24	Authoritarian	peasant	worker	false	
+624	24	Militarist	peasant	worker	false	
+625	24	Authoritarian	peasant	worker	false	
+626	24	Militarist	peasant	worker	false	
+627	24	Authoritarian	peasant	worker	false	
+					}
+				}
+			}
+			colors {
+				pink
+				burgundy
+				None
+				None
+			}
+		}
+		21 {
+			Curator Order
+			
+			ethics {
+				Pacifist
+				Materialist
+				Materialist
+			}
+			planets {
+			}
+			colors {
+				blue
+				dark_blue
+				None
+				None
+			}
+		}
+		22 {
+			Caravansary Caravan Coalition
+			
+			ethics {
+				Egalitarian
+				Xenophile
+				Pacifist
+			}
+			planets {
+			}
+			colors {
+				green
+				dark_green
+				None
+				None
+			}
+		}
+		23 {
+			The Vengralian Trium
+			
+			ethics {
+				Xenophile
+				Pacifist
+				Materialist
+			}
+			planets {
+			}
+			colors {
+				light_blue
+				purple
+				None
+				None
+			}
+		}
+		24 {
+			The Numistic Order
+			
+			ethics {
+				Egalitarian
+				Xenophile
+				Pacifist
+			}
+			planets {
+			}
+			colors {
+				dark_purple
+				pink
+				None
+				None
+			}
+		}
+		25 {
+			Tiyanki Space Whale Ancient
+			
+			ethics {
+				None
+			}
+			planets {
+			}
+			colors {
+				blue
+				blue
+				None
+				None
+			}
+		}
+		26 {
+			Korinth Civilization
+			Korinth
+			ethics {
+				Authoritarian
+				Authoritarian
+				Xenophile
+			}
+			planets {
+				988 {
+					Liram I
+					pc_savannah
+					18
+					pops {
+628	30	Authoritarian	primitive_noble	ruler	false	
+629	30	Xenophile	primitive_warrior	specialist	false	
+630	30	Xenophile	primitive_researcher	specialist	false	
+631	30	Authoritarian	primitive_priest	specialist	false	
+632	30	Xenophile	peasant	worker	false	
+633	30	Xenophile	peasant	worker	false	
+634	30	Authoritarian	peasant	worker	false	
+635	30	Authoritarian	peasant	worker	false	
+					}
+				}
+			}
+			colors {
+				green
+				dark_green
+				None
+				None
+			}
+		}
+		27 {
+			Infinity Machine
+			
+			ethics {
+				None
+			}
+			planets {
+			}
+			colors {
+				red
+				red
+				None
+				None
+			}
+		}
+		28 {
+			Artisan Troupe
+			
+			ethics {
+				Xenophile
+				Xenophile
+				Spiritualist
+			}
+			planets {
+			}
+			colors {
+				dark_purple
+				purple
+				None
+				None
+			}
+		}
+		29 {
+			XuraCorp
+			
+			ethics {
+				Xenophile
+				Materialist
+				Materialist
+			}
+			planets {
+			}
+			colors {
+				green
+				dark_green
+				None
+				None
+			}
+		}
+		30 {
+			Photecian Civilization
+			Photecian
+			ethics {
+				Xenophobe
+				Xenophobe
+				Militarist
+			}
+			planets {
+				1083 {
+					Peya III
+					pc_alpine
+					23
+					pops {
+636	34	Xenophobe	primitive_noble	ruler	false	
+637	34	Militarist	primitive_warrior	specialist	false	
+638	34	Xenophobe	primitive_researcher	specialist	false	
+639	34	Xenophobe	primitive_priest	specialist	false	
+640	34	Xenophobe	peasant	worker	false	
+641	34	Militarist	peasant	worker	false	
+642	34	Xenophobe	peasant	worker	false	
+643	34	Xenophobe	peasant	worker	false	
+644	34	Xenophobe	peasant	worker	false	
+					}
+				}
+			}
+			colors {
+				purple
+				dark_purple
+				None
+				None
+			}
+		}
+		31 {
+			Prism
+			
+			ethics {
+				None
+			}
+			planets {
+			}
+			colors {
+				black
+				black
+				None
+				None
+			}
+		}
+		32 {
+			Automated Dreadnought
+			
+			ethics {
+				None
+			}
+			planets {
+			}
+			colors {
+				red
+				red
+				None
+				None
+			}
+		}
+		33 {
+			Mineral Extraction Operation
+			
+			ethics {
+				None
+			}
+			planets {
+			}
+			colors {
+				black
+				black
+				None
+				None
+			}
+		}
+		34 {
+			Placid Leviathans
+			
+			ethics {
+				None
+			}
+			planets {
+			}
+			colors {
+				black
+				black
+				None
+				None
+			}
+		}
+		35 {
+			Rhonzar Civilization
+			Rhonzaran
+			ethics {
+				Xenophobe
+				Xenophobe
+				Materialist
+			}
+			planets {
+				1442 {
+					Acamar II
+					pc_desert
+					23
+					pops {
+645	39	Materialist	primitive_miner	worker	false	
+646	39	Xenophobe	primitive_miner	worker	false	
+647	39	Xenophobe	primitive_miner	worker	false	
+648	39	Materialist	primitive_miner	worker	false	
+649	39	Xenophobe	primitive_priest_2	specialist	false	
+650	39	Materialist	primitive_miner	worker	false	
+651	39	Materialist	primitive_technician	worker	false	
+652	39	Materialist	primitive_miner	worker	false	
+653	39	Xenophobe	primitive_laborer	worker	false	
+654	39	Xenophobe	primitive_miner	worker	false	
+655	39	Xenophobe	primitive_miner	worker	false	
+656	39	Xenophobe	primitive_warrior_2	specialist	false	
+657	39	Materialist	primitive_miner	worker	false	
+658	39	Materialist	primitive_researcher_2	specialist	false	
+659	39	Materialist	primitive_technician	worker	false	
+660	39	Xenophobe	primitive_warrior_2	specialist	false	
+661	39	Xenophobe	primitive_miner	worker	false	
+662	39	Xenophobe	primitive_bureaucrat	ruler	false	
+663	39	Xenophobe	primitive_laborer	worker	false	
+664	39	Xenophobe	primitive_priest_2	specialist	false	
+665	39	Materialist	primitive_researcher_2	specialist	false	
+666	39	Materialist	primitive_bureaucrat	ruler	false	
+					}
+				}
+			}
+			colors {
+				beige
+				yellow
+				None
+				None
+			}
+		}
+		36 {
+			Spaceborne Organics
+			
+			ethics {
+				None
+			}
+			planets {
+			}
+			colors {
+				black
+				black
+				None
+				None
+			}
+		}
+		37 {
+			Sidimatus Civilization
+			Sidimatan
+			ethics {
+				Xenophile
+				Xenophile
+				Materialist
+			}
+			planets {
+				1470 {
+					Aesir III
+					pc_arctic
+					18
+					pops {
+667	41	Xenophile	primitive_farmer	worker	false	
+668	41	Materialist	primitive_farmer	worker	false	
+669	41	Xenophile	primitive_farmer	worker	false	
+670	41	Materialist	primitive_farmer	worker	false	
+671	41	Materialist	primitive_farmer	worker	false	
+672	41	Materialist	primitive_farmer	worker	false	
+673	41	Xenophile	primitive_farmer	worker	false	
+674	41	Xenophile	primitive_farmer	worker	false	
+675	41	Materialist	primitive_farmer	worker	false	
+676	41	Xenophile	primitive_farmer	worker	false	
+677	41	Xenophile	primitive_priest_2	specialist	false	
+678	41	Xenophile	primitive_technician	worker	false	
+679	41	Xenophile	primitive_priest_2	specialist	false	
+680	41	Materialist	primitive_laborer	worker	false	
+681	41	Xenophile	primitive_miner	worker	false	
+682	41	Xenophile	primitive_laborer	worker	false	
+683	41	Materialist	primitive_researcher_2	specialist	false	
+684	41	Materialist	primitive_technician	worker	false	
+685	41	Xenophile	primitive_miner	worker	false	
+686	41	Xenophile	primitive_warrior_2	specialist	false	
+687	41	Xenophile	primitive_warrior_2	specialist	false	
+688	41	Xenophile	primitive_bureaucrat	ruler	false	
+689	41	Materialist	primitive_bureaucrat	ruler	false	
+690	41	Materialist	primitive_researcher_2	specialist	false	
+					}
+				}
+			}
+			colors {
+				yellow
+				orange
+				None
+				None
+			}
+		}
+		38 {
+			Lilarobius Civilization
+			Lilarobian
+			ethics {
+				Egalitarian
+				Xenophobe
+				Militarist
+			}
+			planets {
+				1781 {
+					Masqal II
+					pc_desert
+					24
+					pops {
+691	42	Xenophobe	primitive_farmer	worker	false	
+692	42	Egalitarian	primitive_farmer	worker	false	
+693	42	Militarist	primitive_farmer	worker	false	
+694	42	Militarist	primitive_farmer	worker	false	
+695	42	Xenophobe	primitive_farmer	worker	false	
+696	42	Egalitarian	primitive_farmer	worker	false	
+697	42	Xenophobe	primitive_farmer	worker	false	
+698	42	Egalitarian	primitive_farmer	worker	false	
+699	42	Xenophobe	primitive_farmer	worker	false	
+700	42	Egalitarian	primitive_farmer	worker	false	
+701	42	Xenophobe	primitive_technician	worker	false	
+702	42	Egalitarian	primitive_laborer	worker	false	
+703	42	Militarist	primitive_researcher_2	specialist	false	
+704	42	Militarist	primitive_warrior_2	specialist	false	
+705	42	Xenophobe	primitive_priest_2	specialist	false	
+706	42	Xenophobe	primitive_miner	worker	false	
+707	42	Militarist	primitive_warrior_2	specialist	false	
+708	42	Egalitarian	primitive_laborer	worker	false	
+709	42	Militarist	primitive_miner	worker	false	
+710	42	Egalitarian	primitive_researcher_2	specialist	false	
+711	42	Xenophobe	primitive_technician	worker	false	
+712	42	Egalitarian	primitive_priest_2	specialist	false	
+713	42	Egalitarian	primitive_bureaucrat	ruler	false	
+714	42	Militarist	primitive_bureaucrat	ruler	false	
+					}
+				}
+			}
+			colors {
+				yellow
+				orange
+				None
+				None
+			}
+		}
+		39 {
+			Armistice Initiative
+			
+			ethics {
+				None
+			}
+			planets {
+			}
+			colors {
+				dark_green
+				pink
+				black
+				None
+			}
+		}
+		40 {
+			Tavurite Civilization
+			Tavuritan
+			ethics {
+				Xenophobe
+				Xenophobe
+				Militarist
+			}
+			planets {
+				2611 {
+					Neddum I
+					pc_ocean
+					22
+					pops {
+715	44	Militarist	primitive_noble	ruler	false	
+716	44	Xenophobe	primitive_researcher	specialist	false	
+717	44	Militarist	primitive_warrior	specialist	false	
+718	44	Xenophobe	primitive_priest	specialist	false	
+719	44	Xenophobe	peasant	worker	false	
+720	44	Xenophobe	peasant	worker	false	
+721	44	Xenophobe	peasant	worker	false	
+722	44	Militarist	peasant	worker	false	
+723	44	Xenophobe	peasant	worker	false	
+724	44	Xenophobe	peasant	worker	false	
+					}
+				}
+			}
+			colors {
+				light_blue
+				blue
+				None
+				None
+			}
+		}
+		41 {
+			Ferbanite Civilization
+			Ferbanitan
+			ethics {
+				Authoritarian
+				Xenophile
+				Xenophile
+			}
+			planets {
+				2616 {
+					Rimdur II
+					pc_ocean
+					22
+					pops {
+725	45	Xenophile	primitive_noble	ruler	false	
+726	45	Authoritarian	primitive_warrior	specialist	false	
+727	45	Authoritarian	primitive_researcher	specialist	false	
+728	45	Xenophile	primitive_priest	specialist	false	
+729	45	Xenophile	primitive_laborer	worker	false	
+730	45	Xenophile	primitive_laborer	worker	false	
+731	45	Authoritarian	primitive_miner	worker	false	
+732	45	Xenophile	primitive_miner	worker	false	
+733	45	Authoritarian	primitive_miner	worker	false	
+734	45	Xenophile	primitive_miner	worker	false	
+735	45	Authoritarian	primitive_miner	worker	false	
+736	45	Authoritarian	primitive_miner	worker	false	
+737	45	Authoritarian	primitive_miner	worker	false	
+738	45	Xenophile	primitive_miner	worker	false	
+739	45	Xenophile	primitive_miner	worker	false	
+740	45	Authoritarian	primitive_miner	worker	false	
+					}
+				}
+			}
+			colors {
+				orange
+				red
+				None
+				None
+			}
+		}
+		42 {
+			Yax'Kalock Civilization
+			Yax'Kalock
+			ethics {
+				Egalitarian
+				Xenophobe
+				Militarist
+			}
+			planets {
+				2734 {
+					Ceyecarro III
+					pc_savannah
+					13
+					pops {
+741	46	Militarist	primitive_farmer	worker	false	
+742	46	Egalitarian	primitive_farmer	worker	false	
+743	46	Xenophobe	primitive_farmer	worker	false	
+744	46	Xenophobe	primitive_farmer	worker	false	
+745	46	Militarist	primitive_warrior_2	specialist	false	
+746	46	Egalitarian	primitive_farmer	worker	false	
+747	46	Xenophobe	primitive_farmer	worker	false	
+748	46	Xenophobe	primitive_laborer	worker	false	
+749	46	Xenophobe	primitive_farmer	worker	false	
+750	46	Militarist	primitive_farmer	worker	false	
+751	46	Egalitarian	primitive_miner	worker	false	
+752	46	Egalitarian	primitive_researcher_2	specialist	false	
+753	46	Egalitarian	primitive_technician	worker	false	
+754	46	Egalitarian	primitive_laborer	worker	false	
+755	46	Egalitarian	primitive_technician	worker	false	
+756	46	Militarist	primitive_researcher_2	specialist	false	
+757	46	Egalitarian	primitive_miner	worker	false	
+758	46	Egalitarian	primitive_priest_2	specialist	false	
+759	46	Xenophobe	primitive_priest_2	specialist	false	
+760	46	Militarist	primitive_warrior_2	specialist	false	
+761	46	Xenophobe	primitive_bureaucrat	ruler	false	
+762	46	Militarist	primitive_bureaucrat	ruler	false	
+					}
+				}
+			}
+			colors {
+				beige
+				yellow
+				None
+				None
+			}
+		}
+		43 {
+			Khessam Civilization
+			Khessam
+			ethics {
+				Militarist
+				Spiritualist
+				Spiritualist
+			}
+			planets {
+				3006 {
+					Mubblar I
+					pc_arid
+					24
+					pops {
+763	47	Spiritualist	primitive_farmer	worker	false	
+764	47	Militarist	primitive_farmer	worker	false	
+765	47	Spiritualist	primitive_farmer	worker	false	
+766	47	Spiritualist	primitive_farmer	worker	false	
+767	47	Militarist	primitive_farmer	worker	false	
+768	47	Spiritualist	primitive_farmer	worker	false	
+769	47	Militarist	primitive_farmer	worker	false	
+770	47	Spiritualist	primitive_farmer	worker	false	
+771	47	Spiritualist	primitive_laborer	worker	false	
+772	47	Militarist	primitive_researcher_2	specialist	false	
+773	47	Militarist	primitive_researcher_2	specialist	false	
+774	47	Spiritualist	primitive_miner	worker	false	
+775	47	Spiritualist	primitive_priest_2	specialist	false	
+776	47	Spiritualist	primitive_technician	worker	false	
+777	47	Militarist	primitive_warrior_2	specialist	false	
+778	47	Spiritualist	primitive_miner	worker	false	
+779	47	Spiritualist	primitive_priest_2	specialist	false	
+780	47	Militarist	primitive_laborer	worker	false	
+781	47	Militarist	primitive_warrior_2	specialist	false	
+782	47	Spiritualist	primitive_technician	worker	false	
+783	47	Militarist	primitive_bureaucrat	ruler	false	
+784	47	Militarist	primitive_bureaucrat	ruler	false	
+924	47	Spiritualist	primitive_farmer	worker	false	
+925	47	Spiritualist	primitive_farmer	worker	false	
+					}
+				}
+			}
+			colors {
+				yellow
+				orange
+				None
+				None
+			}
+		}
+		44 {
+			Miidari Civilization
+			Miidarian
+			ethics {
+				Authoritarian
+				Authoritarian
+				Xenophile
+			}
+			planets {
+				3195 {
+					Unimar II
+					pc_ocean
+					18
+					pops {
+785	48	Xenophile	primitive_noble	ruler	false	
+786	48	Authoritarian	primitive_warrior	specialist	false	
+787	48	Xenophile	primitive_researcher	specialist	false	
+788	48	Authoritarian	primitive_priest	specialist	false	
+789	48	Authoritarian	peasant	worker	false	
+790	48	Authoritarian	peasant	worker	false	
+791	48	Xenophile	peasant	worker	false	
+792	48	Authoritarian	peasant	worker	false	
+793	48	Authoritarian	peasant	worker	false	
+794	48	Xenophile	peasant	worker	false	
+					}
+				}
+			}
+			colors {
+				light_blue
+				blue
+				None
+				None
+			}
+		}
+		45 {
+			Erissu Civilization
+			Erissu
+			ethics {
+				Egalitarian
+				Egalitarian
+				Pacifist
+			}
+			planets {
+				3391 {
+					Hixar IV
+					pc_tropical
+					23
+					pops {
+795	49	Pacifist	primitive_noble	ruler	false	
+796	49	Egalitarian	primitive_warrior	specialist	false	
+797	49	Pacifist	primitive_researcher	specialist	false	
+798	49	Egalitarian	primitive_priest	specialist	false	
+799	49	Egalitarian	peasant	worker	false	
+800	49	Egalitarian	peasant	worker	false	
+801	49	Egalitarian	peasant	worker	false	
+802	49	Egalitarian	peasant	worker	false	
+803	49	Egalitarian	peasant	worker	false	
+804	49	Egalitarian	peasant	worker	false	
+805	49	Egalitarian	peasant	worker	false	
+806	49	Egalitarian	peasant	worker	false	
+					}
+				}
+			}
+			colors {
+				pink
+				burgundy
+				None
+				None
+			}
+		}
+		46 {
+			Enigmatic Energy
+			
+			ethics {
+				None
+			}
+			planets {
+			}
+			colors {
+				black
+				black
+				None
+				None
+			}
+		}
+		47 {
+			Human Civilization
+			Human
+			ethics {
+				Militarist
+				Militarist
+				Materialist
+			}
+			planets {
+				4014 {
+					NAME_Sol_III
+					pc_continental
+					20
+					pops {
+826	51	Militarist	primitive_farmer	worker	false	
+827	51	Materialist	primitive_farmer	worker	false	
+828	51	Militarist	primitive_farmer	worker	false	
+829	51	Militarist	primitive_farmer	worker	false	
+830	51	Materialist	primitive_farmer	worker	false	
+831	51	Militarist	primitive_farmer	worker	false	
+832	51	Materialist	primitive_farmer	worker	false	
+833	51	Materialist	primitive_farmer	worker	false	
+834	51	Militarist	primitive_farmer	worker	false	
+835	51	Militarist	primitive_technician	worker	false	
+836	51	Militarist	primitive_miner	worker	false	
+837	51	Materialist	primitive_farmer	worker	false	
+838	51	Militarist	primitive_priest_2	specialist	false	
+839	51	Militarist	primitive_priest_2	specialist	false	
+840	51	Militarist	primitive_laborer	worker	false	
+841	51	Militarist	primitive_laborer	worker	false	
+842	51	Materialist	primitive_miner	worker	false	
+843	51	Materialist	primitive_technician	worker	false	
+844	51	Materialist	primitive_researcher_2	specialist	false	
+845	51	Materialist	primitive_researcher_2	specialist	false	
+846	51	Militarist	primitive_warrior_2	specialist	false	
+847	51	Militarist	primitive_warrior_2	specialist	false	
+848	51	Materialist	primitive_bureaucrat	ruler	false	
+849	51	Materialist	primitive_bureaucrat	ruler	false	
+					}
+				}
+			}
+			colors {
+				dark_blue
+				red
+				None
+				None
+			}
+		}
+		48 {
+			global_event_country
+			
+			ethics {
+				None
+			}
+			planets {
+			}
+			colors {
+				teal
+				red
+				black
+				None
+			}
+		}
+		49 {
+			The Shroud
+			
+			ethics {
+				None
+			}
+			planets {
+			}
+			colors {
+				red
+				black
+				None
+				None
+			}
+		}
+		50 {
+			Creatures of the Shroud
+			
+			ethics {
+				None
+			}
+			planets {
+			}
+			colors {
+				dark_purple
+				black
+				None
+				None
+			}
+		}
+	}
+	objects {
+		0 {
+			Pouo
+			star
+			(18390, -139250)
+			planets {
+			}
+		}
+		1 {
+			Hittimar
+			star
+			(-172650, -86130)
+			planets {
+			}
+		}
+		2 {
+			Cador
+			star
+			(206870, -233050)
+			planets {
+			}
+		}
+		3 {
+			Weiguvis
+			star
+			(-59610, -230100)
+			planets {
+			}
+		}
+		4 {
+			Dirban
+			star
+			(-89400, 247990)
+			planets {
+			}
+		}
+		5 {
+			NAME_Trappist
+			star
+			(-94650, -91970)
+			planets {
+			}
+		}
+		6 {
+			Gaping Maw
+			star
+			(-33300, 106580)
+			planets {
+			}
+		}
+		7 {
+			Tauagawa
+			star
+			(-146960, -88660)
+			planets {
+			}
+		}
+		8 {
+			Adranell
+			star
+			(-130050, 73140)
+			planets {
+			}
+		}
+		9 {
+			Dorfil
+			star
+			(130680, 33020)
+			planets {
+				847
+			}
+		}
+		10 {
+			NAME_Sanctuary
+			star
+			(-1030, 270700)
+			planets {
+				851
+				854
+				857
+				860
+			}
+		}
+		11 {
+			BX-799 Singularity
+			star
+			(77940, 275230)
+			planets {
+			}
+		}
+		12 {
+			Poaa
+			star
+			(-15010, 221370)
+			planets {
+			}
+		}
+		13 {
+			Salluria
+			star
+			(115170, -64000)
+			planets {
+			}
+		}
+		14 {
+			Delta Pavonis
+			star
+			(195700, 92440)
+			planets {
+			}
+		}
+		15 {
+			Kel-Azak
+			star
+			(-104590, 130550)
+			planets {
+				178
+			}
+		}
+		16 {
+			Selnoc
+			star
+			(189960, 33580)
+			planets {
+			}
+		}
+		17 {
+			Najaga
+			star
+			(-15010, -114580)
+			planets {
+			}
+		}
+		18 {
+			Krash
+			star
+			(-73960, 253890)
+			planets {
+			}
+		}
+		19 {
+			Beynus
+			star
+			(780, 96950)
+			planets {
+			}
+		}
+		20 {
+			Rabinoc
+			star
+			(133110, -61770)
+			planets {
+			}
+		}
+		21 {
+			Feonus
+			star
+			(208600, 26910)
+			planets {
+			}
+		}
+		22 {
+			Hemtares
+			star
+			(175220, -51240)
+			planets {
+			}
+		}
+		23 {
+			NAME_Chors_Compass
+			star
+			(164320, -218130)
+			planets {
+			}
+		}
+		24 {
+			Nokkam
+			star
+			(-179510, -107310)
+			planets {
+			}
+		}
+		25 {
+			Light's End
+			star
+			(-177470, 4850)
+			planets {
+			}
+		}
+		26 {
+			Helam
+			star
+			(69720, 181480)
+			planets {
+			}
+		}
+		27 {
+			Linngol
+			star
+			(100800, -87440)
+			planets {
+			}
+		}
+		28 {
+			Osmadin
+			star
+			(10210, 256550)
+			planets {
+			}
+		}
+		29 {
+			Liram
+			star
+			(-125890, 268370)
+			planets {
+				988
+			}
+		}
+		30 {
+			NAME_Gargantua
+			star
+			(90000, -261390)
+			planets {
+			}
+		}
+		31 {
+			Propus
+			star
+			(240410, -169580)
+			planets {
+			}
+		}
+		32 {
+			Rasalgethi
+			star
+			(183800, 158090)
+			planets {
+			}
+		}
+		33 {
+			Jebben's Maelstrom
+			star
+			(-204480, -257640)
+			planets {
+			}
+		}
+		34 {
+			Sceptrum
+			star
+			(-41280, -86050)
+			planets {
+				279
+			}
+		}
+		35 {
+			Nunus
+			star
+			(-3760, -215720)
+			planets {
+			}
+		}
+		36 {
+			Jaltham
+			star
+			(-36270, -103770)
+			planets {
+			}
+		}
+		37 {
+			Atlas
+			star
+			(-189740, 210130)
+			planets {
+			}
+		}
+		38 {
+			Xulbak's Maw
+			star
+			(-34650, -292230)
+			planets {
+			}
+		}
+		39 {
+			Enkef
+			star
+			(36470, 266690)
+			planets {
+			}
+		}
+		40 {
+			Saoezuno
+			star
+			(-203460, 262280)
+			planets {
+			}
+		}
+		41 {
+			Irthius
+			star
+			(166650, -32700)
+			planets {
+			}
+		}
+		42 {
+			Gathrica
+			star
+			(-250190, 102820)
+			planets {
+			}
+		}
+		43 {
+			Unnabin
+			star
+			(-203460, -109610)
+			planets {
+			}
+		}
+		44 {
+			Stratal
+			star
+			(-87750, 72080)
+			planets {
+			}
+		}
+		45 {
+			Eye of Hawking
+			star
+			(221990, 140120)
+			planets {
+			}
+		}
+		46 {
+			Tazri
+			star
+			(155660, 23020)
+			planets {
+			}
+		}
+		47 {
+			Stimsis
+			star
+			(-28740, 150910)
+			planets {
+			}
+		}
+		48 {
+			Peya
+			star
+			(159700, -47860)
+			planets {
+				1083
+			}
+		}
+		49 {
+			Reddor
+			star
+			(-101300, -42590)
+			planets {
+			}
+		}
+		50 {
+			Withrilli
+			star
+			(162620, 234230)
+			planets {
+				488
+			}
+		}
+		51 {
+			Yillion
+			star
+			(-64810, -191850)
+			planets {
+			}
+		}
+		52 {
+			Veit
+			star
+			(-24120, -94120)
+			planets {
+				388
+			}
+		}
+		53 {
+			Tau Ceti
+			star
+			(29650, -119880)
+			planets {
+				396
+			}
+		}
+		54 {
+			Distull
+			star
+			(-10040, 125120)
+			planets {
+			}
+		}
+		55 {
+			Khamb
+			star
+			(-90890, 270640)
+			planets {
+			}
+		}
+		56 {
+			Wicklar
+			star
+			(173730, -14100)
+			planets {
+			}
+		}
+		57 {
+			Sapir
+			star
+			(-229800, -230)
+			planets {
+			}
+		}
+		58 {
+			Anaxador
+			star
+			(131240, -208270)
+			planets {
+			}
+		}
+		59 {
+			Vategigun
+			star
+			(144710, 259709)
+			planets {
+				188
+			}
+		}
+		60 {
+			Bajiol
+			star
+			(-118520, -169160)
+			planets {
+			}
+		}
+		61 {
+			Suramo
+			star
+			(-204160, 49280)
+			planets {
+				167
+			}
+		}
+		62 {
+			Nashira
+			star
+			(63300, 226200)
+			planets {
+			}
+		}
+		63 {
+			Asgard
+			star
+			(-231280, -68810)
+			planets {
+			}
+		}
+		64 {
+			Loggam
+			star
+			(-68540, 123330)
+			planets {
+			}
+		}
+		65 {
+			Ulm
+			star
+			(-175660, 77290)
+			planets {
+			}
+		}
+		66 {
+			Fihir
+			star
+			(-200710, -58520)
+			planets {
+			}
+		}
+		67 {
+			Scipiton
+			star
+			(350, -100680)
+			planets {
+			}
+		}
+		68 {
+			Illex
+			star
+			(130169, 152420)
+			planets {
+			}
+		}
+		69 {
+			Con Viab
+			star
+			(-27710, 123260)
+			planets {
+			}
+		}
+		70 {
+			Ustir
+			star
+			(-83650, -63830)
+			planets {
+			}
+		}
+		71 {
+			Matar
+			star
+			(26800, 109500)
+			planets {
+			}
+		}
+		72 {
+			Athuna
+			star
+			(223650, 25900)
+			planets {
+			}
+		}
+		73 {
+			Ishnor
+			star
+			(16770, -99940)
+			planets {
+			}
+		}
+		74 {
+			Ziris
+			star
+			(109830, 212040)
+			planets {
+			}
+		}
+		75 {
+			Capella
+			star
+			(25640, -91270)
+			planets {
+			}
+		}
+		76 {
+			Uyiescapus
+			star
+			(-30190, 298350)
+			planets {
+			}
+		}
+		77 {
+			Betelgeuse
+			star
+			(58250, 279700)
+			planets {
+			}
+		}
+		78 {
+			Shuckon
+			star
+			(105160, 231340)
+			planets {
+			}
+		}
+		79 {
+			Soyun
+			star
+			(-13730, 307390)
+			planets {
+			}
+		}
+		80 {
+			Sosta
+			star
+			(-146750, 6450)
+			planets {
+			}
+		}
+		81 {
+			Pandill
+			star
+			(24760, -280930)
+			planets {
+				344
+			}
+		}
+		82 {
+			Tir Batna
+			star
+			(12320, -115890)
+			planets {
+				24
+			}
+		}
+		83 {
+			Tyastedore
+			star
+			(-780, -138170)
+			planets {
+			}
+		}
+		84 {
+			Samnivik
+			star
+			(-40520, 282260)
+			planets {
+			}
+		}
+		85 {
+			Dathaana
+			star
+			(147330, 115120)
+			planets {
+			}
+		}
+		86 {
+			Astinda
+			star
+			(-147080, 88220)
+			planets {
+			}
+		}
+		87 {
+			Sasharim
+			star
+			(194790, 136880)
+			planets {
+			}
+		}
+		88 {
+			Acamar
+			star
+			(-172940, -156960)
+			planets {
+				1442
+			}
+		}
+		89 {
+			Brallix
+			star
+			(-49820, -95900)
+			planets {
+			}
+		}
+		90 {
+			Aslund
+			star
+			(47860, -169030)
+			planets {
+			}
+		}
+		91 {
+			Aesir
+			star
+			(76570, -76650)
+			planets {
+				1470
+			}
+		}
+		92 {
+			Omicron Persei
+			star
+			(-47150, 97440)
+			planets {
+			}
+		}
+		93 {
+			Ryl Somot
+			star
+			(40600, 103180)
+			planets {
+			}
+		}
+		94 {
+			Tiriyok
+			star
+			(85750, -169810)
+			planets {
+			}
+		}
+		95 {
+			Nijil
+			star
+			(-166360, 30680)
+			planets {
+			}
+		}
+		96 {
+			Cavzek
+			star
+			(-120500, 15910)
+			planets {
+			}
+		}
+		97 {
+			Golba
+			star
+			(-220950, -127420)
+			planets {
+			}
+		}
+		98 {
+			Saua
+			star
+			(176750, 80430)
+			planets {
+			}
+		}
+		99 {
+			Carenvall
+			star
+			(-142680, 32390)
+			planets {
+			}
+		}
+		100 {
+			Bovatir
+			star
+			(207330, -98830)
+			planets {
+			}
+		}
+		101 {
+			Hocry
+			star
+			(-177540, 89450)
+			planets {
+			}
+		}
+		102 {
+			Raxum
+			star
+			(-211750, -170960)
+			planets {
+			}
+		}
+		103 {
+			Baesta
+			star
+			(16340, 98910)
+			planets {
+			}
+		}
+		104 {
+			Tadasca
+			star
+			(167340, 156730)
+			planets {
+			}
+		}
+		105 {
+			Chara
+			star
+			(160600, -20210)
+			planets {
+			}
+		}
+		106 {
+			Terebellum
+			star
+			(136690, 5830)
+			planets {
+			}
+		}
+		107 {
+			Tunobo
+			star
+			(78560, 221040)
+			planets {
+			}
+		}
+		108 {
+			Siet
+			star
+			(-180540, -140350)
+			planets {
+			}
+		}
+		109 {
+			Zirq
+			star
+			(-43130, 123970)
+			planets {
+			}
+		}
+		110 {
+			Ferathon
+			star
+			(252580, -40840)
+			planets {
+			}
+		}
+		111 {
+			Mauthula
+			star
+			(-119330, -134790)
+			planets {
+			}
+		}
+		112 {
+			Amgathorra
+			star
+			(-80900, -51240)
+			planets {
+			}
+		}
+		113 {
+			Sanach
+			star
+			(47930, -127010)
+			planets {
+			}
+		}
+		114 {
+			Seaetera
+			star
+			(130520, 127080)
+			planets {
+			}
+		}
+		115 {
+			Masqal
+			star
+			(138270, 206590)
+			planets {
+				1781
+			}
+		}
+		116 {
+			Wollaeus
+			star
+			(-189930, -92470)
+			planets {
+				224
+			}
+		}
+		117 {
+			Binami
+			star
+			(93680, 221370)
+			planets {
+			}
+		}
+		118 {
+			Rovgeddi
+			star
+			(81050, -104680)
+			planets {
+			}
+		}
+		119 {
+			Ovany
+			star
+			(300560, -7480)
+			planets {
+			}
+		}
+		120 {
+			Mardom
+			star
+			(106260, -43240)
+			planets {
+			}
+		}
+		121 {
+			Torovil
+			star
+			(159690, -86250)
+			planets {
+			}
+		}
+		122 {
+			Iflagua
+			star
+			(191700, -16040)
+			planets {
+			}
+		}
+		123 {
+			Eadominar
+			star
+			(-19100, 94100)
+			planets {
+			}
+		}
+		124 {
+			Jompron
+			star
+			(93700, 197960)
+			planets {
+			}
+		}
+		125 {
+			Fejantris
+			star
+			(210840, 102490)
+			planets {
+			}
+		}
+		126 {
+			Coggan
+			star
+			(-112580, 57790)
+			planets {
+			}
+		}
+		127 {
+			Sheratan
+			star
+			(196600, 156470)
+			planets {
+			}
+		}
+		128 {
+			Sarack
+			star
+			(206950, 170760)
+			planets {
+			}
+		}
+		129 {
+			Suyo
+			star
+			(210270, 65360)
+			planets {
+			}
+		}
+		130 {
+			Dossel
+			star
+			(-32500, -147160)
+			planets {
+			}
+		}
+		131 {
+			Trinitar
+			star
+			(-152540, -150620)
+			planets {
+			}
+		}
+		132 {
+			Epsilon Indi
+			star
+			(190880, 75280)
+			planets {
+			}
+		}
+		133 {
+			Yirba
+			star
+			(106990, -239160)
+			planets {
+			}
+		}
+		134 {
+			Aramus
+			star
+			(183430, 100940)
+			planets {
+				42
+			}
+		}
+		135 {
+			Nishpan
+			star
+			(-161240, 183630)
+			planets {
+			}
+		}
+		136 {
+			Lehmsa
+			star
+			(-59050, 294390)
+			planets {
+			}
+		}
+		137 {
+			Dristmak
+			star
+			(68830, 248840)
+			planets {
+			}
+		}
+		138 {
+			Boeawei
+			star
+			(-67470, -117200)
+			planets {
+			}
+		}
+		139 {
+			Gomeisa
+			star
+			(216510, 1970)
+			planets {
+			}
+		}
+		140 {
+			Xuukanis Black Hole
+			star
+			(210590, 150860)
+			planets {
+			}
+		}
+		141 {
+			Fidhilam
+			star
+			(268840, 95330)
+			planets {
+			}
+		}
+		142 {
+			Odaka
+			star
+			(-8070, 165680)
+			planets {
+				89
+			}
+		}
+		143 {
+			Atmir
+			star
+			(-137010, -42930)
+			planets {
+			}
+		}
+		144 {
+			Rundore
+			star
+			(257430, 50960)
+			planets {
+			}
+		}
+		145 {
+			Bikhul
+			star
+			(222550, -56820)
+			planets {
+			}
+		}
+		146 {
+			Ladiom
+			star
+			(-127690, -186540)
+			planets {
+			}
+		}
+		147 {
+			Wani
+			star
+			(4059, -274750)
+			planets {
+				114
+			}
+		}
+		148 {
+			Rurius
+			star
+			(8870, 296980)
+			planets {
+			}
+		}
+		149 {
+			Bir Zun
+			star
+			(-199340, 27340)
+			planets {
+			}
+		}
+		150 {
+			Hischmal
+			star
+			(120190, -162410)
+			planets {
+			}
+		}
+		151 {
+			Osellus
+			star
+			(57500, 82530)
+			planets {
+			}
+		}
+		152 {
+			Usksion
+			star
+			(136040, -91980)
+			planets {
+			}
+		}
+		153 {
+			Kerbol
+			star
+			(-80210, -224390)
+			planets {
+			}
+		}
+		154 {
+			Durascadon
+			star
+			(-43020, -241700)
+			planets {
+			}
+		}
+		155 {
+			Avalam
+			star
+			(68850, -158010)
+			planets {
+			}
+		}
+		156 {
+			Trax Ofko
+			star
+			(26330, 250500)
+			planets {
+			}
+		}
+		157 {
+			Ayfriri
+			star
+			(33570, -247410)
+			planets {
+			}
+		}
+		158 {
+			Feggor
+			star
+			(17650, -230040)
+			planets {
+			}
+		}
+		159 {
+			Schinik
+			star
+			(245380, -243960)
+			planets {
+			}
+		}
+		160 {
+			Roganoin
+			star
+			(132450, -17910)
+			planets {
+			}
+		}
+		161 {
+			Cajubus
+			star
+			(129620, -113290)
+			planets {
+			}
+		}
+		162 {
+			Gossok
+			star
+			(45470, -280190)
+			planets {
+			}
+		}
+		163 {
+			Owhziea
+			star
+			(68790, -108530)
+			planets {
+			}
+		}
+		164 {
+			Rippigaur
+			star
+			(177000, 65710)
+			planets {
+			}
+		}
+		165 {
+			Bellezir
+			star
+			(163060, 106430)
+			planets {
+			}
+		}
+		166 {
+			Balawar
+			star
+			(6920, -255930)
+			planets {
+			}
+		}
+		167 {
+			Ceyxuemia
+			star
+			(168540, 23720)
+			planets {
+			}
+		}
+		168 {
+			Imulgaron
+			star
+			(-84020, 99600)
+			planets {
+			}
+		}
+		169 {
+			Astrkion
+			star
+			(98660, -106930)
+			planets {
+			}
+		}
+		170 {
+			Hiann
+			star
+			(95420, -134950)
+			planets {
+			}
+		}
+		171 {
+			Lando
+			star
+			(170960, -850)
+			planets {
+			}
+		}
+		172 {
+			Tirramore
+			star
+			(165940, 49150)
+			planets {
+			}
+		}
+		173 {
+			Oweprinda
+			star
+			(-181490, -197300)
+			planets {
+			}
+		}
+		174 {
+			Patraggor
+			star
+			(-182750, -35690)
+			planets {
+			}
+		}
+		175 {
+			Magam
+			star
+			(151770, -69670)
+			planets {
+			}
+		}
+		176 {
+			Iriamus
+			star
+			(188640, 206520)
+			planets {
+			}
+		}
+		177 {
+			Millistamu
+			star
+			(-32400, -202550)
+			planets {
+			}
+		}
+		178 {
+			Kauri
+			star
+			(65710, -268810)
+			planets {
+			}
+		}
+		179 {
+			Cizar
+			star
+			(-93520, 172460)
+			planets {
+			}
+		}
+		180 {
+			Yotla
+			star
+			(-185720, -68650)
+			planets {
+			}
+		}
+		181 {
+			Ablapus
+			star
+			(-212640, -70740)
+			planets {
+			}
+		}
+		182 {
+			Caspadene
+			star
+			(-117270, 40390)
+			planets {
+			}
+		}
+		183 {
+			Wendel
+			star
+			(-200490, -145710)
+			planets {
+			}
+		}
+		184 {
+			Hithram
+			star
+			(200960, 119050)
+			planets {
+			}
+		}
+		185 {
+			Boggor
+			star
+			(53950, 240600)
+			planets {
+			}
+		}
+		186 {
+			Chohar
+			star
+			(143970, -41140)
+			planets {
+			}
+		}
+		187 {
+			Polystea
+			star
+			(190380, 50120)
+			planets {
+			}
+		}
+		188 {
+			Ladellikon
+			star
+			(169110, -177440)
+			planets {
+			}
+		}
+		189 {
+			Ostichi
+			star
+			(-148340, -169720)
+			planets {
+			}
+		}
+		190 {
+			Qoclite
+			star
+			(177650, -125550)
+			planets {
+				700
+			}
+		}
+		191 {
+			Ipiescilia
+			star
+			(-18680, 135330)
+			planets {
+			}
+		}
+		192 {
+			Beid
+			star
+			(-204170, 106340)
+			planets {
+			}
+		}
+		193 {
+			Polgara
+			star
+			(64340, -125640)
+			planets {
+			}
+		}
+		194 {
+			Scorom
+			star
+			(181500, -32910)
+			planets {
+			}
+		}
+		195 {
+			Ylva
+			star
+			(-165630, -122690)
+			planets {
+			}
+		}
+		196 {
+			Saphiban
+			star
+			(-55430, 111750)
+			planets {
+			}
+		}
+		197 {
+			Qurus
+			star
+			(-30050, -278210)
+			planets {
+			}
+		}
+		198 {
+			Durabbius
+			star
+			(-50870, -265470)
+			planets {
+			}
+		}
+		199 {
+			Iflore
+			star
+			(93770, 237980)
+			planets {
+			}
+		}
+		200 {
+			Roolan
+			star
+			(-131900, 243280)
+			planets {
+			}
+		}
+		201 {
+			Trab
+			star
+			(-118810, -239940)
+			planets {
+			}
+		}
+		202 {
+			Flestia
+			star
+			(147350, -213620)
+			planets {
+			}
+		}
+		203 {
+			Yomon
+			star
+			(-20130, -329250)
+			planets {
+			}
+		}
+		204 {
+			Hizzel
+			star
+			(-178630, 127290)
+			planets {
+			}
+		}
+		205 {
+			Soao
+			star
+			(-241620, -41330)
+			planets {
+			}
+		}
+		206 {
+			Volmaur
+			star
+			(177680, -95430)
+			planets {
+				683
+			}
+		}
+		207 {
+			Bythia
+			star
+			(126910, -79500)
+			planets {
+				693
+			}
+		}
+		208 {
+			Eskellion
+			star
+			(8010, -176550)
+			planets {
+			}
+		}
+		209 {
+			Cipux
+			star
+			(-130620, -106950)
+			planets {
+			}
+		}
+		210 {
+			Ushminaria
+			star
+			(-71390, 81480)
+			planets {
+			}
+		}
+		211 {
+			Escolla
+			star
+			(225530, -15070)
+			planets {
+			}
+		}
+		212 {
+			Eriga
+			star
+			(-173780, -16940)
+			planets {
+			}
+		}
+		213 {
+			Raznum
+			star
+			(148440, -143180)
+			planets {
+			}
+		}
+		214 {
+			Carynno
+			star
+			(-103910, 220020)
+			planets {
+			}
+		}
+		215 {
+			Neddum
+			star
+			(-41750, -256170)
+			planets {
+				2611
+			}
+		}
+		216 {
+			Rimdur
+			star
+			(-130270, 94180)
+			planets {
+				2616
+			}
+		}
+		217 {
+			Eglrarvis
+			star
+			(-138630, 120800)
+			planets {
+			}
+		}
+		218 {
+			Iresta
+			star
+			(-126580, -221050)
+			planets {
+			}
+		}
+		219 {
+			Naos
+			star
+			(49570, 255970)
+			planets {
+			}
+		}
+		220 {
+			Gromen
+			star
+			(111400, -103740)
+			planets {
+			}
+		}
+		221 {
+			Chi Draconis
+			star
+			(-142280, -64840)
+			planets {
+			}
+		}
+		222 {
+			Unith
+			star
+			(253110, 4260)
+			planets {
+			}
+		}
+		223 {
+			Siplim
+			star
+			(-144340, -195900)
+			planets {
+			}
+		}
+		224 {
+			Ruthauri
+			star
+			(-138630, -15980)
+			planets {
+			}
+		}
+		225 {
+			Satrinias
+			star
+			(-160500, 221550)
+			planets {
+			}
+		}
+		226 {
+			Karazit
+			star
+			(-226670, 69810)
+			planets {
+			}
+		}
+		227 {
+			Yildun
+			star
+			(-229690, -26790)
+			planets {
+			}
+		}
+		228 {
+			Ydria
+			star
+			(-191050, 12300)
+			planets {
+			}
+		}
+		229 {
+			Ponnell
+			star
+			(4190, 130870)
+			planets {
+			}
+		}
+		230 {
+			Pharrim
+			star
+			(80490, -123830)
+			planets {
+			}
+		}
+		231 {
+			Ushakaron
+			star
+			(-213690, -89500)
+			planets {
+			}
+		}
+		232 {
+			Ceyecarro
+			star
+			(32360, 125850)
+			planets {
+				2734
+			}
+		}
+		233 {
+			Durth
+			star
+			(74730, -286220)
+			planets {
+			}
+		}
+		234 {
+			Obsholla
+			star
+			(114180, -126210)
+			planets {
+			}
+		}
+		235 {
+			Mizar
+			star
+			(-192050, -129139)
+			planets {
+			}
+		}
+		236 {
+			Cradoniana
+			star
+			(-117900, -279550)
+			planets {
+				140
+			}
+		}
+		237 {
+			Ziamon
+			star
+			(-203830, -3890)
+			planets {
+			}
+		}
+		238 {
+			Izval
+			star
+			(-142770, -231010)
+			planets {
+			}
+		}
+		239 {
+			Aswiri
+			star
+			(-54010, 177610)
+			planets {
+			}
+		}
+		240 {
+			Haddnoc
+			star
+			(50910, -253580)
+			planets {
+			}
+		}
+		241 {
+			Jhool
+			star
+			(189380, 13650)
+			planets {
+				33
+			}
+		}
+		242 {
+			Bion Dazat
+			star
+			(40460, 191850)
+			planets {
+			}
+		}
+		243 {
+			Enim
+			star
+			(-155260, 65650)
+			planets {
+			}
+		}
+		244 {
+			Med Karash
+			star
+			(166610, 91110)
+			planets {
+			}
+		}
+		245 {
+			Cothium
+			star
+			(118490, -317460)
+			planets {
+			}
+		}
+		246 {
+			Glyderrum
+			star
+			(99970, 257570)
+			planets {
+			}
+		}
+		247 {
+			Seyyama
+			star
+			(103760, -73810)
+			planets {
+			}
+		}
+		248 {
+			Eieospone
+			star
+			(-183770, 44130)
+			planets {
+			}
+		}
+		249 {
+			Wildore
+			star
+			(76320, 119090)
+			planets {
+			}
+		}
+		250 {
+			Jamor
+			star
+			(-150530, -133650)
+			planets {
+			}
+		}
+		251 {
+			Saidainope
+			star
+			(-189120, -116030)
+			planets {
+			}
+		}
+		252 {
+			Nuranka
+			star
+			(-57960, 75610)
+			planets {
+			}
+		}
+		253 {
+			Perqim
+			star
+			(162690, -100970)
+			planets {
+			}
+		}
+		254 {
+			Occidan
+			star
+			(171640, 175130)
+			planets {
+			}
+		}
+		255 {
+			Raskamir
+			star
+			(-191380, -14220)
+			planets {
+			}
+		}
+		256 {
+			Falmir
+			star
+			(-6110, -312150)
+			planets {
+			}
+		}
+		257 {
+			Vijimar
+			star
+			(-40810, 148500)
+			planets {
+			}
+		}
+		258 {
+			Ulkad
+			star
+			(-146030, 150920)
+			planets {
+			}
+		}
+		259 {
+			Cebelrai
+			star
+			(-131900, 218100)
+			planets {
+			}
+		}
+		260 {
+			Sinistra
+			star
+			(-1580, 113570)
+			planets {
+			}
+		}
+		261 {
+			Reagg
+			star
+			(-39060, 267640)
+			planets {
+			}
+		}
+		262 {
+			Grekil
+			star
+			(-224110, -108870)
+			planets {
+			}
+		}
+		263 {
+			Iieystara
+			star
+			(119070, 264500)
+			planets {
+				377
+			}
+		}
+		264 {
+			Meredith
+			star
+			(-171640, -60750)
+			planets {
+			}
+		}
+		265 {
+			Merope
+			star
+			(-138300, -255680)
+			planets {
+				358
+			}
+		}
+		266 {
+			Peudeanus
+			star
+			(121210, -94330)
+			planets {
+			}
+		}
+		267 {
+			Alcor
+			star
+			(-137620, 56770)
+			planets {
+			}
+		}
+		268 {
+			Mubblar
+			star
+			(124820, 222840)
+			planets {
+				3006
+			}
+		}
+		269 {
+			Ibacca
+			star
+			(85320, 75090)
+			planets {
+			}
+		}
+		270 {
+			Ijax
+			star
+			(-153470, 254400)
+			planets {
+			}
+		}
+		271 {
+			Obskyke
+			star
+			(-93350, 118400)
+			planets {
+			}
+		}
+		272 {
+			Ascension's End
+			star
+			(18530, 274580)
+			planets {
+			}
+		}
+		273 {
+			Ramman
+			star
+			(57400, -139130)
+			planets {
+			}
+		}
+		274 {
+			Hotram
+			star
+			(-60670, 267040)
+			planets {
+			}
+		}
+		275 {
+			Scheddi
+			star
+			(47440, -87170)
+			planets {
+			}
+		}
+		276 {
+			Leesak
+			star
+			(149320, -8610)
+			planets {
+			}
+		}
+		277 {
+			Tiffim
+			star
+			(170240, -65140)
+			planets {
+			}
+		}
+		278 {
+			Bess'Qoro
+			star
+			(112040, -253420)
+			planets {
+				78
+			}
+		}
+		279 {
+			Muudstram
+			star
+			(-12510, 282280)
+			planets {
+			}
+		}
+		280 {
+			Wezen
+			star
+			(-169080, 53020)
+			planets {
+			}
+		}
+		281 {
+			Pash
+			star
+			(103150, -202180)
+			planets {
+			}
+		}
+		282 {
+			Hamkad
+			star
+			(-100410, 99900)
+			planets {
+			}
+		}
+		283 {
+			Paraggir
+			star
+			(-166150, 14300)
+			planets {
+			}
+		}
+		284 {
+			Fir Mathrioz
+			star
+			(-49460, 242830)
+			planets {
+			}
+		}
+		285 {
+			Janna
+			star
+			(-162130, 95710)
+			planets {
+			}
+		}
+		286 {
+			Tirmana
+			star
+			(180530, -76720)
+			planets {
+			}
+		}
+		287 {
+			Kongath
+			star
+			(137540, -258700)
+			planets {
+			}
+		}
+		288 {
+			Oxcliri
+			star
+			(183540, 4410)
+			planets {
+			}
+		}
+		289 {
+			Mriik
+			star
+			(29520, 152600)
+			planets {
+			}
+		}
+		290 {
+			Dekrus
+			star
+			(-245530, 159780)
+			planets {
+				124
+			}
+		}
+		291 {
+			Shap
+			star
+			(-62670, -77190)
+			planets {
+				4
+			}
+		}
+		292 {
+			Unimar
+			star
+			(-15320, -102550)
+			planets {
+				3195
+			}
+		}
+		293 {
+			Yeelon
+			star
+			(-63350, 279280)
+			planets {
+			}
+		}
+		294 {
+			Simtinasca
+			star
+			(55100, -107910)
+			planets {
+			}
+		}
+		295 {
+			Wuae
+			star
+			(22130, -299160)
+			planets {
+			}
+		}
+		296 {
+			Cuorilia
+			star
+			(127050, 77610)
+			planets {
+			}
+		}
+		297 {
+			Jondus
+			star
+			(84170, -227970)
+			planets {
+			}
+		}
+		298 {
+			Teae
+			star
+			(-17260, -254650)
+			planets {
+			}
+		}
+		299 {
+			Nixahel
+			star
+			(-96340, -199540)
+			planets {
+			}
+		}
+		300 {
+			Algorab
+			star
+			(-168830, -138600)
+			planets {
+			}
+		}
+		301 {
+			Ishtrum
+			star
+			(-41100, 85310)
+			planets {
+			}
+		}
+		302 {
+			Sayhouvis
+			star
+			(181770, 117590)
+			planets {
+			}
+		}
+		303 {
+			Bolthor
+			star
+			(147400, -105120)
+			planets {
+				622
+				623
+			}
+		}
+		304 {
+			Qirbus
+			star
+			(74290, -252160)
+			planets {
+			}
+		}
+		305 {
+			Loisar
+			star
+			(40340, -103210)
+			planets {
+			}
+		}
+		306 {
+			Rammas
+			star
+			(-74360, -244840)
+			planets {
+			}
+		}
+		307 {
+			Cieneagawa
+			star
+			(8920, 229340)
+			planets {
+			}
+		}
+		308 {
+			Andack
+			star
+			(-29080, 249680)
+			planets {
+			}
+		}
+		309 {
+			Uchxyke
+			star
+			(-182700, 66230)
+			planets {
+				472
+			}
+		}
+		310 {
+			Heze
+			star
+			(156480, 76170)
+			planets {
+			}
+		}
+		311 {
+			Uchbiea
+			star
+			(220460, -146000)
+			planets {
+			}
+		}
+		312 {
+			Impal Tov
+			star
+			(173730, 130550)
+			planets {
+			}
+		}
+		313 {
+			Dradim
+			star
+			(-28850, -259269)
+			planets {
+			}
+		}
+		314 {
+			Guhur
+			star
+			(116620, 235360)
+			planets {
+			}
+		}
+		315 {
+			Bardegan
+			star
+			(-9180, -267190)
+			planets {
+			}
+		}
+		316 {
+			Avior
+			star
+			(-205830, -31690)
+			planets {
+			}
+		}
+		317 {
+			Hixar
+			star
+			(-100730, -225670)
+			planets {
+				3391
+			}
+		}
+		318 {
+			Ulassia
+			star
+			(-95010, -261070)
+			planets {
+			}
+		}
+		319 {
+			Ribellan Vortex
+			star
+			(-141980, 262590)
+			planets {
+			}
+		}
+		320 {
+			Opriiuq
+			star
+			(-115600, 261760)
+			planets {
+			}
+		}
+		321 {
+			Geulea
+			star
+			(134940, 185500)
+			planets {
+			}
+		}
+		322 {
+			Escont
+			star
+			(-43640, -126130)
+			planets {
+			}
+		}
+		323 {
+			Nolyon
+			star
+			(-216620, -50040)
+			planets {
+			}
+		}
+		324 {
+			Cuunbar
+			star
+			(189470, -47470)
+			planets {
+			}
+		}
+		325 {
+			Brachium
+			star
+			(43280, 225480)
+			planets {
+			}
+		}
+		326 {
+			Korach
+			star
+			(-86910, -156130)
+			planets {
+			}
+		}
+		327 {
+			Wegmore
+			star
+			(-10790, -240260)
+			planets {
+			}
+		}
+		328 {
+			Kimithar
+			star
+			(-96920, -318000)
+			planets {
+			}
+		}
+		329 {
+			Chertan
+			star
+			(-154930, 45700)
+			planets {
+			}
+		}
+		330 {
+			Atlabba
+			star
+			(-123760, -157220)
+			planets {
+			}
+		}
+		331 {
+			Jardlaphon
+			star
+			(94230, -117840)
+			planets {
+			}
+		}
+		332 {
+			T'Vilkait
+			star
+			(-64709, 97110)
+			planets {
+			}
+		}
+		333 {
+			Itraben
+			star
+			(94660, -58120)
+			planets {
+			}
+		}
+		334 {
+			Breek
+			star
+			(103040, 163780)
+			planets {
+			}
+		}
+		335 {
+			Zosma
+			star
+			(127760, -296080)
+			planets {
+			}
+		}
+		336 {
+			Orkam Fung
+			star
+			(132100, -237520)
+			planets {
+				327
+			}
+		}
+		337 {
+			Lyfhir
+			star
+			(115820, 194660)
+			planets {
+			}
+		}
+		338 {
+			Muscida
+			star
+			(-237640, -86110)
+			planets {
+			}
+		}
+		339 {
+			Dram
+			star
+			(-104080, 75590)
+			planets {
+			}
+		}
+		340 {
+			Sapad
+			star
+			(-81810, 135080)
+			planets {
+				373
+			}
+		}
+		341 {
+			Zithri
+			star
+			(-58410, 142130)
+			planets {
+			}
+		}
+		342 {
+			Condarra
+			star
+			(200440, 14690)
+			planets {
+			}
+		}
+		343 {
+			Viriak
+			star
+			(-164610, -105370)
+			planets {
+			}
+		}
+		344 {
+			Tuayama
+			star
+			(-186190, -48840)
+			planets {
+			}
+		}
+		345 {
+			Lytirin
+			star
+			(-266910, 30530)
+			planets {
+			}
+		}
+		346 {
+			Tram Bodon
+			star
+			(-164210, -34690)
+			planets {
+			}
+		}
+		347 {
+			Bidtox
+			star
+			(80590, 243500)
+			planets {
+			}
+		}
+		348 {
+			Bellatrix
+			star
+			(204980, -69200)
+			planets {
+			}
+		}
+		349 {
+			Elderak
+			star
+			(273310, -113880)
+			planets {
+			}
+		}
+		350 {
+			Chox
+			star
+			(-81020, 287170)
+			planets {
+			}
+		}
+		351 {
+			Menok
+			star
+			(-67940, 217840)
+			planets {
+			}
+		}
+		352 {
+			Uzhab Vortex
+			star
+			(-149820, -210380)
+			planets {
+			}
+		}
+		353 {
+			Algol
+			star
+			(-114900, 98080)
+			planets {
+				3704
+			}
+		}
+		354 {
+			Baidaan
+			star
+			(-110160, 247800)
+			planets {
+			}
+		}
+		355 {
+			Kenn Hijal
+			star
+			(119980, -32320)
+			planets {
+			}
+		}
+		356 {
+			Yultup
+			star
+			(-13040, 253260)
+			planets {
+			}
+		}
+		357 {
+			Dorellion
+			star
+			(-168190, -175500)
+			planets {
+			}
+		}
+		358 {
+			Hoeddim
+			star
+			(33200, 239180)
+			planets {
+			}
+		}
+		359 {
+			Brillisir
+			star
+			(152730, 219630)
+			planets {
+			}
+		}
+		360 {
+			Karuss
+			star
+			(-200500, -84890)
+			planets {
+				62
+			}
+		}
+		361 {
+			Enif
+			star
+			(34960, -143190)
+			planets {
+			}
+		}
+		362 {
+			Ionides
+			star
+			(160380, 262220)
+			planets {
+			}
+		}
+		363 {
+			Obaeshoth
+			star
+			(-139220, -178660)
+			planets {
+			}
+		}
+		364 {
+			Saolea
+			star
+			(13820, 207100)
+			planets {
+			}
+		}
+		365 {
+			Jasmak
+			star
+			(164190, -234970)
+			planets {
+			}
+		}
+		366 {
+			Almach
+			star
+			(-94400, 283800)
+			planets {
+			}
+		}
+		367 {
+			Fangcor
+			star
+			(-99360, 261820)
+			planets {
+			}
+		}
+		368 {
+			Pell
+			star
+			(45120, 83400)
+			planets {
+			}
+		}
+		369 {
+			Egouwhyke
+			star
+			(88260, -92300)
+			planets {
+			}
+		}
+		370 {
+			Romonox
+			star
+			(-226410, -90920)
+			planets {
+			}
+		}
+		371 {
+			Busim
+			star
+			(30470, 88690)
+			planets {
+			}
+		}
+		372 {
+			Zimatullon
+			star
+			(136770, 222560)
+			planets {
+			}
+		}
+		373 {
+			Veldoon
+			star
+			(-120720, -204700)
+			planets {
+			}
+		}
+		374 {
+			Dontaur
+			star
+			(-117250, 157890)
+			planets {
+			}
+		}
+		375 {
+			Alamak
+			star
+			(203940, -26970)
+			planets {
+			}
+		}
+		376 {
+			Dawcan
+			star
+			(-111220, -183310)
+			planets {
+			}
+		}
+		377 {
+			Zhir
+			star
+			(9990, 112190)
+			planets {
+			}
+		}
+		378 {
+			Othvomia
+			star
+			(154610, 190920)
+			planets {
+			}
+		}
+		379 {
+			Alioth
+			star
+			(112440, -84810)
+			planets {
+				717
+			}
+		}
+		380 {
+			Kunides
+			star
+			(27620, 290460)
+			planets {
+			}
+		}
+		381 {
+			Trijam
+			star
+			(53920, -220580)
+			planets {
+			}
+		}
+		382 {
+			Covall
+			star
+			(-58160, -291690)
+			planets {
+			}
+		}
+		383 {
+			Unif
+			star
+			(-267780, 127070)
+			planets {
+			}
+		}
+		384 {
+			Sym
+			star
+			(-4400, -120170)
+			planets {
+			}
+		}
+		385 {
+			Qapra
+			star
+			(162310, 143800)
+			planets {
+			}
+		}
+		386 {
+			Kuiper
+			star
+			(-15930, 111530)
+			planets {
+			}
+		}
+		387 {
+			NAME_Sol
+			star
+			(183283, -268505)
+			planets {
+				4014
+			}
+		}
+		388 {
+			Stenlar
+			star
+			(-106502, -189888)
+			planets {
+			}
+		}
+		389 {
+			Benetnasch
+			star
+			(-123110, -202344)
+			planets {
+			}
+		}
+	}
+}
+2200.01.01 {
+	species {
+		0 {
+			Kelbrid
+			Kelbrids
+			Kelbran
+			lith4
+			traits {
+				trait_lithoid
+				trait_decadent
+				trait_weak
+				trait_venerable
+				trait_repugnant
+				trait_intelligent
+				trait_pc_alpine_preference
+			}
+		}
+		1 {
+			Bzadi
+			Bzadi
+			Bzadian
+			lith3
+			traits {
+				trait_lithoid
+				trait_syncretic_proles
+				trait_industrious
+				trait_slow_learners
+				trait_sedentary
+				trait_communal
+				trait_pc_alpine_preference
+			}
+		}
+		2 {
+			Tezekian
+			Tezekians
+			
+			avi8
+			traits {
+				trait_nonadaptive
+				trait_wasteful
+				trait_natural_sociologists
+				trait_enduring
+				trait_very_strong
+				trait_pc_tropical_preference
+			}
+		}
+		3 {
+			Robot
+			Robots
+			Robot
+			sd_avi_robot
+			traits {
+				trait_mechanical
+			}
+		}
+		4 {
+			Jhoolian
+			Jhoolians
+			
+			fun8
+			traits {
+				trait_resilient
+				trait_solitary
+				trait_enduring
+				trait_natural_physicists
+				trait_pc_arid_preference
+			}
+		}
+		5 {
+			Aramathi
+			Aramathi
+			
+			mam8
+			traits {
+				trait_industrious
+				trait_pc_arid_preference
+			}
+		}
+		6 {
+			Lyrite
+			Lyrites
+			
+			rep6
+			traits {
+				trait_nonadaptive
+				trait_strong
+				trait_ingenious
+				trait_quick_learners
+				trait_pc_desert_preference
+			}
+		}
+		7 {
+			Bessadon
+			Bessadons
+			
+			rep17
+			traits {
+				trait_wasteful
+				trait_decadent
+				trait_charismatic
+				trait_adaptive
+				trait_pc_savannah_preference
+			}
+		}
+		8 {
+			Obadin
+			Obadinans
+			
+			mol18
+			traits {
+				trait_talented
+				trait_communal
+				trait_pc_ocean_preference
+			}
+		}
+		9 {
+			Estwani
+			Estwani
+			
+			mam3
+			traits {
+				trait_quarrelsome
+				trait_quick_learners
+				trait_very_strong
+				trait_fleeting
+				trait_pc_savannah_preference
+			}
+		}
+		10 {
+			Dekron
+			Dekrons
+			
+			sd_fun_robot
+			traits {
+				trait_machine_unit
+				trait_robot_bulky
+				trait_robot_power_drills
+			}
+		}
+		11 {
+			Cevelli
+			Cevelli
+			
+			humanoid_04
+			traits {
+				trait_cybernetic
+				trait_adaptive
+				trait_natural_sociologists
+				trait_repugnant
+				trait_traditional
+				trait_pc_tropical_preference
+			}
+		}
+		12 {
+			Pelx-Cradonian
+			Pelx-Cradonians
+			
+			avi15
+			traits {
+				trait_agrarian
+				trait_pc_desert_preference
+			}
+		}
+		13 {
+			Suramo
+			Suramos
+			
+			rep12
+			traits {
+				trait_slow_learners
+				trait_deviants
+				trait_natural_sociologists
+				trait_ingenious
+				trait_communal
+				trait_pc_ocean_preference
+			}
+		}
+		14 {
+			Kel-Azaan
+			Azaans
+			Kel-Azaan
+			art8
+			traits {
+				trait_very_strong
+				trait_traditional
+				trait_deviants
+				trait_solitary
+				trait_pc_savannah_preference
+			}
+		}
+		15 {
+			Sirgogg
+			Sirgoggans
+			
+			mol7
+			traits {
+				trait_natural_physicists
+				trait_deviants
+				trait_rapid_breeders
+				trait_pc_tropical_preference
+			}
+		}
+		16 {
+			Prossnakan
+			
+			
+			humanoid_hp_07
+			traits {
+				trait_pc_tundra_preference
+				trait_intelligent
+				trait_thrifty
+				trait_very_strong
+			}
+		}
+		17 {
+			Oviir
+			
+			
+			lith7
+			traits {
+				trait_nerve_stapled
+				trait_strong
+				trait_charismatic
+			}
+		}
+		18 {
+			Akkano
+			
+			
+			humanoid_hp_08
+			traits {
+				trait_extremely_adaptive
+				trait_rapid_breeders
+				trait_nomadic
+				trait_quarrelsome
+				trait_deviants
+			}
+		}
+		19 {
+			Xabir
+			
+			
+			mol7
+			traits {
+				trait_extremely_adaptive
+				trait_slow_breeders
+				trait_sedentary
+				trait_pc_gaia_preference
+			}
+		}
+		20 {
+			Zeppadroggan
+			Zeppadroggans
+			
+			fun4
+			traits {
+				trait_pc_tundra_preference
+				trait_resilient
+				trait_strong
+			}
+		}
+		21 {
+			Vetirisius
+			
+			
+			pla16_baol
+			traits {
+				trait_natural_sociologists
+				trait_enduring
+				trait_pc_ringworld_habitable_preference
+			}
+		}
+		22 {
+			Kalaxenan
+			
+			
+			rep2
+			traits {
+				trait_rapid_breeders
+				trait_pc_ringworld_habitable_preference
+			}
+		}
+		23 {
+			Mandasura
+			
+			
+			pla5
+			traits {
+				trait_conformists
+				trait_pc_ringworld_habitable_preference
+			}
+		}
+		24 {
+			Fevarian
+			
+			
+			mam1
+			traits {
+				trait_enduring
+				trait_slow_learners
+				trait_natural_sociologists
+				trait_decadent
+				trait_adaptive
+				trait_pc_ringworld_habitable_preference
+			}
+		}
+		25 {
+			Baviir
+			
+			
+			avi12
+			traits {
+				trait_pc_continental_preference
+				trait_conservational
+				trait_fleeting
+				trait_natural_physicists
+				trait_traditional
+			}
+		}
+		26 {
+			Pithok
+			
+			
+			art10
+			traits {
+				trait_pc_arctic_preference
+				trait_weak
+				trait_traditional
+				trait_charismatic
+			}
+		}
+		27 {
+			Vengral
+			Vengral
+			Vengral
+			lith1
+			traits {
+				trait_pc_desert_preference
+				trait_lithoid
+				trait_fleeting_lithoid
+				trait_sedentary
+				trait_industrious
+				trait_natural_sociologists
+				trait_talented
+			}
+		}
+		28 {
+			Kobarian
+			
+			
+			humanoid_hp_01
+			traits {
+				trait_pc_continental_preference
+				trait_enduring
+				trait_traditional
+			}
+		}
+		29 {
+			Athanebian
+			Athanebians
+			
+			rep14
+			traits {
+				trait_pc_arid_preference
+				trait_ingenious
+			}
+		}
+		30 {
+			Korinth
+			
+			
+			humanoid_hp_02
+			traits {
+				trait_pc_savannah_preference
+				trait_enduring
+				trait_solitary
+				trait_natural_physicists
+				trait_nomadic
+			}
+		}
+		31 {
+			Kammarian
+			Kammarians
+			
+			rep13
+			traits {
+				trait_pc_tundra_preference
+				trait_sedentary
+				trait_decadent
+				trait_solitary
+				trait_industrious
+				trait_very_strong
+			}
+		}
+		32 {
+			Uv-Xantt
+			
+			
+			avi18
+			traits {
+				trait_pc_tropical_preference
+				trait_intelligent
+			}
+		}
+		33 {
+			Xuri
+			Xuri
+			NAME_Xurian
+			mol16
+			traits {
+				trait_thrifty
+			}
+		}
+		34 {
+			Photecian
+			
+			
+			mam14
+			traits {
+				trait_deviants
+				trait_thrifty
+				trait_natural_physicists
+				trait_pc_alpine_preference
+			}
+		}
+		35 {
+			Giroid
+			Giroids
+			
+			humanoid_hp_12
+			traits {
+				trait_pc_tundra_preference
+				trait_natural_engineers
+				trait_traditional
+			}
+		}
+		36 {
+			Xanyr
+			Xanyrans
+			
+			art9
+			traits {
+				trait_pc_desert_preference
+				trait_sedentary
+				trait_natural_physicists
+				trait_rapid_breeders
+			}
+		}
+		37 {
+			Yaanari
+			Yaanari
+			
+			rep4
+			traits {
+				trait_pc_alpine_preference
+				trait_natural_physicists
+				trait_repugnant
+				trait_nonadaptive
+				trait_agrarian
+				trait_very_strong
+			}
+		}
+		38 {
+			Dima'Xanian
+			Dima'Xanians
+			
+			rep8
+			traits {
+				trait_pc_arid_preference
+				trait_sedentary
+				trait_resilient
+				trait_conservational
+				trait_quarrelsome
+				trait_adaptive
+			}
+		}
+		39 {
+			Rhonzar
+			
+			
+			lith2
+			traits {
+				trait_lithoid
+				trait_lithoid_gaseous_byproducts
+				trait_resilient
+				trait_deviants
+				trait_pc_desert_preference
+			}
+		}
+		40 {
+			Nuurian
+			Nuurians
+			
+			mol4
+			traits {
+				trait_pc_alpine_preference
+				trait_conformists
+			}
+		}
+		41 {
+			Sidimatus
+			
+			
+			pla10
+			traits {
+				trait_slow_breeders
+				trait_enduring
+				trait_sedentary
+				trait_conservational
+				trait_very_strong
+				trait_pc_arctic_preference
+			}
+		}
+		42 {
+			Lilarobius
+			
+			
+			pla6
+			traits {
+				trait_natural_engineers
+				trait_communal
+				trait_pc_desert_preference
+			}
+		}
+		43 {
+			Lavis
+			Lavii
+			
+			pla13
+			traits {
+				trait_pc_continental_preference
+				trait_slow_breeders
+				trait_decadent
+				trait_venerable
+				trait_strong
+			}
+		}
+		44 {
+			Tavurite
+			
+			
+			lith6
+			traits {
+				trait_lithoid
+				trait_quick_learners
+				trait_natural_engineers
+				trait_pc_ocean_preference
+			}
+		}
+		45 {
+			Ferbanite
+			
+			
+			lith11
+			traits {
+				trait_lithoid
+				trait_ingenious
+				trait_pc_ocean_preference
+			}
+		}
+		46 {
+			Yax'Kalock
+			
+			
+			art5
+			traits {
+				trait_communal
+				trait_quick_learners
+				trait_pc_savannah_preference
+			}
+		}
+		47 {
+			Khessam
+			
+			
+			avi14
+			traits {
+				trait_resilient
+				trait_enduring
+				trait_slow_breeders
+				trait_charismatic
+				trait_pc_arid_preference
+			}
+		}
+		48 {
+			Miidari
+			
+			
+			avi9
+			traits {
+				trait_strong
+				trait_conservational
+				trait_pc_ocean_preference
+			}
+		}
+		49 {
+			Erissu
+			
+			
+			avi10
+			traits {
+				trait_resilient
+				trait_talented
+				trait_pc_tropical_preference
+			}
+		}
+		50 {
+			Mishar
+			Mishars
+			
+			humanoid_03
+			traits {
+				trait_pc_arid_preference
+				trait_adaptive
+			}
+		}
+		51 {
+			Human
+			Humans
+			Human
+			human
+			traits {
+				trait_adaptive
+				trait_nomadic
+				trait_wasteful
+				trait_pc_continental_preference
+			}
+		}
+		52 {
+			Heejam
+			Heejami
+			
+			mol14
+			traits {
+				trait_pc_arid_preference
+				trait_weak
+				trait_slow_breeders
+				trait_agrarian
+				trait_ingenious
+				trait_conservational
+			}
+		}
+		53 {
+			Giranshu
+			Giranshu
+			
+			humanoid_hp_09
+			traits {
+				trait_pc_ocean_preference
+				trait_talented
+				trait_nomadic
+			}
+		}
+		54 {
+			Oned'Qarak
+			Oned'Qaraki
+			
+			mam5
+			traits {
+				trait_pc_savannah_preference
+				trait_repugnant
+				trait_conformists
+				trait_natural_sociologists
+				trait_strong
+			}
+		}
+	}
+	empires {
+		0 {
+			Kelbrid Domains
+			Domain
+			ethics {
+				Authoritarian
+				Materialist
+				Materialist
+			}
+			planets {
+				4 {
+					Shapara
+					pc_alpine
+					18
+					pops {
+0	1	Militarist	technician	worker	false	
+1	1	Authoritarian	technician	worker	false	
+2	1	Materialist	technician	worker	false	
+3	1	Materialist	miner	worker	false	
+4	1	Authoritarian	miner	worker	false	
+5	1	Authoritarian	miner	worker	false	
+6	1	Materialist	technician	worker	false	
+7	1	Authoritarian	miner	worker	false	
+8	1	Materialist	miner	worker	false	
+9	1	Authoritarian	miner	worker	false	
+10	1	Materialist	miner	worker	false	
+11	1	Materialist	miner	worker	false	
+12	0	Xenophobe	enforcer	specialist	false	
+13	0	Authoritarian	foundry	specialist	false	
+14	0	Authoritarian	clerk	worker	false	
+15	0	Xenophobe	clerk	worker	false	
+16	0	Xenophobe	clerk	worker	false	
+17	0	Xenophobe	artisan	specialist	false	
+18	0	Materialist	foundry	specialist	false	
+19	0	Materialist	researcher	specialist	false	
+20	0	Xenophobe	administrator	ruler	false	
+21	0	Authoritarian	artisan	specialist	false	
+22	0	Authoritarian	researcher	specialist	false	
+23	0	Materialist	administrator	ruler	false	
+					}
+				}
+			}
+			colors {
+				dark_grey
+				dark_brown
+				None
+				None
+			}
+		}
+		1 {
+			Tezekian Committee
+			Tezekian
+			ethics {
+				Authoritarian
+				Materialist
+				Materialist
+			}
+			planets {
+				24 {
+					Tezek
+					pc_tropical
+					16
+					pops {
+24	3	Gestalt	farmer	robot_servant	false	
+25	3	Gestalt	miner	robot_servant	false	
+26	3	Gestalt	farmer	robot_servant	false	
+27	3	Gestalt	farmer	robot_servant	false	
+28	3	Gestalt	miner	robot_servant	false	
+29	3	Gestalt	miner	robot_servant	false	
+30	3	Gestalt	farmer	robot_servant	false	
+31	3	Gestalt	miner	robot_servant	false	
+32	2	Materialist	roboticist	specialist	false	
+33	2	Authoritarian	enforcer	specialist	false	
+34	2	Authoritarian	technician	worker	false	
+35	2	Materialist		worker	false	
+36	2	Materialist		worker	false	
+37	2	Materialist	clerk	worker	false	
+38	2	Materialist	clerk	worker	false	
+39	2	Materialist	clerk	worker	false	
+40	2	Materialist	technician	worker	false	
+41	2	Materialist	technician	worker	false	
+42	2	Authoritarian	technician	worker	false	
+43	2	Materialist	technician	worker	false	
+44	2	Authoritarian	foundry	specialist	false	
+45	2	Materialist	technician	worker	false	
+46	2	Materialist	artisan	specialist	false	
+47	2	Materialist	artisan	specialist	false	
+48	2	Materialist	administrator	ruler	false	
+49	2	Authoritarian	foundry	specialist	false	
+50	2	Materialist	administrator	ruler	false	
+					}
+				}
+			}
+			colors {
+				dark_grey
+				green
+				green
+				None
+			}
+		}
+		2 {
+			Jhoolian Commissariat
+			Jhoolian
+			ethics {
+				Egalitarian
+				Militarist
+				Militarist
+			}
+			planets {
+				33 {
+					Jhool Prime
+					pc_arid
+					17
+					pops {
+51	4	Egalitarian	enforcer	specialist	false	
+52	4	Militarist	technician	worker	false	
+53	4	Militarist	miner	worker	false	
+54	4	Materialist		worker	false	
+55	4	Egalitarian	clerk	worker	false	
+56	4	Militarist	farmer	worker	false	
+57	4	Materialist		worker	false	
+58	4	Militarist	clerk	worker	false	
+59	4	Egalitarian	technician	worker	false	
+60	4	Militarist	farmer	worker	false	
+61	4	Egalitarian	miner	worker	false	
+62	4	Militarist	clerk	worker	false	
+63	4	Materialist	miner	worker	false	
+64	4	Egalitarian	technician	worker	false	
+65	4	Militarist	technician	worker	false	
+66	4	Materialist	farmer	worker	false	
+67	4	Militarist	farmer	worker	false	
+68	4	Egalitarian	administrator	ruler	false	
+69	4	Militarist	foundry	specialist	false	
+70	4	Militarist	artisan	specialist	false	
+71	4	Egalitarian	foundry	specialist	false	
+72	4	Egalitarian	miner	worker	false	
+73	4	Egalitarian	administrator	ruler	false	
+74	4	Militarist	artisan	specialist	false	
+					}
+				}
+			}
+			colors {
+				dark_blue
+				black
+				blue
+				None
+			}
+		}
+		3 {
+			Aramathi Regime
+			Aramathian
+			ethics {
+				Authoritarian
+				Authoritarian
+				Materialist
+			}
+			planets {
+				42 {
+					Arakim
+					pc_arid
+					20
+					pops {
+75	5	Xenophile	enforcer	specialist	false	
+76	5	Authoritarian		worker	false	
+77	5	Materialist	technician	slave	true	
+78	5	Egalitarian	technician	worker	false	
+79	5	Authoritarian		worker	false	
+80	5	Authoritarian	technician	slave	true	
+81	5	Authoritarian	clerk	worker	false	
+82	5	Materialist	farmer	slave	true	
+83	5	Authoritarian	clerk	worker	false	
+84	5	Materialist	farmer	worker	false	
+85	5	Authoritarian	farmer	slave	true	
+86	5	Authoritarian	foundry	specialist	false	
+87	5	Materialist	farmer	slave	true	
+88	5	Authoritarian	clerk	worker	false	
+89	5	Authoritarian	technician	worker	false	
+90	5	Materialist	miner	slave	true	
+91	5	Egalitarian	artisan	specialist	false	
+92	5	Authoritarian	miner	slave	true	
+93	5	Authoritarian	administrator	ruler	false	
+94	5	Materialist	artisan	specialist	false	
+95	5	Authoritarian	miner	slave	true	
+96	5	Materialist	foundry	specialist	false	
+97	5	Materialist	miner	slave	true	
+98	5	Egalitarian	administrator	ruler	false	
+					}
+				}
+			}
+			colors {
+				turquoise
+				indigo
+				black
+				None
+			}
+		}
+		4 {
+			Sovereign Lyrite Coalition
+			Lyritan
+			ethics {
+				Egalitarian
+				Materialist
+				Materialist
+			}
+			planets {
+				62 {
+					Lyrass
+					pc_desert
+					20
+					pops {
+99	6	Militarist	enforcer	specialist	false	
+100	6	Egalitarian	clerk	worker	false	
+101	6	Materialist	clerk	worker	false	
+102	6	Egalitarian	farmer	worker	false	
+103	6	Materialist		worker	false	
+104	6	Materialist	clerk	worker	false	
+105	6	Materialist		worker	false	
+106	6	Materialist	miner	worker	false	
+107	6	Egalitarian	farmer	worker	false	
+108	6	Materialist	farmer	worker	false	
+109	6	Materialist	miner	worker	false	
+110	6	Materialist	miner	worker	false	
+111	6	Materialist	farmer	worker	false	
+112	6	Egalitarian	miner	worker	false	
+113	6	Materialist	technician	worker	false	
+114	6	Egalitarian	technician	worker	false	
+115	6	Materialist	technician	worker	false	
+116	6	Egalitarian	foundry	specialist	false	
+117	6	Materialist	artisan	specialist	false	
+118	6	Egalitarian	artisan	specialist	false	
+119	6	Materialist	technician	worker	false	
+120	6	Egalitarian	foundry	specialist	false	
+121	6	Materialist	administrator	ruler	false	
+122	6	Egalitarian	administrator	ruler	false	
+					}
+				}
+			}
+			colors {
+				purple
+				red
+				black
+				None
+			}
+		}
+		5 {
+			Bessadon Hierarchy
+			Bessadon
+			ethics {
+				Xenophobe
+				Spiritualist
+				Spiritualist
+			}
+			planets {
+				78 {
+					Bessqa
+					pc_savannah
+					19
+					pops {
+123	7	Xenophobe	enforcer	specialist	false	
+124	7	Spiritualist		worker	false	
+125	7	Authoritarian	technician	worker	false	
+126	7	Spiritualist	farmer	worker	false	
+127	7	Xenophobe		worker	false	
+128	7	Xenophobe	technician	worker	false	
+129	7	Xenophobe	miner	worker	false	
+130	7	Spiritualist	farmer	worker	false	
+131	7	Spiritualist	clerk	worker	false	
+132	7	Authoritarian	farmer	worker	false	
+133	7	Xenophobe	clerk	worker	false	
+134	7	Authoritarian	miner	worker	false	
+135	7	Spiritualist	technician	worker	false	
+136	7	Spiritualist	technician	worker	false	
+137	7	Authoritarian	miner	worker	false	
+138	7	Spiritualist	farmer	worker	false	
+139	7	Spiritualist	clerk	worker	false	
+140	7	Xenophobe	miner	worker	false	
+141	7	Authoritarian	foundry	specialist	false	
+142	7	Spiritualist	administrator	ruler	false	
+143	7	Spiritualist	artisan	specialist	false	
+144	7	Xenophobe	foundry	specialist	false	
+145	7	Spiritualist	administrator	ruler	false	
+146	7	Authoritarian	artisan	specialist	false	
+					}
+				}
+			}
+			colors {
+				pink
+				dark_grey
+				pink
+				None
+			}
+		}
+		6 {
+			Great Obadin Hierarchy
+			Obadin
+			ethics {
+				Xenophobe
+				Militarist
+				Militarist
+			}
+			planets {
+				89 {
+					Obadin
+					pc_ocean
+					16
+					pops {
+147	8	Militarist	enforcer	specialist	false	
+148	8	Xenophobe		worker	false	
+149	8	Xenophobe		worker	false	
+150	8	Militarist	technician	worker	false	
+151	8	Xenophobe	clerk	worker	false	
+152	8	Militarist	farmer	worker	false	
+153	8	Xenophobe	miner	worker	false	
+154	8	Xenophobe	clerk	worker	false	
+155	8	Militarist	miner	worker	false	
+156	8	Militarist	clerk	worker	false	
+157	8	Militarist	miner	worker	false	
+158	8	Xenophobe	technician	worker	false	
+159	8	Xenophobe	technician	worker	false	
+160	8	Militarist	artisan	specialist	false	
+161	8	Militarist	farmer	worker	false	
+162	8	Xenophobe	farmer	worker	false	
+163	8	Xenophobe	technician	worker	false	
+164	8	Xenophobe	artisan	specialist	false	
+165	8	Militarist	miner	worker	false	
+166	8	Militarist	foundry	specialist	false	
+167	8	Militarist	farmer	worker	false	
+168	8	Xenophobe	administrator	ruler	false	
+169	8	Militarist	foundry	specialist	false	
+170	8	Militarist	administrator	ruler	false	
+					}
+				}
+			}
+			colors {
+				dark_teal
+				orange
+				black
+				None
+			}
+		}
+		7 {
+			Estwani Syndicate
+			Estwanian
+			ethics {
+				Authoritarian
+				Xenophile
+				Xenophile
+			}
+			planets {
+				114 {
+					Estwaana
+					pc_savannah
+					17
+					pops {
+171	9	Xenophobe	enforcer	specialist	false	
+172	9	Authoritarian	clerk	worker	false	
+173	9	Xenophile	clerk	worker	false	
+174	9	Xenophile	clerk	worker	false	
+175	9	Militarist	clerk	worker	false	
+176	9	Xenophile	clerk	worker	false	
+177	9	Authoritarian		worker	false	
+178	9	Authoritarian	technician	worker	false	
+179	9	Xenophile	miner	worker	false	
+180	9	Authoritarian		worker	false	
+181	9	Militarist	farmer	worker	false	
+182	9	Xenophile	farmer	worker	false	
+183	9	Authoritarian	miner	worker	false	
+184	9	Authoritarian	technician	worker	false	
+185	9	Xenophile	miner	worker	false	
+186	9	Authoritarian	foundry	specialist	false	
+187	9	Xenophile	farmer	worker	false	
+188	9	Xenophile	artisan	specialist	false	
+189	9	Xenophile	artisan	specialist	false	
+190	9	Authoritarian	miner	worker	false	
+191	9	Xenophile	farmer	worker	false	
+192	9	Xenophile	executive	ruler	false	
+193	9	Authoritarian	clerk	worker	false	
+194	9	Xenophile	foundry	specialist	false	
+195	9	Xenophile	executive	ruler	false	
+196	9	Authoritarian	clerk	worker	false	
+197	9	Xenophile	clerk	worker	false	
+198	9	Militarist	clerk	worker	false	
+					}
+				}
+			}
+			colors {
+				brown
+				orange
+				black
+				None
+			}
+		}
+		8 {
+			Dekron Animus
+			Dekron
+			ethics {
+				Gestalt
+			}
+			planets {
+				124 {
+					Dekronia
+					pc_tropical
+					16
+					pops {
+199	11	Gestalt	replicator	complex_drone	false	
+200	11	Gestalt	replicator	complex_drone	false	
+201	11	Gestalt	replicator	complex_drone	false	
+202	11	Gestalt	maintenance_drone	simple_drone	false	
+203	11	Gestalt	maintenance_drone	simple_drone	false	
+204	11	Gestalt	patrol_drone	complex_drone	false	
+205	11	Gestalt	technician_drone	simple_drone	false	
+206	11	Gestalt	technician_drone	simple_drone	false	
+207	11	Gestalt	technician_drone	simple_drone	false	
+208	11	Gestalt	maintenance_drone	simple_drone	false	
+209	10	Gestalt	coordinator	complex_drone	false	
+210	10	Gestalt	coordinator	complex_drone	false	
+211	10	Gestalt	maintenance_drone	simple_drone	false	
+212	10	Gestalt	maintenance_drone	simple_drone	false	
+213	10	Gestalt	mining_drone	simple_drone	false	
+214	10	Gestalt	agri_drone	simple_drone	false	
+215	10	Gestalt		simple_drone	false	
+216	10	Gestalt	agri_drone	simple_drone	false	
+217	10	Gestalt	mining_drone	simple_drone	false	
+218	10	Gestalt	fabricator	complex_drone	false	
+219	10	Gestalt	mining_drone	simple_drone	false	
+220	10	Gestalt	technician_drone	simple_drone	false	
+221	10	Gestalt	fabricator	complex_drone	false	
+222	10	Gestalt	mining_drone	simple_drone	false	
+223	10	Gestalt	technician_drone	simple_drone	false	
+224	10	Gestalt	technician_drone	simple_drone	false	
+225	10	Gestalt	technician_drone	simple_drone	false	
+226	10	Gestalt	technician_drone	simple_drone	false	
+227	10	Gestalt	technician_drone	simple_drone	false	
+					}
+				}
+			}
+			colors {
+				dark_grey
+				red_orange
+				orange
+				None
+			}
+		}
+		9 {
+			Pelx-Cradonian Eradicators
+			Pelx-Cradonian
+			ethics {
+				Xenophobe
+				Xenophobe
+				Spiritualist
+			}
+			planets {
+				140 {
+					Cradon
+					pc_desert
+					19
+					pops {
+228	12	Xenophobe	enforcer	specialist	false	
+229	12	Spiritualist	clerk	worker	false	
+230	12	Spiritualist	clerk	worker	false	
+231	12	Spiritualist		worker	false	
+232	12	Xenophobe		worker	false	
+233	12	Xenophobe	technician	worker	false	
+234	12	Spiritualist	miner	worker	false	
+235	12	Xenophobe	miner	worker	false	
+236	12	Xenophobe	technician	worker	false	
+237	12	Xenophobe	miner	worker	false	
+238	12	Xenophobe	clerk	worker	false	
+239	12	Xenophobe	technician	worker	false	
+240	12	Xenophobe	miner	worker	false	
+241	12	Xenophobe	farmer	worker	false	
+242	12	Spiritualist	technician	worker	false	
+243	12	Xenophobe	farmer	worker	false	
+244	12	Spiritualist	farmer	worker	false	
+245	12	Spiritualist	foundry	specialist	false	
+246	12	Xenophobe	artisan	specialist	false	
+247	12	Spiritualist	foundry	specialist	false	
+248	12	Xenophobe	artisan	specialist	false	
+249	12	Xenophobe	administrator	ruler	false	
+250	12	Xenophobe	administrator	ruler	false	
+251	12	Xenophobe	farmer	worker	false	
+					}
+				}
+			}
+			colors {
+				orange
+				indigo
+				black
+				None
+			}
+		}
+		10 {
+			Suramo Consumer Products
+			Suramo
+			ethics {
+				Xenophobe
+				Xenophobe
+				Militarist
+			}
+			planets {
+				167 {
+					Suramo Prime
+					pc_ocean
+					16
+					pops {
+252	13	Authoritarian	enforcer	specialist	false	
+253	13	Xenophobe	clerk	worker	false	
+254	13	Militarist	clerk	worker	false	
+255	13	Xenophobe	clerk	worker	false	
+256	13	Materialist	clerk	worker	false	
+257	13	Xenophobe	clerk	worker	false	
+258	13	Xenophobe		worker	false	
+259	13	Militarist	farmer	worker	false	
+260	13	Xenophobe		worker	false	
+261	13	Materialist	farmer	worker	false	
+262	13	Xenophobe	miner	worker	false	
+263	13	Militarist	farmer	worker	false	
+264	13	Militarist	miner	worker	false	
+265	13	Militarist	miner	worker	false	
+266	13	Xenophobe	miner	worker	false	
+267	13	Militarist	farmer	worker	false	
+268	13	Xenophobe	technician	worker	false	
+269	13	Militarist	technician	worker	false	
+270	13	Militarist	foundry	specialist	false	
+271	13	Xenophobe	foundry	specialist	false	
+272	13	Materialist	executive	ruler	false	
+273	13	Xenophobe	artisan	specialist	false	
+274	13	Militarist	clerk	worker	false	
+275	13	Xenophobe	artisan	specialist	false	
+276	13	Xenophobe	executive	ruler	false	
+277	13	Xenophobe	clerk	worker	false	
+278	13	Xenophobe	clerk	worker	false	
+279	13	Materialist	clerk	worker	false	
+					}
+				}
+			}
+			colors {
+				dark_grey
+				red
+				red
+				None
+			}
+		}
+		11 {
+			Kel-Azaan Republic
+			Azaan
+			ethics {
+				Egalitarian
+				Militarist
+				Militarist
+			}
+			planets {
+				178 {
+					Azak
+					pc_savannah
+					18
+					pops {
+280	14	Spiritualist	enforcer	specialist	false	
+281	14	Egalitarian		worker	false	
+282	14	Militarist		worker	false	
+283	14	Militarist	clerk	worker	false	
+284	14	Militarist	clerk	worker	false	
+285	14	Militarist	farmer	worker	false	
+286	14	Egalitarian	technician	worker	false	
+287	14	Militarist	miner	worker	false	
+288	14	Egalitarian	miner	worker	false	
+289	14	Egalitarian	technician	worker	false	
+290	14	Militarist	technician	worker	false	
+291	14	Militarist	miner	worker	false	
+292	14	Militarist	farmer	worker	false	
+293	14	Militarist	farmer	worker	false	
+294	14	Militarist	clerk	worker	false	
+295	14	Militarist	miner	worker	false	
+296	14	Egalitarian	artisan	specialist	false	
+297	14	Militarist	technician	worker	false	
+298	14	Egalitarian	farmer	worker	false	
+299	14	Egalitarian	foundry	specialist	false	
+300	14	Militarist	artisan	specialist	false	
+301	14	Militarist	foundry	specialist	false	
+302	14	Militarist	administrator	ruler	false	
+303	14	Egalitarian	administrator	ruler	false	
+					}
+				}
+			}
+			colors {
+				purple
+				dark_purple
+				None
+				None
+			}
+		}
+		12 {
+			Sirgogg Tribes
+			Sirgogg
+			ethics {
+				Xenophobe
+				Militarist
+				Militarist
+			}
+			planets {
+				188 {
+					Vasgogg
+					pc_tropical
+					20
+					pops {
+304	15	Spiritualist	enforcer	specialist	false	
+305	15	Xenophobe	miner	worker	false	
+306	15	Militarist	technician	worker	false	
+307	15	Materialist	farmer	worker	false	
+308	15	Egalitarian	technician	worker	false	
+309	15	Egalitarian	technician	worker	false	
+310	15	Militarist	farmer	worker	false	
+311	15	Xenophobe	farmer	worker	false	
+312	15	Militarist	technician	worker	false	
+313	15	Militarist	farmer	worker	false	
+314	15	Militarist	technician	worker	false	
+315	15	Egalitarian	farmer	worker	false	
+316	15	Militarist	miner	worker	false	
+317	15	Materialist	technician	worker	false	
+318	15	Xenophobe	technician	worker	false	
+319	15	Militarist	miner	worker	false	
+320	15	Xenophobe	farmer	worker	false	
+321	15	Militarist	miner	worker	false	
+322	15	Militarist	miner	worker	false	
+323	15	Militarist	technician	worker	false	
+324	15	Xenophobe	farmer	worker	false	
+325	15	Xenophobe	farmer	worker	false	
+326	15	Militarist	miner	worker	false	
+327	15	Xenophobe	artisan	specialist	false	
+807	15	Materialist	foundry	specialist	false	
+808	15	Militarist	clerk	worker	false	
+809	15	Egalitarian	clerk	worker	false	
+810	15	Militarist	clerk	worker	false	
+811	15	Materialist	clerk	worker	false	
+812	15	Militarist	clerk	worker	false	
+813	15	Xenophobe	artisan	specialist	false	
+814	15	Militarist	artisan	specialist	false	
+815	15	Egalitarian	foundry	specialist	false	
+816	15	Xenophobe	artisan	specialist	false	
+817	15	Militarist	researcher	specialist	false	
+818	15	Materialist	researcher	specialist	false	
+819	15	Egalitarian	clerk	worker	false	
+820	15	Militarist	administrator	ruler	false	
+821	15	Militarist	clerk	worker	false	
+822	15	Materialist	clerk	worker	false	
+823	15	Xenophobe	clerk	worker	false	
+824	15	Militarist	clerk	worker	false	
+825	15	Xenophobe	administrator	ruler	false	
+					}
+				}
+			}
+			colors {
+				indigo
+				pink
+				black
+				None
+			}
+		}
+		13 {
+			Prossnakan Vestige
+			Prossnakan
+			ethics {
+				Xenophobe
+				Xenophobe
+				Xenophobe
+			}
+			planets {
+				622 {
+					NAME_The_Core
+					pc_gaia
+					25
+					pops {
+328	16	Xenophobe	fe_protector	precursor	false	
+329	16	Xenophobe	fe_protector	precursor	false	
+330	16	Xenophobe	fe_protector	precursor	false	
+331	16	Xenophobe	fe_protector	precursor	false	
+332	16	Xenophobe	fe_protector	precursor	false	
+333	16	Xenophobe	fe_protector	precursor	false	
+334	16	Xenophobe	fe_protector	precursor	false	
+335	16	Xenophobe	fe_protector	precursor	false	
+336	16	Xenophobe	fe_protector	precursor	false	
+337	16	Xenophobe	fe_protector	precursor	false	
+338	16	Xenophobe	fe_protector	precursor	false	
+339	16	Xenophobe	fe_protector	precursor	false	
+340	16	Xenophobe	fe_overseer	precursor	false	
+341	16	Xenophobe	fe_overseer	precursor	false	
+342	16	Xenophobe	fe_hedonist	precursor	false	
+343	16	Xenophobe	fe_hedonist	precursor	false	
+344	16	Xenophobe	fe_hedonist	precursor	false	
+345	16	Xenophobe	fe_hedonist	precursor	false	
+346	16	Xenophobe	fe_hedonist	precursor	false	
+347	16	Xenophobe	fe_hedonist	precursor	false	
+348	16	Xenophobe	fe_hedonist	precursor	false	
+349	16	Xenophobe	fe_hedonist	precursor	false	
+350	16	Xenophobe	fe_hedonist	precursor	false	
+351	16	Xenophobe	fe_hedonist	precursor	false	
+352	16	Xenophobe	fe_hedonist	precursor	false	
+353	16	Xenophobe	fe_hedonist	precursor	false	
+354	16	Xenophobe	fe_hedonist	precursor	false	
+355	16	Xenophobe	fe_hedonist	precursor	false	
+356	16	Xenophobe	fe_hedonist	precursor	false	
+357	16	Xenophobe	fe_hedonist	precursor	false	
+358	16	Xenophobe	fe_hedonist	precursor	false	
+359	16	Xenophobe	fe_hedonist	precursor	false	
+360	16	Xenophobe	fe_hedonist	precursor	false	
+361	16	Xenophobe	fe_hedonist	precursor	false	
+362	16	Xenophobe	fe_hedonist	precursor	false	
+363	16	Xenophobe	fe_hedonist	precursor	false	
+364	16	Xenophobe	fe_hedonist	precursor	false	
+365	16	Xenophobe	fe_hedonist	precursor	false	
+366	16	Xenophobe	fe_hedonist	precursor	false	
+367	16	Xenophobe	fe_hedonist	precursor	false	
+368	16	Xenophobe	fe_hedonist	precursor	false	
+369	16	Xenophobe	fe_hedonist	precursor	false	
+370	16	Xenophobe	fe_hedonist	precursor	false	
+371	16	Xenophobe	fe_hedonist	precursor	false	
+372	16	Xenophobe	fe_hedonist	precursor	false	
+373	16	Xenophobe	fe_hedonist	precursor	false	
+374	16	Xenophobe	fe_hedonist	precursor	false	
+375	16	Xenophobe	fe_hedonist	precursor	false	
+376	16	Xenophobe	fe_hedonist	precursor	false	
+377	16	Xenophobe	fe_hedonist	precursor	false	
+378	16	Xenophobe	fe_hedonist	precursor	false	
+379	16	Xenophobe	fe_hedonist	precursor	false	
+380	16	Xenophobe	fe_hedonist	precursor	false	
+381	16	Xenophobe	fe_hedonist	precursor	false	
+382	16	Xenophobe	fe_hedonist	precursor	false	
+383	16	Xenophobe	fe_hedonist	precursor	false	
+384	16	Xenophobe	fe_hedonist	precursor	false	
+385	16	Xenophobe	fe_hedonist	precursor	false	
+386	16	Xenophobe	fe_hedonist	precursor	false	
+387	16	Xenophobe	fe_hedonist	precursor	false	
+388	16	Xenophobe	fe_hedonist	precursor	false	
+389	16	Xenophobe	fe_hedonist	precursor	false	
+390	17	Gestalt	servant	slave	false	
+391	17	Gestalt	servant	slave	false	
+392	17	Gestalt	servant	slave	false	
+393	17	Gestalt	servant	slave	false	
+394	17	Gestalt	servant	slave	false	
+395	17	Gestalt	servant	slave	false	
+396	17	Gestalt	servant	slave	false	
+397	17	Gestalt	servant	slave	false	
+398	17	Gestalt	servant	slave	false	
+399	17	Gestalt	servant	slave	false	
+400	17	Gestalt	servant	slave	false	
+401	17	Gestalt	servant	slave	false	
+402	17	Gestalt	servant	slave	false	
+403	17	Gestalt	servant	slave	false	
+404	17	Gestalt	servant	slave	false	
+405	17	Gestalt	servant	slave	false	
+406	17	Gestalt	servant	slave	false	
+407	17	Gestalt	servant	slave	false	
+408	17	Gestalt	servant	slave	false	
+409	17	Gestalt	servant	slave	false	
+410	17	Gestalt	servant	slave	false	
+411	17	Gestalt	servant	slave	false	
+412	17	Gestalt	servant	slave	false	
+413	17	Gestalt	servant	slave	false	
+414	17	Gestalt	servant	slave	false	
+415	17	Gestalt	servant	slave	false	
+416	17	Gestalt	servant	slave	false	
+417	17	Gestalt	servant	slave	false	
+418	17	Gestalt	servant	slave	false	
+419	17	Gestalt	servant	slave	false	
+420	17	Gestalt	servant	slave	false	
+421	17	Gestalt	servant	slave	false	
+422	17	Gestalt	servant	slave	false	
+423	17	Gestalt	servant	slave	false	
+424	17	Gestalt	servant	slave	false	
+425	17	Gestalt	servant	slave	false	
+426	17	Gestalt	servant	slave	false	
+427	17	Gestalt	servant	slave	false	
+428	17	Gestalt	servant	slave	false	
+429	17	Gestalt	servant	slave	false	
+430	17	Gestalt	servant	slave	false	
+431	17	Gestalt	servant	slave	false	
+432	17	Gestalt	servant	slave	false	
+433	17	Gestalt	servant	slave	false	
+434	17	Gestalt	servant	slave	false	
+435	17	Gestalt	servant	slave	false	
+436	17	Gestalt	servant	slave	false	
+437	17	Gestalt	servant	slave	false	
+438	17	Gestalt	servant	slave	false	
+439	17	Gestalt	servant	slave	false	
+440	17	Gestalt	servant	slave	false	
+441	17	Gestalt	servant	slave	false	
+442	17	Gestalt	servant	slave	false	
+443	17	Gestalt	servant	slave	false	
+444	17	Gestalt	servant	slave	false	
+445	17	Gestalt	servant	slave	false	
+446	17	Gestalt	servant	slave	false	
+447	17	Gestalt	servant	slave	false	
+448	17	Gestalt	servant	slave	false	
+449	17	Gestalt	servant	slave	false	
+450	17	Gestalt	servant	slave	false	
+451	17	Gestalt	servant	slave	false	
+					}
+				}
+				623 {
+					NAME_Boundary
+					pc_gaia
+					12
+					pops {
+452	16	Xenophobe	fe_protector	precursor	false	
+453	16	Xenophobe	fe_protector	precursor	false	
+454	16	Xenophobe	fe_protector	precursor	false	
+455	16	Xenophobe	fe_protector	precursor	false	
+456	16	Xenophobe	fe_protector	precursor	false	
+457	16	Xenophobe	fe_protector	precursor	false	
+458	16	Xenophobe	fe_protector	precursor	false	
+459	16	Xenophobe	fe_protector	precursor	false	
+460	16	Xenophobe	fe_protector	precursor	false	
+461	16	Xenophobe	fe_protector	precursor	false	
+462	16	Xenophobe	fe_protector	precursor	false	
+463	16	Xenophobe	fe_protector	precursor	false	
+464	16	Xenophobe	fe_overseer	precursor	false	
+465	16	Xenophobe	fe_overseer	precursor	false	
+466	16	Xenophobe	fe_hedonist	precursor	false	
+467	16	Xenophobe	fe_hedonist	precursor	false	
+468	16	Xenophobe	fe_hedonist	precursor	false	
+469	16	Xenophobe	fe_hedonist	precursor	false	
+470	16	Xenophobe	fe_hedonist	precursor	false	
+471	16	Xenophobe	fe_hedonist	precursor	false	
+472	16	Xenophobe	fe_hedonist	precursor	false	
+473	16	Xenophobe	fe_hedonist	precursor	false	
+474	16	Xenophobe	fe_hedonist	precursor	false	
+475	16	Xenophobe	fe_hedonist	precursor	false	
+476	16	Xenophobe	fe_hedonist	precursor	false	
+477	16	Xenophobe	fe_hedonist	precursor	false	
+478	16	Xenophobe	fe_hedonist	precursor	false	
+479	16	Xenophobe	fe_hedonist	precursor	false	
+480	16	Xenophobe	fe_hedonist	precursor	false	
+481	16	Xenophobe	fe_hedonist	precursor	false	
+482	16	Xenophobe	fe_hedonist	precursor	false	
+483	16	Xenophobe	fe_hedonist	precursor	false	
+484	16	Xenophobe	fe_hedonist	precursor	false	
+485	17	Gestalt	servant	slave	false	
+486	17	Gestalt	servant	slave	false	
+487	17	Gestalt	servant	slave	false	
+488	17	Gestalt	servant	slave	false	
+489	17	Gestalt	servant	slave	false	
+490	17	Gestalt	servant	slave	false	
+491	17	Gestalt	servant	slave	false	
+492	17	Gestalt	servant	slave	false	
+493	17	Gestalt	servant	slave	false	
+494	17	Gestalt	servant	slave	false	
+495	17	Gestalt	servant	slave	false	
+496	17	Gestalt	servant	slave	false	
+497	17	Gestalt	servant	slave	false	
+498	17	Gestalt	servant	slave	false	
+499	17	Gestalt	servant	slave	false	
+500	17	Gestalt	servant	slave	false	
+501	17	Gestalt	servant	slave	false	
+502	17	Gestalt	servant	slave	false	
+503	17	Gestalt	servant	slave	false	
+504	17	Gestalt	servant	slave	false	
+505	17	Gestalt	servant	slave	false	
+506	17	Gestalt	servant	slave	false	
+507	17	Gestalt	servant	slave	false	
+508	17	Gestalt	servant	slave	false	
+509	17	Gestalt	servant	slave	false	
+510	17	Gestalt	servant	slave	false	
+511	17	Gestalt	servant	slave	false	
+512	17	Gestalt	servant	slave	false	
+513	17	Gestalt	servant	slave	false	
+514	17	Gestalt	servant	slave	false	
+515	17	Gestalt	servant	slave	false	
+516	17	Gestalt	servant	slave	false	
+517	17	Gestalt	servant	slave	false	
+					}
+				}
+				683 {
+					Volmaur III
+					pc_tundra
+					16
+					pops {
+518	16	Xenophobe	fe_overseer	precursor	false	
+519	16	Xenophobe	fe_overseer	precursor	false	
+520	16	Xenophobe	fe_protector	precursor	false	
+521	16	Xenophobe	fe_protector	precursor	false	
+522	16	Xenophobe	fe_hedonist	precursor	false	
+523	16	Xenophobe	fe_hedonist	precursor	false	
+524	16	Xenophobe	fe_hedonist	precursor	false	
+525	16	Xenophobe	fe_hedonist	precursor	false	
+526	17	Gestalt	servant	slave	false	
+527	17	Gestalt	servant	slave	false	
+528	17	Gestalt	servant	slave	false	
+529	17	Gestalt	servant	slave	false	
+530	17	Gestalt	servant	slave	false	
+531	17	Gestalt	servant	slave	false	
+532	17	Gestalt	servant	slave	false	
+533	17	Gestalt	servant	slave	false	
+					}
+				}
+				693 {
+					Bythia I
+					pc_tundra
+					16
+					pops {
+534	16	Xenophobe	fe_overseer	precursor	false	
+535	16	Xenophobe	fe_overseer	precursor	false	
+536	16	Xenophobe	fe_protector	precursor	false	
+537	16	Xenophobe	fe_protector	precursor	false	
+538	16	Xenophobe	fe_hedonist	precursor	false	
+539	16	Xenophobe	fe_hedonist	precursor	false	
+540	16	Xenophobe	fe_hedonist	precursor	false	
+541	16	Xenophobe	fe_hedonist	precursor	false	
+542	17	Gestalt	servant	slave	false	
+543	17	Gestalt	servant	slave	false	
+544	17	Gestalt	servant	slave	false	
+545	17	Gestalt	servant	slave	false	
+546	17	Gestalt	servant	slave	false	
+547	17	Gestalt	servant	slave	false	
+548	17	Gestalt	servant	slave	false	
+549	17	Gestalt	servant	slave	false	
+					}
+				}
+				700 {
+					Qoclite I
+					pc_tundra
+					16
+					pops {
+550	16	Xenophobe	fe_overseer	precursor	false	
+551	16	Xenophobe	fe_overseer	precursor	false	
+552	16	Xenophobe	fe_protector	precursor	false	
+553	16	Xenophobe	fe_protector	precursor	false	
+554	16	Xenophobe	fe_hedonist	precursor	false	
+555	16	Xenophobe	fe_hedonist	precursor	false	
+556	16	Xenophobe	fe_hedonist	precursor	false	
+557	16	Xenophobe	fe_hedonist	precursor	false	
+558	17	Gestalt	servant	slave	false	
+559	17	Gestalt	servant	slave	false	
+560	17	Gestalt	servant	slave	false	
+561	17	Gestalt	servant	slave	false	
+562	17	Gestalt	servant	slave	false	
+563	17	Gestalt	servant	slave	false	
+564	17	Gestalt	servant	slave	false	
+565	17	Gestalt	servant	slave	false	
+					}
+				}
+				717 {
+					Alioth I
+					pc_tundra
+					16
+					pops {
+566	16	Xenophobe	fe_overseer	precursor	false	
+567	16	Xenophobe	fe_overseer	precursor	false	
+568	16	Xenophobe	fe_protector	precursor	false	
+569	16	Xenophobe	fe_protector	precursor	false	
+570	16	Xenophobe	fe_hedonist	precursor	false	
+571	16	Xenophobe	fe_hedonist	precursor	false	
+572	16	Xenophobe	fe_hedonist	precursor	false	
+573	16	Xenophobe	fe_hedonist	precursor	false	
+574	17	Gestalt	servant	slave	false	
+575	17	Gestalt	servant	slave	false	
+576	17	Gestalt	servant	slave	false	
+577	17	Gestalt	servant	slave	false	
+578	17	Gestalt	servant	slave	false	
+579	17	Gestalt	servant	slave	false	
+580	17	Gestalt	servant	slave	false	
+581	17	Gestalt	servant	slave	false	
+					}
+				}
+			}
+			colors {
+				blue
+				red_orange
+				black
+				None
+			}
+		}
+		14 {
+			Akkano Star Tribes
+			Akkano
+			ethics {
+				Xenophobe
+				Militarist
+				Militarist
+			}
+			planets {
+			}
+			colors {
+				black
+				black
+				None
+				None
+			}
+		}
+		15 {
+			Xabir Civilization
+			Xabiran
+			ethics {
+				Pacifist
+				Pacifist
+				Materialist
+			}
+			planets {
+				847 {
+					Dorfil IIa
+					pc_gaia
+					22
+					pops {
+582	19	Pacifist	hunter_gatherer	worker	false	
+583	19	Materialist	hunter_gatherer	worker	false	
+584	19	Pacifist	hunter_gatherer	worker	false	
+585	19	Materialist	hunter_gatherer	worker	false	
+					}
+				}
+			}
+			colors {
+				turquoise
+				green
+				None
+				None
+			}
+		}
+		16 {
+			Sanctuary
+			
+			ethics {
+				None
+			}
+			planets {
+			}
+			colors {
+				dark_grey
+				burgundy
+				red
+				None
+			}
+		}
+		17 {
+			Vetirisius Civilization
+			Vetirisian
+			ethics {
+				Egalitarian
+				Pacifist
+				Materialist
+			}
+			planets {
+				851 {
+					NAME_Sanctuary_A
+					pc_ringworld_habitable
+					5
+					pops {
+586	21	Egalitarian	primitive_noble	ruler	false	
+587	21	Pacifist	primitive_priest	specialist	false	
+588	21	Egalitarian	primitive_warrior	specialist	false	
+589	21	Materialist	primitive_researcher	specialist	false	
+590	21	Pacifist	primitive_laborer	worker	false	
+591	21	Materialist	primitive_laborer	worker	false	
+592	21	Egalitarian	primitive_miner	worker	false	
+593	21	Egalitarian	primitive_miner	worker	false	
+594	21	Pacifist	peasant	worker	false	
+595	21	Egalitarian	peasant	worker	false	
+596	21	Materialist	peasant	worker	false	
+597	21	Pacifist	peasant	worker	false	
+598	21	Materialist	peasant	worker	false	
+599	21	Materialist	peasant	worker	false	
+600	21	Egalitarian	peasant	worker	false	
+601	21	Materialist	peasant	worker	false	
+					}
+				}
+			}
+			colors {
+				orange
+				red
+				None
+				None
+			}
+		}
+		18 {
+			Kalaxenan Civilization
+			Kalaxenan
+			ethics {
+				Xenophile
+				Materialist
+				Materialist
+			}
+			planets {
+				854 {
+					NAME_Sanctuary-D
+					pc_ringworld_habitable
+					5
+					pops {
+602	22	Xenophile	primitive_noble	ruler	false	
+603	22	Materialist	primitive_warrior	specialist	false	
+604	22	Materialist	primitive_researcher	specialist	false	
+605	22	Materialist	peasant	worker	false	
+606	22	Materialist	peasant	worker	false	
+607	22	Xenophile	primitive_priest	specialist	false	
+608	22	Materialist	peasant	worker	false	
+609	22	Xenophile	peasant	worker	false	
+610	22	Xenophile	peasant	worker	false	
+611	22	Materialist	peasant	worker	false	
+					}
+				}
+			}
+			colors {
+				light_blue
+				blue
+				None
+				None
+			}
+		}
+		19 {
+			Mandasura Civilization
+			Mandasuran
+			ethics {
+				Authoritarian
+				Pacifist
+				Materialist
+			}
+			planets {
+				857 {
+					NAME_Sanctuary-G
+					pc_ringworld_habitable
+					5
+					pops {
+612	23	Pacifist	hunter_gatherer	worker	false	
+613	23	Authoritarian	hunter_gatherer	worker	false	
+614	23	Materialist	hunter_gatherer	worker	false	
+615	23	Materialist	hunter_gatherer	worker	false	
+					}
+				}
+			}
+			colors {
+				turquoise
+				green
+				None
+				None
+			}
+		}
+		20 {
+			Fevarian Civilization
+			Fevarian
+			ethics {
+				Authoritarian
+				Militarist
+				Militarist
+			}
+			planets {
+				860 {
+					NAME_Sanctuary-J
+					pc_ringworld_habitable
+					5
+					pops {
+616	24	Militarist	primitive_noble	ruler	false	
+617	24	Authoritarian	primitive_researcher	specialist	false	
+618	24	Militarist	primitive_warrior	specialist	false	
+619	24	Authoritarian	primitive_priest	specialist	false	
+620	24	Authoritarian	peasant	worker	false	
+621	24	Authoritarian	peasant	worker	false	
+622	24	Militarist	peasant	worker	false	
+623	24	Authoritarian	peasant	worker	false	
+624	24	Militarist	peasant	worker	false	
+625	24	Authoritarian	peasant	worker	false	
+626	24	Militarist	peasant	worker	false	
+627	24	Authoritarian	peasant	worker	false	
+					}
+				}
+			}
+			colors {
+				pink
+				burgundy
+				None
+				None
+			}
+		}
+		21 {
+			Curator Order
+			
+			ethics {
+				Pacifist
+				Materialist
+				Materialist
+			}
+			planets {
+			}
+			colors {
+				blue
+				dark_blue
+				None
+				None
+			}
+		}
+		22 {
+			Caravansary Caravan Coalition
+			
+			ethics {
+				Egalitarian
+				Xenophile
+				Pacifist
+			}
+			planets {
+			}
+			colors {
+				green
+				dark_green
+				None
+				None
+			}
+		}
+		23 {
+			The Vengralian Trium
+			
+			ethics {
+				Xenophile
+				Pacifist
+				Materialist
+			}
+			planets {
+			}
+			colors {
+				light_blue
+				purple
+				None
+				None
+			}
+		}
+		24 {
+			The Numistic Order
+			
+			ethics {
+				Egalitarian
+				Xenophile
+				Pacifist
+			}
+			planets {
+			}
+			colors {
+				dark_purple
+				pink
+				None
+				None
+			}
+		}
+		25 {
+			Tiyanki Space Whale Ancient
+			
+			ethics {
+				None
+			}
+			planets {
+			}
+			colors {
+				blue
+				blue
+				None
+				None
+			}
+		}
+		26 {
+			Korinth Civilization
+			Korinth
+			ethics {
+				Authoritarian
+				Authoritarian
+				Xenophile
+			}
+			planets {
+				988 {
+					Liram I
+					pc_savannah
+					18
+					pops {
+628	30	Authoritarian	primitive_noble	ruler	false	
+629	30	Xenophile	primitive_warrior	specialist	false	
+630	30	Xenophile	primitive_researcher	specialist	false	
+631	30	Authoritarian	primitive_priest	specialist	false	
+632	30	Xenophile	peasant	worker	false	
+633	30	Xenophile	peasant	worker	false	
+634	30	Authoritarian	peasant	worker	false	
+635	30	Authoritarian	peasant	worker	false	
+					}
+				}
+			}
+			colors {
+				green
+				dark_green
+				None
+				None
+			}
+		}
+		27 {
+			Infinity Machine
+			
+			ethics {
+				None
+			}
+			planets {
+			}
+			colors {
+				red
+				red
+				None
+				None
+			}
+		}
+		28 {
+			Artisan Troupe
+			
+			ethics {
+				Xenophile
+				Xenophile
+				Spiritualist
+			}
+			planets {
+			}
+			colors {
+				dark_purple
+				purple
+				None
+				None
+			}
+		}
+		29 {
+			XuraCorp
+			
+			ethics {
+				Xenophile
+				Materialist
+				Materialist
+			}
+			planets {
+			}
+			colors {
+				green
+				dark_green
+				None
+				None
+			}
+		}
+		30 {
+			Photecian Civilization
+			Photecian
+			ethics {
+				Xenophobe
+				Xenophobe
+				Militarist
+			}
+			planets {
+				1083 {
+					Peya III
+					pc_alpine
+					23
+					pops {
+636	34	Xenophobe	primitive_noble	ruler	false	
+637	34	Militarist	primitive_warrior	specialist	false	
+638	34	Xenophobe	primitive_researcher	specialist	false	
+639	34	Xenophobe	primitive_priest	specialist	false	
+640	34	Xenophobe	peasant	worker	false	
+641	34	Militarist	peasant	worker	false	
+642	34	Xenophobe	peasant	worker	false	
+643	34	Xenophobe	peasant	worker	false	
+644	34	Xenophobe	peasant	worker	false	
+					}
+				}
+			}
+			colors {
+				purple
+				dark_purple
+				None
+				None
+			}
+		}
+		31 {
+			Prism
+			
+			ethics {
+				None
+			}
+			planets {
+			}
+			colors {
+				black
+				black
+				None
+				None
+			}
+		}
+		32 {
+			Automated Dreadnought
+			
+			ethics {
+				None
+			}
+			planets {
+			}
+			colors {
+				red
+				red
+				None
+				None
+			}
+		}
+		33 {
+			Mineral Extraction Operation
+			
+			ethics {
+				None
+			}
+			planets {
+			}
+			colors {
+				black
+				black
+				None
+				None
+			}
+		}
+		34 {
+			Placid Leviathans
+			
+			ethics {
+				None
+			}
+			planets {
+			}
+			colors {
+				black
+				black
+				None
+				None
+			}
+		}
+		35 {
+			Rhonzar Civilization
+			Rhonzaran
+			ethics {
+				Xenophobe
+				Xenophobe
+				Materialist
+			}
+			planets {
+				1442 {
+					Acamar II
+					pc_desert
+					23
+					pops {
+645	39	Materialist	primitive_miner	worker	false	
+646	39	Xenophobe	primitive_miner	worker	false	
+647	39	Xenophobe	primitive_miner	worker	false	
+648	39	Materialist	primitive_miner	worker	false	
+649	39	Xenophobe	primitive_priest_2	specialist	false	
+650	39	Materialist	primitive_miner	worker	false	
+651	39	Materialist	primitive_technician	worker	false	
+652	39	Materialist	primitive_miner	worker	false	
+653	39	Xenophobe	primitive_laborer	worker	false	
+654	39	Xenophobe	primitive_miner	worker	false	
+655	39	Xenophobe	primitive_miner	worker	false	
+656	39	Xenophobe	primitive_warrior_2	specialist	false	
+657	39	Materialist	primitive_miner	worker	false	
+658	39	Materialist	primitive_researcher_2	specialist	false	
+659	39	Materialist	primitive_technician	worker	false	
+660	39	Xenophobe	primitive_warrior_2	specialist	false	
+661	39	Xenophobe	primitive_miner	worker	false	
+662	39	Xenophobe	primitive_bureaucrat	ruler	false	
+663	39	Xenophobe	primitive_laborer	worker	false	
+664	39	Xenophobe	primitive_priest_2	specialist	false	
+665	39	Materialist	primitive_researcher_2	specialist	false	
+666	39	Materialist	primitive_bureaucrat	ruler	false	
+					}
+				}
+			}
+			colors {
+				beige
+				yellow
+				None
+				None
+			}
+		}
+		36 {
+			Spaceborne Organics
+			
+			ethics {
+				None
+			}
+			planets {
+			}
+			colors {
+				black
+				black
+				None
+				None
+			}
+		}
+		37 {
+			Sidimatus Civilization
+			Sidimatan
+			ethics {
+				Xenophile
+				Xenophile
+				Materialist
+			}
+			planets {
+				1470 {
+					Aesir III
+					pc_arctic
+					18
+					pops {
+667	41	Xenophile	primitive_farmer	worker	false	
+668	41	Materialist	primitive_farmer	worker	false	
+669	41	Xenophile	primitive_farmer	worker	false	
+670	41	Materialist	primitive_farmer	worker	false	
+671	41	Materialist	primitive_farmer	worker	false	
+672	41	Materialist	primitive_farmer	worker	false	
+673	41	Xenophile	primitive_farmer	worker	false	
+674	41	Xenophile	primitive_farmer	worker	false	
+675	41	Materialist	primitive_farmer	worker	false	
+676	41	Xenophile	primitive_farmer	worker	false	
+677	41	Xenophile	primitive_priest_2	specialist	false	
+678	41	Xenophile	primitive_technician	worker	false	
+679	41	Xenophile	primitive_priest_2	specialist	false	
+680	41	Materialist	primitive_laborer	worker	false	
+681	41	Xenophile	primitive_miner	worker	false	
+682	41	Xenophile	primitive_laborer	worker	false	
+683	41	Materialist	primitive_researcher_2	specialist	false	
+684	41	Materialist	primitive_technician	worker	false	
+685	41	Xenophile	primitive_miner	worker	false	
+686	41	Xenophile	primitive_warrior_2	specialist	false	
+687	41	Xenophile	primitive_warrior_2	specialist	false	
+688	41	Xenophile	primitive_bureaucrat	ruler	false	
+689	41	Materialist	primitive_bureaucrat	ruler	false	
+690	41	Materialist	primitive_researcher_2	specialist	false	
+					}
+				}
+			}
+			colors {
+				yellow
+				orange
+				None
+				None
+			}
+		}
+		38 {
+			Lilarobius Civilization
+			Lilarobian
+			ethics {
+				Egalitarian
+				Xenophobe
+				Militarist
+			}
+			planets {
+				1781 {
+					Masqal II
+					pc_desert
+					24
+					pops {
+691	42	Xenophobe	primitive_farmer	worker	false	
+692	42	Egalitarian	primitive_farmer	worker	false	
+693	42	Militarist	primitive_farmer	worker	false	
+694	42	Militarist	primitive_farmer	worker	false	
+695	42	Xenophobe	primitive_farmer	worker	false	
+696	42	Egalitarian	primitive_farmer	worker	false	
+697	42	Xenophobe	primitive_farmer	worker	false	
+698	42	Egalitarian	primitive_farmer	worker	false	
+699	42	Xenophobe	primitive_farmer	worker	false	
+700	42	Egalitarian	primitive_farmer	worker	false	
+701	42	Xenophobe	primitive_technician	worker	false	
+702	42	Egalitarian	primitive_laborer	worker	false	
+703	42	Militarist	primitive_researcher_2	specialist	false	
+704	42	Militarist	primitive_warrior_2	specialist	false	
+705	42	Xenophobe	primitive_priest_2	specialist	false	
+706	42	Xenophobe	primitive_miner	worker	false	
+707	42	Militarist	primitive_warrior_2	specialist	false	
+708	42	Egalitarian	primitive_laborer	worker	false	
+709	42	Militarist	primitive_miner	worker	false	
+710	42	Egalitarian	primitive_researcher_2	specialist	false	
+711	42	Xenophobe	primitive_technician	worker	false	
+712	42	Egalitarian	primitive_priest_2	specialist	false	
+713	42	Egalitarian	primitive_bureaucrat	ruler	false	
+714	42	Militarist	primitive_bureaucrat	ruler	false	
+					}
+				}
+			}
+			colors {
+				yellow
+				orange
+				None
+				None
+			}
+		}
+		39 {
+			Armistice Initiative
+			
+			ethics {
+				None
+			}
+			planets {
+			}
+			colors {
+				dark_green
+				pink
+				black
+				None
+			}
+		}
+		40 {
+			Tavurite Civilization
+			Tavuritan
+			ethics {
+				Xenophobe
+				Xenophobe
+				Militarist
+			}
+			planets {
+				2611 {
+					Neddum I
+					pc_ocean
+					22
+					pops {
+715	44	Militarist	primitive_noble	ruler	false	
+716	44	Xenophobe	primitive_researcher	specialist	false	
+717	44	Militarist	primitive_warrior	specialist	false	
+718	44	Xenophobe	primitive_priest	specialist	false	
+719	44	Xenophobe	peasant	worker	false	
+720	44	Xenophobe	peasant	worker	false	
+721	44	Xenophobe	peasant	worker	false	
+722	44	Militarist	peasant	worker	false	
+723	44	Xenophobe	peasant	worker	false	
+724	44	Xenophobe	peasant	worker	false	
+					}
+				}
+			}
+			colors {
+				light_blue
+				blue
+				None
+				None
+			}
+		}
+		41 {
+			Ferbanite Civilization
+			Ferbanitan
+			ethics {
+				Authoritarian
+				Xenophile
+				Xenophile
+			}
+			planets {
+				2616 {
+					Rimdur II
+					pc_ocean
+					22
+					pops {
+725	45	Xenophile	primitive_noble	ruler	false	
+726	45	Authoritarian	primitive_warrior	specialist	false	
+727	45	Authoritarian	primitive_researcher	specialist	false	
+728	45	Xenophile	primitive_priest	specialist	false	
+729	45	Xenophile	primitive_laborer	worker	false	
+730	45	Xenophile	primitive_laborer	worker	false	
+731	45	Authoritarian	primitive_miner	worker	false	
+732	45	Xenophile	primitive_miner	worker	false	
+733	45	Authoritarian	primitive_miner	worker	false	
+734	45	Xenophile	primitive_miner	worker	false	
+735	45	Authoritarian	primitive_miner	worker	false	
+736	45	Authoritarian	primitive_miner	worker	false	
+737	45	Authoritarian	primitive_miner	worker	false	
+738	45	Xenophile	primitive_miner	worker	false	
+739	45	Xenophile	primitive_miner	worker	false	
+740	45	Authoritarian	primitive_miner	worker	false	
+					}
+				}
+			}
+			colors {
+				orange
+				red
+				None
+				None
+			}
+		}
+		42 {
+			Yax'Kalock Civilization
+			Yax'Kalock
+			ethics {
+				Egalitarian
+				Xenophobe
+				Militarist
+			}
+			planets {
+				2734 {
+					Ceyecarro III
+					pc_savannah
+					13
+					pops {
+741	46	Militarist	primitive_farmer	worker	false	
+742	46	Egalitarian	primitive_farmer	worker	false	
+743	46	Xenophobe	primitive_farmer	worker	false	
+744	46	Xenophobe	primitive_farmer	worker	false	
+745	46	Militarist	primitive_warrior_2	specialist	false	
+746	46	Egalitarian	primitive_farmer	worker	false	
+747	46	Xenophobe	primitive_farmer	worker	false	
+748	46	Xenophobe	primitive_laborer	worker	false	
+749	46	Xenophobe	primitive_farmer	worker	false	
+750	46	Militarist	primitive_farmer	worker	false	
+751	46	Egalitarian	primitive_miner	worker	false	
+752	46	Egalitarian	primitive_researcher_2	specialist	false	
+753	46	Egalitarian	primitive_technician	worker	false	
+754	46	Egalitarian	primitive_laborer	worker	false	
+755	46	Egalitarian	primitive_technician	worker	false	
+756	46	Militarist	primitive_researcher_2	specialist	false	
+757	46	Egalitarian	primitive_miner	worker	false	
+758	46	Egalitarian	primitive_priest_2	specialist	false	
+759	46	Xenophobe	primitive_priest_2	specialist	false	
+760	46	Militarist	primitive_warrior_2	specialist	false	
+761	46	Xenophobe	primitive_bureaucrat	ruler	false	
+762	46	Militarist	primitive_bureaucrat	ruler	false	
+					}
+				}
+			}
+			colors {
+				beige
+				yellow
+				None
+				None
+			}
+		}
+		43 {
+			Khessam Civilization
+			Khessam
+			ethics {
+				Militarist
+				Spiritualist
+				Spiritualist
+			}
+			planets {
+				3006 {
+					Mubblar I
+					pc_arid
+					24
+					pops {
+763	47	Spiritualist	primitive_farmer	worker	false	
+764	47	Militarist	primitive_farmer	worker	false	
+765	47	Spiritualist	primitive_farmer	worker	false	
+766	47	Spiritualist	primitive_farmer	worker	false	
+767	47	Militarist	primitive_farmer	worker	false	
+768	47	Spiritualist	primitive_farmer	worker	false	
+769	47	Militarist	primitive_farmer	worker	false	
+770	47	Spiritualist	primitive_farmer	worker	false	
+771	47	Spiritualist	primitive_laborer	worker	false	
+772	47	Militarist	primitive_researcher_2	specialist	false	
+773	47	Militarist	primitive_researcher_2	specialist	false	
+774	47	Spiritualist	primitive_miner	worker	false	
+775	47	Spiritualist	primitive_priest_2	specialist	false	
+776	47	Spiritualist	primitive_technician	worker	false	
+777	47	Militarist	primitive_warrior_2	specialist	false	
+778	47	Spiritualist	primitive_miner	worker	false	
+779	47	Spiritualist	primitive_priest_2	specialist	false	
+780	47	Militarist	primitive_laborer	worker	false	
+781	47	Militarist	primitive_warrior_2	specialist	false	
+782	47	Spiritualist	primitive_technician	worker	false	
+783	47	Militarist	primitive_bureaucrat	ruler	false	
+784	47	Militarist	primitive_bureaucrat	ruler	false	
+					}
+				}
+			}
+			colors {
+				beige
+				yellow
+				None
+				None
+			}
+		}
+		44 {
+			Miidari Civilization
+			Miidarian
+			ethics {
+				Authoritarian
+				Authoritarian
+				Xenophile
+			}
+			planets {
+				3195 {
+					Unimar II
+					pc_ocean
+					18
+					pops {
+785	48	Xenophile	primitive_noble	ruler	false	
+786	48	Authoritarian	primitive_warrior	specialist	false	
+787	48	Xenophile	primitive_researcher	specialist	false	
+788	48	Authoritarian	primitive_priest	specialist	false	
+789	48	Authoritarian	peasant	worker	false	
+790	48	Authoritarian	peasant	worker	false	
+791	48	Xenophile	peasant	worker	false	
+792	48	Authoritarian	peasant	worker	false	
+793	48	Authoritarian	peasant	worker	false	
+794	48	Xenophile	peasant	worker	false	
+					}
+				}
+			}
+			colors {
+				light_blue
+				blue
+				None
+				None
+			}
+		}
+		45 {
+			Erissu Civilization
+			Erissu
+			ethics {
+				Egalitarian
+				Egalitarian
+				Pacifist
+			}
+			planets {
+				3391 {
+					Hixar IV
+					pc_tropical
+					23
+					pops {
+795	49	Pacifist	primitive_noble	ruler	false	
+796	49	Egalitarian	primitive_warrior	specialist	false	
+797	49	Pacifist	primitive_researcher	specialist	false	
+798	49	Egalitarian	primitive_priest	specialist	false	
+799	49	Egalitarian	peasant	worker	false	
+800	49	Egalitarian	peasant	worker	false	
+801	49	Egalitarian	peasant	worker	false	
+802	49	Egalitarian	peasant	worker	false	
+803	49	Egalitarian	peasant	worker	false	
+804	49	Egalitarian	peasant	worker	false	
+805	49	Egalitarian	peasant	worker	false	
+806	49	Egalitarian	peasant	worker	false	
+					}
+				}
+			}
+			colors {
+				pink
+				burgundy
+				None
+				None
+			}
+		}
+		46 {
+			Enigmatic Energy
+			
+			ethics {
+				None
+			}
+			planets {
+			}
+			colors {
+				black
+				black
+				None
+				None
+			}
+		}
+		47 {
+			Human Civilization
+			Human
+			ethics {
+				Militarist
+				Militarist
+				Materialist
+			}
+			planets {
+				4014 {
+					NAME_Sol_III
+					pc_continental
+					20
+					pops {
+826	51	Militarist	primitive_farmer	worker	false	
+827	51	Materialist	primitive_farmer	worker	false	
+828	51	Militarist	primitive_farmer	worker	false	
+829	51	Militarist	primitive_farmer	worker	false	
+830	51	Materialist	primitive_farmer	worker	false	
+831	51	Militarist	primitive_farmer	worker	false	
+832	51	Materialist	primitive_farmer	worker	false	
+833	51	Materialist	primitive_farmer	worker	false	
+834	51	Militarist	primitive_farmer	worker	false	
+835	51	Militarist	primitive_technician	worker	false	
+836	51	Militarist	primitive_miner	worker	false	
+837	51	Materialist	primitive_farmer	worker	false	
+838	51	Militarist	primitive_priest_2	specialist	false	
+839	51	Militarist	primitive_priest_2	specialist	false	
+840	51	Militarist	primitive_laborer	worker	false	
+841	51	Militarist	primitive_laborer	worker	false	
+842	51	Materialist	primitive_miner	worker	false	
+843	51	Materialist	primitive_technician	worker	false	
+844	51	Materialist	primitive_researcher_2	specialist	false	
+845	51	Materialist	primitive_researcher_2	specialist	false	
+846	51	Militarist	primitive_warrior_2	specialist	false	
+847	51	Militarist	primitive_warrior_2	specialist	false	
+848	51	Materialist	primitive_bureaucrat	ruler	false	
+849	51	Materialist	primitive_bureaucrat	ruler	false	
+					}
+				}
+			}
+			colors {
+				dark_blue
+				red
+				None
+				None
+			}
+		}
+		48 {
+			global_event_country
+			
+			ethics {
+				None
+			}
+			planets {
+			}
+			colors {
+				teal
+				red
+				black
+				None
+			}
+		}
+		49 {
+			The Shroud
+			
+			ethics {
+				None
+			}
+			planets {
+			}
+			colors {
+				red
+				black
+				None
+				None
+			}
+		}
+		50 {
+			Creatures of the Shroud
+			
+			ethics {
+				None
+			}
+			planets {
+			}
+			colors {
+				dark_purple
+				black
+				None
+				None
+			}
+		}
+	}
+	objects {
+		0 {
+			Pouo
+			star
+			(18390, -139250)
+			planets {
+			}
+		}
+		1 {
+			Hittimar
+			star
+			(-172650, -86130)
+			planets {
+			}
+		}
+		2 {
+			Cador
+			star
+			(206870, -233050)
+			planets {
+			}
+		}
+		3 {
+			Weiguvis
+			star
+			(-59610, -230100)
+			planets {
+			}
+		}
+		4 {
+			Dirban
+			star
+			(-89400, 247990)
+			planets {
+			}
+		}
+		5 {
+			NAME_Trappist
+			star
+			(-94650, -91970)
+			planets {
+			}
+		}
+		6 {
+			Gaping Maw
+			star
+			(-33300, 106580)
+			planets {
+			}
+		}
+		7 {
+			Tauagawa
+			star
+			(-146960, -88660)
+			planets {
+			}
+		}
+		8 {
+			Adranell
+			star
+			(-130050, 73140)
+			planets {
+			}
+		}
+		9 {
+			Dorfil
+			star
+			(130680, 33020)
+			planets {
+				847
+			}
+		}
+		10 {
+			NAME_Sanctuary
+			star
+			(-1030, 270700)
+			planets {
+				851
+				854
+				857
+				860
+			}
+		}
+		11 {
+			BX-799 Singularity
+			star
+			(77940, 275230)
+			planets {
+			}
+		}
+		12 {
+			Poaa
+			star
+			(-15010, 221370)
+			planets {
+			}
+		}
+		13 {
+			Salluria
+			star
+			(115170, -64000)
+			planets {
+			}
+		}
+		14 {
+			Delta Pavonis
+			star
+			(195700, 92440)
+			planets {
+			}
+		}
+		15 {
+			Kel-Azak
+			star
+			(-104590, 130550)
+			planets {
+				178
+			}
+		}
+		16 {
+			Selnoc
+			star
+			(189960, 33580)
+			planets {
+			}
+		}
+		17 {
+			Najaga
+			star
+			(-15010, -114580)
+			planets {
+			}
+		}
+		18 {
+			Krash
+			star
+			(-73960, 253890)
+			planets {
+			}
+		}
+		19 {
+			Beynus
+			star
+			(780, 96950)
+			planets {
+			}
+		}
+		20 {
+			Rabinoc
+			star
+			(133110, -61770)
+			planets {
+			}
+		}
+		21 {
+			Feonus
+			star
+			(208600, 26910)
+			planets {
+			}
+		}
+		22 {
+			Hemtares
+			star
+			(175220, -51240)
+			planets {
+			}
+		}
+		23 {
+			NAME_Chors_Compass
+			star
+			(164320, -218130)
+			planets {
+			}
+		}
+		24 {
+			Nokkam
+			star
+			(-179510, -107310)
+			planets {
+			}
+		}
+		25 {
+			Light's End
+			star
+			(-177470, 4850)
+			planets {
+			}
+		}
+		26 {
+			Helam
+			star
+			(69720, 181480)
+			planets {
+			}
+		}
+		27 {
+			Linngol
+			star
+			(100800, -87440)
+			planets {
+			}
+		}
+		28 {
+			Osmadin
+			star
+			(10210, 256550)
+			planets {
+			}
+		}
+		29 {
+			Liram
+			star
+			(-125890, 268370)
+			planets {
+				988
+			}
+		}
+		30 {
+			NAME_Gargantua
+			star
+			(90000, -261390)
+			planets {
+			}
+		}
+		31 {
+			Propus
+			star
+			(240410, -169580)
+			planets {
+			}
+		}
+		32 {
+			Rasalgethi
+			star
+			(183800, 158090)
+			planets {
+			}
+		}
+		33 {
+			Jebben's Maelstrom
+			star
+			(-204480, -257640)
+			planets {
+			}
+		}
+		34 {
+			Sceptrum
+			star
+			(-41280, -86050)
+			planets {
+			}
+		}
+		35 {
+			Nunus
+			star
+			(-3760, -215720)
+			planets {
+			}
+		}
+		36 {
+			Jaltham
+			star
+			(-36270, -103770)
+			planets {
+			}
+		}
+		37 {
+			Atlas
+			star
+			(-189740, 210130)
+			planets {
+			}
+		}
+		38 {
+			Xulbak's Maw
+			star
+			(-34650, -292230)
+			planets {
+			}
+		}
+		39 {
+			Enkef
+			star
+			(36470, 266690)
+			planets {
+			}
+		}
+		40 {
+			Saoezuno
+			star
+			(-203460, 262280)
+			planets {
+			}
+		}
+		41 {
+			Irthius
+			star
+			(166650, -32700)
+			planets {
+			}
+		}
+		42 {
+			Gathrica
+			star
+			(-250190, 102820)
+			planets {
+			}
+		}
+		43 {
+			Unnabin
+			star
+			(-203460, -109610)
+			planets {
+			}
+		}
+		44 {
+			Stratal
+			star
+			(-87750, 72080)
+			planets {
+			}
+		}
+		45 {
+			Eye of Hawking
+			star
+			(221990, 140120)
+			planets {
+			}
+		}
+		46 {
+			Tazri
+			star
+			(155660, 23020)
+			planets {
+			}
+		}
+		47 {
+			Stimsis
+			star
+			(-28740, 150910)
+			planets {
+			}
+		}
+		48 {
+			Peya
+			star
+			(159700, -47860)
+			planets {
+				1083
+			}
+		}
+		49 {
+			Reddor
+			star
+			(-101300, -42590)
+			planets {
+			}
+		}
+		50 {
+			Withrilli
+			star
+			(162620, 234230)
+			planets {
+			}
+		}
+		51 {
+			Yillion
+			star
+			(-64810, -191850)
+			planets {
+			}
+		}
+		52 {
+			Veit
+			star
+			(-24120, -94120)
+			planets {
+			}
+		}
+		53 {
+			Tau Ceti
+			star
+			(29650, -119880)
+			planets {
+			}
+		}
+		54 {
+			Distull
+			star
+			(-10040, 125120)
+			planets {
+			}
+		}
+		55 {
+			Khamb
+			star
+			(-90890, 270640)
+			planets {
+			}
+		}
+		56 {
+			Wicklar
+			star
+			(173730, -14100)
+			planets {
+			}
+		}
+		57 {
+			Sapir
+			star
+			(-229800, -230)
+			planets {
+			}
+		}
+		58 {
+			Anaxador
+			star
+			(131240, -208270)
+			planets {
+			}
+		}
+		59 {
+			Vategigun
+			star
+			(144710, 259709)
+			planets {
+				188
+			}
+		}
+		60 {
+			Bajiol
+			star
+			(-118520, -169160)
+			planets {
+			}
+		}
+		61 {
+			Suramo
+			star
+			(-204160, 49280)
+			planets {
+				167
+			}
+		}
+		62 {
+			Nashira
+			star
+			(63300, 226200)
+			planets {
+			}
+		}
+		63 {
+			Asgard
+			star
+			(-231280, -68810)
+			planets {
+			}
+		}
+		64 {
+			Loggam
+			star
+			(-68540, 123330)
+			planets {
+			}
+		}
+		65 {
+			Ulm
+			star
+			(-175660, 77290)
+			planets {
+			}
+		}
+		66 {
+			Fihir
+			star
+			(-200710, -58520)
+			planets {
+			}
+		}
+		67 {
+			Scipiton
+			star
+			(350, -100680)
+			planets {
+			}
+		}
+		68 {
+			Illex
+			star
+			(130169, 152420)
+			planets {
+			}
+		}
+		69 {
+			Con Viab
+			star
+			(-27710, 123260)
+			planets {
+			}
+		}
+		70 {
+			Ustir
+			star
+			(-83650, -63830)
+			planets {
+			}
+		}
+		71 {
+			Matar
+			star
+			(26800, 109500)
+			planets {
+			}
+		}
+		72 {
+			Athuna
+			star
+			(223650, 25900)
+			planets {
+			}
+		}
+		73 {
+			Ishnor
+			star
+			(16770, -99940)
+			planets {
+			}
+		}
+		74 {
+			Ziris
+			star
+			(109830, 212040)
+			planets {
+			}
+		}
+		75 {
+			Capella
+			star
+			(25640, -91270)
+			planets {
+			}
+		}
+		76 {
+			Uyiescapus
+			star
+			(-30190, 298350)
+			planets {
+			}
+		}
+		77 {
+			Betelgeuse
+			star
+			(58250, 279700)
+			planets {
+			}
+		}
+		78 {
+			Shuckon
+			star
+			(105160, 231340)
+			planets {
+			}
+		}
+		79 {
+			Soyun
+			star
+			(-13730, 307390)
+			planets {
+			}
+		}
+		80 {
+			Sosta
+			star
+			(-146750, 6450)
+			planets {
+			}
+		}
+		81 {
+			Pandill
+			star
+			(24760, -280930)
+			planets {
+			}
+		}
+		82 {
+			Tir Batna
+			star
+			(12320, -115890)
+			planets {
+				24
+			}
+		}
+		83 {
+			Tyastedore
+			star
+			(-780, -138170)
+			planets {
+			}
+		}
+		84 {
+			Samnivik
+			star
+			(-40520, 282260)
+			planets {
+			}
+		}
+		85 {
+			Dathaana
+			star
+			(147330, 115120)
+			planets {
+			}
+		}
+		86 {
+			Astinda
+			star
+			(-147080, 88220)
+			planets {
+			}
+		}
+		87 {
+			Sasharim
+			star
+			(194790, 136880)
+			planets {
+			}
+		}
+		88 {
+			Acamar
+			star
+			(-172940, -156960)
+			planets {
+				1442
+			}
+		}
+		89 {
+			Brallix
+			star
+			(-49820, -95900)
+			planets {
+			}
+		}
+		90 {
+			Aslund
+			star
+			(47860, -169030)
+			planets {
+			}
+		}
+		91 {
+			Aesir
+			star
+			(76570, -76650)
+			planets {
+				1470
+			}
+		}
+		92 {
+			Omicron Persei
+			star
+			(-47150, 97440)
+			planets {
+			}
+		}
+		93 {
+			Ryl Somot
+			star
+			(40600, 103180)
+			planets {
+			}
+		}
+		94 {
+			Tiriyok
+			star
+			(85750, -169810)
+			planets {
+			}
+		}
+		95 {
+			Nijil
+			star
+			(-166360, 30680)
+			planets {
+			}
+		}
+		96 {
+			Cavzek
+			star
+			(-120500, 15910)
+			planets {
+			}
+		}
+		97 {
+			Golba
+			star
+			(-220950, -127420)
+			planets {
+			}
+		}
+		98 {
+			Saua
+			star
+			(176750, 80430)
+			planets {
+			}
+		}
+		99 {
+			Carenvall
+			star
+			(-142680, 32390)
+			planets {
+			}
+		}
+		100 {
+			Bovatir
+			star
+			(207330, -98830)
+			planets {
+			}
+		}
+		101 {
+			Hocry
+			star
+			(-177540, 89450)
+			planets {
+			}
+		}
+		102 {
+			Raxum
+			star
+			(-211750, -170960)
+			planets {
+			}
+		}
+		103 {
+			Baesta
+			star
+			(16340, 98910)
+			planets {
+			}
+		}
+		104 {
+			Tadasca
+			star
+			(167340, 156730)
+			planets {
+			}
+		}
+		105 {
+			Chara
+			star
+			(160600, -20210)
+			planets {
+			}
+		}
+		106 {
+			Terebellum
+			star
+			(136690, 5830)
+			planets {
+			}
+		}
+		107 {
+			Tunobo
+			star
+			(78560, 221040)
+			planets {
+			}
+		}
+		108 {
+			Siet
+			star
+			(-180540, -140350)
+			planets {
+			}
+		}
+		109 {
+			Zirq
+			star
+			(-43130, 123970)
+			planets {
+			}
+		}
+		110 {
+			Ferathon
+			star
+			(252580, -40840)
+			planets {
+			}
+		}
+		111 {
+			Mauthula
+			star
+			(-119330, -134790)
+			planets {
+			}
+		}
+		112 {
+			Amgathorra
+			star
+			(-80900, -51240)
+			planets {
+			}
+		}
+		113 {
+			Sanach
+			star
+			(47930, -127010)
+			planets {
+			}
+		}
+		114 {
+			Seaetera
+			star
+			(130520, 127080)
+			planets {
+			}
+		}
+		115 {
+			Masqal
+			star
+			(138270, 206590)
+			planets {
+				1781
+			}
+		}
+		116 {
+			Wollaeus
+			star
+			(-189930, -92470)
+			planets {
+			}
+		}
+		117 {
+			Binami
+			star
+			(93680, 221370)
+			planets {
+			}
+		}
+		118 {
+			Rovgeddi
+			star
+			(81050, -104680)
+			planets {
+			}
+		}
+		119 {
+			Ovany
+			star
+			(300560, -7480)
+			planets {
+			}
+		}
+		120 {
+			Mardom
+			star
+			(106260, -43240)
+			planets {
+			}
+		}
+		121 {
+			Torovil
+			star
+			(159690, -86250)
+			planets {
+			}
+		}
+		122 {
+			Iflagua
+			star
+			(191700, -16040)
+			planets {
+			}
+		}
+		123 {
+			Eadominar
+			star
+			(-19100, 94100)
+			planets {
+			}
+		}
+		124 {
+			Jompron
+			star
+			(93700, 197960)
+			planets {
+			}
+		}
+		125 {
+			Fejantris
+			star
+			(210840, 102490)
+			planets {
+			}
+		}
+		126 {
+			Coggan
+			star
+			(-112580, 57790)
+			planets {
+			}
+		}
+		127 {
+			Sheratan
+			star
+			(196600, 156470)
+			planets {
+			}
+		}
+		128 {
+			Sarack
+			star
+			(206950, 170760)
+			planets {
+			}
+		}
+		129 {
+			Suyo
+			star
+			(210270, 65360)
+			planets {
+			}
+		}
+		130 {
+			Dossel
+			star
+			(-32500, -147160)
+			planets {
+			}
+		}
+		131 {
+			Trinitar
+			star
+			(-152540, -150620)
+			planets {
+			}
+		}
+		132 {
+			Epsilon Indi
+			star
+			(190880, 75280)
+			planets {
+			}
+		}
+		133 {
+			Yirba
+			star
+			(106990, -239160)
+			planets {
+			}
+		}
+		134 {
+			Aramus
+			star
+			(183430, 100940)
+			planets {
+				42
+			}
+		}
+		135 {
+			Nishpan
+			star
+			(-161240, 183630)
+			planets {
+			}
+		}
+		136 {
+			Lehmsa
+			star
+			(-59050, 294390)
+			planets {
+			}
+		}
+		137 {
+			Dristmak
+			star
+			(68830, 248840)
+			planets {
+			}
+		}
+		138 {
+			Boeawei
+			star
+			(-67470, -117200)
+			planets {
+			}
+		}
+		139 {
+			Gomeisa
+			star
+			(216510, 1970)
+			planets {
+			}
+		}
+		140 {
+			Xuukanis Black Hole
+			star
+			(210590, 150860)
+			planets {
+			}
+		}
+		141 {
+			Fidhilam
+			star
+			(268840, 95330)
+			planets {
+			}
+		}
+		142 {
+			Odaka
+			star
+			(-8070, 165680)
+			planets {
+				89
+			}
+		}
+		143 {
+			Atmir
+			star
+			(-137010, -42930)
+			planets {
+			}
+		}
+		144 {
+			Rundore
+			star
+			(257430, 50960)
+			planets {
+			}
+		}
+		145 {
+			Bikhul
+			star
+			(222550, -56820)
+			planets {
+			}
+		}
+		146 {
+			Ladiom
+			star
+			(-127690, -186540)
+			planets {
+			}
+		}
+		147 {
+			Wani
+			star
+			(4059, -274750)
+			planets {
+				114
+			}
+		}
+		148 {
+			Rurius
+			star
+			(8870, 296980)
+			planets {
+			}
+		}
+		149 {
+			Bir Zun
+			star
+			(-199340, 27340)
+			planets {
+			}
+		}
+		150 {
+			Hischmal
+			star
+			(120190, -162410)
+			planets {
+			}
+		}
+		151 {
+			Osellus
+			star
+			(57500, 82530)
+			planets {
+			}
+		}
+		152 {
+			Usksion
+			star
+			(136040, -91980)
+			planets {
+			}
+		}
+		153 {
+			Kerbol
+			star
+			(-80210, -224390)
+			planets {
+			}
+		}
+		154 {
+			Durascadon
+			star
+			(-43020, -241700)
+			planets {
+			}
+		}
+		155 {
+			Avalam
+			star
+			(68850, -158010)
+			planets {
+			}
+		}
+		156 {
+			Trax Ofko
+			star
+			(26330, 250500)
+			planets {
+			}
+		}
+		157 {
+			Ayfriri
+			star
+			(33570, -247410)
+			planets {
+			}
+		}
+		158 {
+			Feggor
+			star
+			(17650, -230040)
+			planets {
+			}
+		}
+		159 {
+			Schinik
+			star
+			(245380, -243960)
+			planets {
+			}
+		}
+		160 {
+			Roganoin
+			star
+			(132450, -17910)
+			planets {
+			}
+		}
+		161 {
+			Cajubus
+			star
+			(129620, -113290)
+			planets {
+			}
+		}
+		162 {
+			Gossok
+			star
+			(45470, -280190)
+			planets {
+			}
+		}
+		163 {
+			Owhziea
+			star
+			(68790, -108530)
+			planets {
+			}
+		}
+		164 {
+			Rippigaur
+			star
+			(177000, 65710)
+			planets {
+			}
+		}
+		165 {
+			Bellezir
+			star
+			(163060, 106430)
+			planets {
+			}
+		}
+		166 {
+			Balawar
+			star
+			(6920, -255930)
+			planets {
+			}
+		}
+		167 {
+			Ceyxuemia
+			star
+			(168540, 23720)
+			planets {
+			}
+		}
+		168 {
+			Imulgaron
+			star
+			(-84020, 99600)
+			planets {
+			}
+		}
+		169 {
+			Astrkion
+			star
+			(98660, -106930)
+			planets {
+			}
+		}
+		170 {
+			Hiann
+			star
+			(95420, -134950)
+			planets {
+			}
+		}
+		171 {
+			Lando
+			star
+			(170960, -850)
+			planets {
+			}
+		}
+		172 {
+			Tirramore
+			star
+			(165940, 49150)
+			planets {
+			}
+		}
+		173 {
+			Oweprinda
+			star
+			(-181490, -197300)
+			planets {
+			}
+		}
+		174 {
+			Patraggor
+			star
+			(-182750, -35690)
+			planets {
+			}
+		}
+		175 {
+			Magam
+			star
+			(151770, -69670)
+			planets {
+			}
+		}
+		176 {
+			Iriamus
+			star
+			(188640, 206520)
+			planets {
+			}
+		}
+		177 {
+			Millistamu
+			star
+			(-32400, -202550)
+			planets {
+			}
+		}
+		178 {
+			Kauri
+			star
+			(65710, -268810)
+			planets {
+			}
+		}
+		179 {
+			Cizar
+			star
+			(-93520, 172460)
+			planets {
+			}
+		}
+		180 {
+			Yotla
+			star
+			(-185720, -68650)
+			planets {
+			}
+		}
+		181 {
+			Ablapus
+			star
+			(-212640, -70740)
+			planets {
+			}
+		}
+		182 {
+			Caspadene
+			star
+			(-117270, 40390)
+			planets {
+			}
+		}
+		183 {
+			Wendel
+			star
+			(-200490, -145710)
+			planets {
+			}
+		}
+		184 {
+			Hithram
+			star
+			(200960, 119050)
+			planets {
+			}
+		}
+		185 {
+			Boggor
+			star
+			(53950, 240600)
+			planets {
+			}
+		}
+		186 {
+			Chohar
+			star
+			(143970, -41140)
+			planets {
+			}
+		}
+		187 {
+			Polystea
+			star
+			(190380, 50120)
+			planets {
+			}
+		}
+		188 {
+			Ladellikon
+			star
+			(169110, -177440)
+			planets {
+			}
+		}
+		189 {
+			Ostichi
+			star
+			(-148340, -169720)
+			planets {
+			}
+		}
+		190 {
+			Qoclite
+			star
+			(177650, -125550)
+			planets {
+				700
+			}
+		}
+		191 {
+			Ipiescilia
+			star
+			(-18680, 135330)
+			planets {
+			}
+		}
+		192 {
+			Beid
+			star
+			(-204170, 106340)
+			planets {
+			}
+		}
+		193 {
+			Polgara
+			star
+			(64340, -125640)
+			planets {
+			}
+		}
+		194 {
+			Scorom
+			star
+			(181500, -32910)
+			planets {
+			}
+		}
+		195 {
+			Ylva
+			star
+			(-165630, -122690)
+			planets {
+			}
+		}
+		196 {
+			Saphiban
+			star
+			(-55430, 111750)
+			planets {
+			}
+		}
+		197 {
+			Qurus
+			star
+			(-30050, -278210)
+			planets {
+			}
+		}
+		198 {
+			Durabbius
+			star
+			(-50870, -265470)
+			planets {
+			}
+		}
+		199 {
+			Iflore
+			star
+			(93770, 237980)
+			planets {
+			}
+		}
+		200 {
+			Roolan
+			star
+			(-131900, 243280)
+			planets {
+			}
+		}
+		201 {
+			Trab
+			star
+			(-118810, -239940)
+			planets {
+			}
+		}
+		202 {
+			Flestia
+			star
+			(147350, -213620)
+			planets {
+			}
+		}
+		203 {
+			Yomon
+			star
+			(-20130, -329250)
+			planets {
+			}
+		}
+		204 {
+			Hizzel
+			star
+			(-178630, 127290)
+			planets {
+			}
+		}
+		205 {
+			Soao
+			star
+			(-241620, -41330)
+			planets {
+			}
+		}
+		206 {
+			Volmaur
+			star
+			(177680, -95430)
+			planets {
+				683
+			}
+		}
+		207 {
+			Bythia
+			star
+			(126910, -79500)
+			planets {
+				693
+			}
+		}
+		208 {
+			Eskellion
+			star
+			(8010, -176550)
+			planets {
+			}
+		}
+		209 {
+			Cipux
+			star
+			(-130620, -106950)
+			planets {
+			}
+		}
+		210 {
+			Ushminaria
+			star
+			(-71390, 81480)
+			planets {
+			}
+		}
+		211 {
+			Escolla
+			star
+			(225530, -15070)
+			planets {
+			}
+		}
+		212 {
+			Eriga
+			star
+			(-173780, -16940)
+			planets {
+			}
+		}
+		213 {
+			Raznum
+			star
+			(148440, -143180)
+			planets {
+			}
+		}
+		214 {
+			Carynno
+			star
+			(-103910, 220020)
+			planets {
+			}
+		}
+		215 {
+			Neddum
+			star
+			(-41750, -256170)
+			planets {
+				2611
+			}
+		}
+		216 {
+			Rimdur
+			star
+			(-130270, 94180)
+			planets {
+				2616
+			}
+		}
+		217 {
+			Eglrarvis
+			star
+			(-138630, 120800)
+			planets {
+			}
+		}
+		218 {
+			Iresta
+			star
+			(-126580, -221050)
+			planets {
+			}
+		}
+		219 {
+			Naos
+			star
+			(49570, 255970)
+			planets {
+			}
+		}
+		220 {
+			Gromen
+			star
+			(111400, -103740)
+			planets {
+			}
+		}
+		221 {
+			Chi Draconis
+			star
+			(-142280, -64840)
+			planets {
+			}
+		}
+		222 {
+			Unith
+			star
+			(253110, 4260)
+			planets {
+			}
+		}
+		223 {
+			Siplim
+			star
+			(-144340, -195900)
+			planets {
+			}
+		}
+		224 {
+			Ruthauri
+			star
+			(-138630, -15980)
+			planets {
+			}
+		}
+		225 {
+			Satrinias
+			star
+			(-160500, 221550)
+			planets {
+			}
+		}
+		226 {
+			Karazit
+			star
+			(-226670, 69810)
+			planets {
+			}
+		}
+		227 {
+			Yildun
+			star
+			(-229690, -26790)
+			planets {
+			}
+		}
+		228 {
+			Ydria
+			star
+			(-191050, 12300)
+			planets {
+			}
+		}
+		229 {
+			Ponnell
+			star
+			(4190, 130870)
+			planets {
+			}
+		}
+		230 {
+			Pharrim
+			star
+			(80490, -123830)
+			planets {
+			}
+		}
+		231 {
+			Ushakaron
+			star
+			(-213690, -89500)
+			planets {
+			}
+		}
+		232 {
+			Ceyecarro
+			star
+			(32360, 125850)
+			planets {
+				2734
+			}
+		}
+		233 {
+			Durth
+			star
+			(74730, -286220)
+			planets {
+			}
+		}
+		234 {
+			Obsholla
+			star
+			(114180, -126210)
+			planets {
+			}
+		}
+		235 {
+			Mizar
+			star
+			(-192050, -129139)
+			planets {
+			}
+		}
+		236 {
+			Cradoniana
+			star
+			(-117900, -279550)
+			planets {
+				140
+			}
+		}
+		237 {
+			Ziamon
+			star
+			(-203830, -3890)
+			planets {
+			}
+		}
+		238 {
+			Izval
+			star
+			(-142770, -231010)
+			planets {
+			}
+		}
+		239 {
+			Aswiri
+			star
+			(-54010, 177610)
+			planets {
+			}
+		}
+		240 {
+			Haddnoc
+			star
+			(50910, -253580)
+			planets {
+			}
+		}
+		241 {
+			Jhool
+			star
+			(189380, 13650)
+			planets {
+				33
+			}
+		}
+		242 {
+			Bion Dazat
+			star
+			(40460, 191850)
+			planets {
+			}
+		}
+		243 {
+			Enim
+			star
+			(-155260, 65650)
+			planets {
+			}
+		}
+		244 {
+			Med Karash
+			star
+			(166610, 91110)
+			planets {
+			}
+		}
+		245 {
+			Cothium
+			star
+			(118490, -317460)
+			planets {
+			}
+		}
+		246 {
+			Glyderrum
+			star
+			(99970, 257570)
+			planets {
+			}
+		}
+		247 {
+			Seyyama
+			star
+			(103760, -73810)
+			planets {
+			}
+		}
+		248 {
+			Eieospone
+			star
+			(-183770, 44130)
+			planets {
+			}
+		}
+		249 {
+			Wildore
+			star
+			(76320, 119090)
+			planets {
+			}
+		}
+		250 {
+			Jamor
+			star
+			(-150530, -133650)
+			planets {
+			}
+		}
+		251 {
+			Saidainope
+			star
+			(-189120, -116030)
+			planets {
+			}
+		}
+		252 {
+			Nuranka
+			star
+			(-57960, 75610)
+			planets {
+			}
+		}
+		253 {
+			Perqim
+			star
+			(162690, -100970)
+			planets {
+			}
+		}
+		254 {
+			Occidan
+			star
+			(171640, 175130)
+			planets {
+			}
+		}
+		255 {
+			Raskamir
+			star
+			(-191380, -14220)
+			planets {
+			}
+		}
+		256 {
+			Falmir
+			star
+			(-6110, -312150)
+			planets {
+			}
+		}
+		257 {
+			Vijimar
+			star
+			(-40810, 148500)
+			planets {
+			}
+		}
+		258 {
+			Ulkad
+			star
+			(-146030, 150920)
+			planets {
+			}
+		}
+		259 {
+			Cebelrai
+			star
+			(-131900, 218100)
+			planets {
+			}
+		}
+		260 {
+			Sinistra
+			star
+			(-1580, 113570)
+			planets {
+			}
+		}
+		261 {
+			Reagg
+			star
+			(-39060, 267640)
+			planets {
+			}
+		}
+		262 {
+			Grekil
+			star
+			(-224110, -108870)
+			planets {
+			}
+		}
+		263 {
+			Iieystara
+			star
+			(119070, 264500)
+			planets {
+			}
+		}
+		264 {
+			Meredith
+			star
+			(-171640, -60750)
+			planets {
+			}
+		}
+		265 {
+			Merope
+			star
+			(-138300, -255680)
+			planets {
+			}
+		}
+		266 {
+			Peudeanus
+			star
+			(121210, -94330)
+			planets {
+			}
+		}
+		267 {
+			Alcor
+			star
+			(-137620, 56770)
+			planets {
+			}
+		}
+		268 {
+			Mubblar
+			star
+			(124820, 222840)
+			planets {
+				3006
+			}
+		}
+		269 {
+			Ibacca
+			star
+			(85320, 75090)
+			planets {
+			}
+		}
+		270 {
+			Ijax
+			star
+			(-153470, 254400)
+			planets {
+			}
+		}
+		271 {
+			Obskyke
+			star
+			(-93350, 118400)
+			planets {
+			}
+		}
+		272 {
+			Ascension's End
+			star
+			(18530, 274580)
+			planets {
+			}
+		}
+		273 {
+			Ramman
+			star
+			(57400, -139130)
+			planets {
+			}
+		}
+		274 {
+			Hotram
+			star
+			(-60670, 267040)
+			planets {
+			}
+		}
+		275 {
+			Scheddi
+			star
+			(47440, -87170)
+			planets {
+			}
+		}
+		276 {
+			Leesak
+			star
+			(149320, -8610)
+			planets {
+			}
+		}
+		277 {
+			Tiffim
+			star
+			(170240, -65140)
+			planets {
+			}
+		}
+		278 {
+			Bess'Qoro
+			star
+			(112040, -253420)
+			planets {
+				78
+			}
+		}
+		279 {
+			Muudstram
+			star
+			(-12510, 282280)
+			planets {
+			}
+		}
+		280 {
+			Wezen
+			star
+			(-169080, 53020)
+			planets {
+			}
+		}
+		281 {
+			Pash
+			star
+			(103150, -202180)
+			planets {
+			}
+		}
+		282 {
+			Hamkad
+			star
+			(-100410, 99900)
+			planets {
+			}
+		}
+		283 {
+			Paraggir
+			star
+			(-166150, 14300)
+			planets {
+			}
+		}
+		284 {
+			Fir Mathrioz
+			star
+			(-49460, 242830)
+			planets {
+			}
+		}
+		285 {
+			Janna
+			star
+			(-162130, 95710)
+			planets {
+			}
+		}
+		286 {
+			Tirmana
+			star
+			(180530, -76720)
+			planets {
+			}
+		}
+		287 {
+			Kongath
+			star
+			(137540, -258700)
+			planets {
+			}
+		}
+		288 {
+			Oxcliri
+			star
+			(183540, 4410)
+			planets {
+			}
+		}
+		289 {
+			Mriik
+			star
+			(29520, 152600)
+			planets {
+			}
+		}
+		290 {
+			Dekrus
+			star
+			(-245530, 159780)
+			planets {
+				124
+			}
+		}
+		291 {
+			Shap
+			star
+			(-62670, -77190)
+			planets {
+				4
+			}
+		}
+		292 {
+			Unimar
+			star
+			(-15320, -102550)
+			planets {
+				3195
+			}
+		}
+		293 {
+			Yeelon
+			star
+			(-63350, 279280)
+			planets {
+			}
+		}
+		294 {
+			Simtinasca
+			star
+			(55100, -107910)
+			planets {
+			}
+		}
+		295 {
+			Wuae
+			star
+			(22130, -299160)
+			planets {
+			}
+		}
+		296 {
+			Cuorilia
+			star
+			(127050, 77610)
+			planets {
+			}
+		}
+		297 {
+			Jondus
+			star
+			(84170, -227970)
+			planets {
+			}
+		}
+		298 {
+			Teae
+			star
+			(-17260, -254650)
+			planets {
+			}
+		}
+		299 {
+			Nixahel
+			star
+			(-96340, -199540)
+			planets {
+			}
+		}
+		300 {
+			Algorab
+			star
+			(-168830, -138600)
+			planets {
+			}
+		}
+		301 {
+			Ishtrum
+			star
+			(-41100, 85310)
+			planets {
+			}
+		}
+		302 {
+			Sayhouvis
+			star
+			(181770, 117590)
+			planets {
+			}
+		}
+		303 {
+			Bolthor
+			star
+			(147400, -105120)
+			planets {
+				622
+				623
+			}
+		}
+		304 {
+			Qirbus
+			star
+			(74290, -252160)
+			planets {
+			}
+		}
+		305 {
+			Loisar
+			star
+			(40340, -103210)
+			planets {
+			}
+		}
+		306 {
+			Rammas
+			star
+			(-74360, -244840)
+			planets {
+			}
+		}
+		307 {
+			Cieneagawa
+			star
+			(8920, 229340)
+			planets {
+			}
+		}
+		308 {
+			Andack
+			star
+			(-29080, 249680)
+			planets {
+			}
+		}
+		309 {
+			Uchxyke
+			star
+			(-182700, 66230)
+			planets {
+			}
+		}
+		310 {
+			Heze
+			star
+			(156480, 76170)
+			planets {
+			}
+		}
+		311 {
+			Uchbiea
+			star
+			(220460, -146000)
+			planets {
+			}
+		}
+		312 {
+			Impal Tov
+			star
+			(173730, 130550)
+			planets {
+			}
+		}
+		313 {
+			Dradim
+			star
+			(-28850, -259269)
+			planets {
+			}
+		}
+		314 {
+			Guhur
+			star
+			(116620, 235360)
+			planets {
+			}
+		}
+		315 {
+			Bardegan
+			star
+			(-9180, -267190)
+			planets {
+			}
+		}
+		316 {
+			Avior
+			star
+			(-205830, -31690)
+			planets {
+			}
+		}
+		317 {
+			Hixar
+			star
+			(-100730, -225670)
+			planets {
+				3391
+			}
+		}
+		318 {
+			Ulassia
+			star
+			(-95010, -261070)
+			planets {
+			}
+		}
+		319 {
+			Ribellan Vortex
+			star
+			(-141980, 262590)
+			planets {
+			}
+		}
+		320 {
+			Opriiuq
+			star
+			(-115600, 261760)
+			planets {
+			}
+		}
+		321 {
+			Geulea
+			star
+			(134940, 185500)
+			planets {
+			}
+		}
+		322 {
+			Escont
+			star
+			(-43640, -126130)
+			planets {
+			}
+		}
+		323 {
+			Nolyon
+			star
+			(-216620, -50040)
+			planets {
+			}
+		}
+		324 {
+			Cuunbar
+			star
+			(189470, -47470)
+			planets {
+			}
+		}
+		325 {
+			Brachium
+			star
+			(43280, 225480)
+			planets {
+			}
+		}
+		326 {
+			Korach
+			star
+			(-86910, -156130)
+			planets {
+			}
+		}
+		327 {
+			Wegmore
+			star
+			(-10790, -240260)
+			planets {
+			}
+		}
+		328 {
+			Kimithar
+			star
+			(-96920, -318000)
+			planets {
+			}
+		}
+		329 {
+			Chertan
+			star
+			(-154930, 45700)
+			planets {
+			}
+		}
+		330 {
+			Atlabba
+			star
+			(-123760, -157220)
+			planets {
+			}
+		}
+		331 {
+			Jardlaphon
+			star
+			(94230, -117840)
+			planets {
+			}
+		}
+		332 {
+			T'Vilkait
+			star
+			(-64709, 97110)
+			planets {
+			}
+		}
+		333 {
+			Itraben
+			star
+			(94660, -58120)
+			planets {
+			}
+		}
+		334 {
+			Breek
+			star
+			(103040, 163780)
+			planets {
+			}
+		}
+		335 {
+			Zosma
+			star
+			(127760, -296080)
+			planets {
+			}
+		}
+		336 {
+			Orkam Fung
+			star
+			(132100, -237520)
+			planets {
+			}
+		}
+		337 {
+			Lyfhir
+			star
+			(115820, 194660)
+			planets {
+			}
+		}
+		338 {
+			Muscida
+			star
+			(-237640, -86110)
+			planets {
+			}
+		}
+		339 {
+			Dram
+			star
+			(-104080, 75590)
+			planets {
+			}
+		}
+		340 {
+			Sapad
+			star
+			(-81810, 135080)
+			planets {
+			}
+		}
+		341 {
+			Zithri
+			star
+			(-58410, 142130)
+			planets {
+			}
+		}
+		342 {
+			Condarra
+			star
+			(200440, 14690)
+			planets {
+			}
+		}
+		343 {
+			Viriak
+			star
+			(-164610, -105370)
+			planets {
+			}
+		}
+		344 {
+			Tuayama
+			star
+			(-186190, -48840)
+			planets {
+			}
+		}
+		345 {
+			Lytirin
+			star
+			(-266910, 30530)
+			planets {
+			}
+		}
+		346 {
+			Tram Bodon
+			star
+			(-164210, -34690)
+			planets {
+			}
+		}
+		347 {
+			Bidtox
+			star
+			(80590, 243500)
+			planets {
+			}
+		}
+		348 {
+			Bellatrix
+			star
+			(204980, -69200)
+			planets {
+			}
+		}
+		349 {
+			Elderak
+			star
+			(273310, -113880)
+			planets {
+			}
+		}
+		350 {
+			Chox
+			star
+			(-81020, 287170)
+			planets {
+			}
+		}
+		351 {
+			Menok
+			star
+			(-67940, 217840)
+			planets {
+			}
+		}
+		352 {
+			Uzhab Vortex
+			star
+			(-149820, -210380)
+			planets {
+			}
+		}
+		353 {
+			Algol
+			star
+			(-114900, 98080)
+			planets {
+			}
+		}
+		354 {
+			Baidaan
+			star
+			(-110160, 247800)
+			planets {
+			}
+		}
+		355 {
+			Kenn Hijal
+			star
+			(119980, -32320)
+			planets {
+			}
+		}
+		356 {
+			Yultup
+			star
+			(-13040, 253260)
+			planets {
+			}
+		}
+		357 {
+			Dorellion
+			star
+			(-168190, -175500)
+			planets {
+			}
+		}
+		358 {
+			Hoeddim
+			star
+			(33200, 239180)
+			planets {
+			}
+		}
+		359 {
+			Brillisir
+			star
+			(152730, 219630)
+			planets {
+			}
+		}
+		360 {
+			Karuss
+			star
+			(-200500, -84890)
+			planets {
+				62
+			}
+		}
+		361 {
+			Enif
+			star
+			(34960, -143190)
+			planets {
+			}
+		}
+		362 {
+			Ionides
+			star
+			(160380, 262220)
+			planets {
+			}
+		}
+		363 {
+			Obaeshoth
+			star
+			(-139220, -178660)
+			planets {
+			}
+		}
+		364 {
+			Saolea
+			star
+			(13820, 207100)
+			planets {
+			}
+		}
+		365 {
+			Jasmak
+			star
+			(164190, -234970)
+			planets {
+			}
+		}
+		366 {
+			Almach
+			star
+			(-94400, 283800)
+			planets {
+			}
+		}
+		367 {
+			Fangcor
+			star
+			(-99360, 261820)
+			planets {
+			}
+		}
+		368 {
+			Pell
+			star
+			(45120, 83400)
+			planets {
+			}
+		}
+		369 {
+			Egouwhyke
+			star
+			(88260, -92300)
+			planets {
+			}
+		}
+		370 {
+			Romonox
+			star
+			(-226410, -90920)
+			planets {
+			}
+		}
+		371 {
+			Busim
+			star
+			(30470, 88690)
+			planets {
+			}
+		}
+		372 {
+			Zimatullon
+			star
+			(136770, 222560)
+			planets {
+			}
+		}
+		373 {
+			Veldoon
+			star
+			(-120720, -204700)
+			planets {
+			}
+		}
+		374 {
+			Dontaur
+			star
+			(-117250, 157890)
+			planets {
+			}
+		}
+		375 {
+			Alamak
+			star
+			(203940, -26970)
+			planets {
+			}
+		}
+		376 {
+			Dawcan
+			star
+			(-111220, -183310)
+			planets {
+			}
+		}
+		377 {
+			Zhir
+			star
+			(9990, 112190)
+			planets {
+			}
+		}
+		378 {
+			Othvomia
+			star
+			(154610, 190920)
+			planets {
+			}
+		}
+		379 {
+			Alioth
+			star
+			(112440, -84810)
+			planets {
+				717
+			}
+		}
+		380 {
+			Kunides
+			star
+			(27620, 290460)
+			planets {
+			}
+		}
+		381 {
+			Trijam
+			star
+			(53920, -220580)
+			planets {
+			}
+		}
+		382 {
+			Covall
+			star
+			(-58160, -291690)
+			planets {
+			}
+		}
+		383 {
+			Unif
+			star
+			(-267780, 127070)
+			planets {
+			}
+		}
+		384 {
+			Sym
+			star
+			(-4400, -120170)
+			planets {
+			}
+		}
+		385 {
+			Qapra
+			star
+			(162310, 143800)
+			planets {
+			}
+		}
+		386 {
+			Kuiper
+			star
+			(-15930, 111530)
+			planets {
+			}
+		}
+		387 {
+			NAME_Sol
+			star
+			(183283, -268505)
+			planets {
+				4014
+			}
+		}
+		388 {
+			Stenlar
+			star
+			(-106502, -189888)
+			planets {
+			}
+		}
+		389 {
+			Benetnasch
+			star
+			(-123110, -202344)
+			planets {
+			}
+		}
+	}
+}

@@ -1,9 +1,8 @@
-
 use minifb::{Key, KeyRepeat, MouseButton, MouseMode, Window, WindowOptions};
-use bmp;
-use std::{time::Duration, fmt::Debug, collections::BTreeMap};
 
-mod saveread;
+use bmp;
+
+use std::{time::Duration, fmt::Debug, collections::BTreeMap};
 
 #[derive(Debug)]
 struct Img {
@@ -24,8 +23,11 @@ impl Img {
             selected: None,
         };
         for _ in 0..ret.dim() { ret.push(0xFFFFFF) }
-        ret.set_background(0x666666);
-        ret.set_menu(0xF0F0F0);
+        // let background = FromImage(vec![vec![0x0A0A1F; width]; height]);
+        let background = FromImage(vec![vec![0x666666; width]; height]);
+        ret.attach(&background, (0, 0), Some(0));
+        let menu = &FromImage::from_vec(vec![0xFFFFFF; (width - height) * height], width - height);
+        ret.attach(menu, (0, 0), Some(1));
         ret
     }
     fn width(&self) -> usize {
@@ -43,11 +45,8 @@ impl Img {
     fn get_img(&self) -> &[u32] {
         &self.image
     }
-    fn set_background(&mut self, inp: u32) {
-        self.objects.insert(0, vec![((0, 0), FromImage{ content: vec![vec![inp; self.width]; self.height], selectable: false})]);
-    }
-    fn set_menu(&mut self, inp: u32) {
-        self.objects.insert(1, vec![((0, 0), FromImage::from_vec(vec![inp; (self.width - self.height) * self.height], self.width - self.height, false))]);
+    fn _draw(&mut self, x: usize, y: usize, color: u32) {
+        self.image[y * self.width + x] = color;
     }
 
 
@@ -103,18 +102,17 @@ impl Img {
             ret.push(temp.clone());
         }
         ret.push(vec![0x0; dim.0]);
-        self.selected = Some((pos, FromImage { content: ret, selectable: false }));
+        self.selected = Some((pos, FromImage(ret)));
     }
 
     fn get_item(&self, pos: (usize, usize)) -> Option<(usize, usize)> {
         let mut i = 0;
         for (j, vals) in self.objects.iter().rev() {
-            for ((x, y), object) in vals { 
+            for ((x, y), object) in vals {
                 if pos.0 < object[0].len() + x
                 && pos.0 > *x
                 && pos.1 < object.len() + y
-                && pos.1 > *y 
-                && object.selectable {
+                && pos.1 > *y {
                     return Some((*j, i))
                 }
                 i += 1;
@@ -127,20 +125,17 @@ impl Img {
     fn obdim(&self, id: usize, pos: usize) -> ((usize, usize), (usize, usize)) {
         let (pos, a) = &self.objects[&id][pos];
         println!("{}, {}, {}, {}", a[0].len(), pos.0, a.len(), pos.1);
-        let ext = (a[0].len(), a.len());
+        let ext = dbg!(a[0].len(), a.len());
         (*pos, ext)
     }
 }
 
 #[derive(Debug, Eq, Hash, PartialEq, Clone)]
-struct FromImage {
-    content: Vec<Vec<u32>>,
-    selectable: bool
-}
+struct FromImage(Vec<Vec<u32>>);
 
 impl FromImage {
-    fn new(inp: &str, selectable: bool) -> Result<FromImage, Box<dyn std::error::Error>> {
-        let mut content = Vec::new();
+    fn new(inp: &str) -> Result<FromImage, Box<dyn std::error::Error>> {
+        let mut ret = Vec::new();
         
 
         let inp = bmp::open(inp).expect("OK");
@@ -152,21 +147,21 @@ impl FromImage {
             pix = inp.get_pixel(x, y);
             temp.push((pix.r as u32 * 256 * 256) + (pix.g as u32 * 256) + (pix.b as u32));
             if x == width {
-                content.push(temp.clone());
+                ret.push(temp.clone());
                 temp.clear();
             }
         }
-        Ok(FromImage{ content, selectable })
+        Ok(FromImage(ret))
     }
-    fn from_vec(content2: Vec<u32>, width: usize, selectable: bool) -> FromImage {
-        let mut content = Vec::new();
-        for i in 0..content2.len()/width {
-            content.push((0..width).map(|x| content2[x + i * width]).collect())
+    fn from_vec(content: Vec<u32>, width: usize) -> FromImage {
+        let mut ret = Vec::new();
+        for i in 0..content.len()/width {
+            ret.push((0..width).map(|x| content[x + i * width]).collect())
         }
-        FromImage{ content, selectable }
+        FromImage(ret)
     }
     fn len(&self) -> usize {
-        self.content.len()
+        self.0.len()
     }
     fn to_format(&self) -> FromImage {
         self.clone()
@@ -177,10 +172,71 @@ impl std::ops::Index<usize> for FromImage {
     type Output = Vec<u32>;
 
     fn index(&self, index: usize) -> &Self::Output {
-        &self.content[index]
+        &self.0[index]
     }
 }
 
+
+// #[derive(Hash, PartialEq, Eq, Debug)]
+// struct VecValImage {
+//     content: Vec<u32>,
+//     width: usize,
+// }
+
+// impl VecValImage {
+//     fn new(content: Vec<u32>, width: usize) -> VecValImage {
+//         VecValImage {
+//             content, 
+//             width,
+//         }
+//     }
+// }
+
+
+// impl Draw for VecValImage {
+//     fn to_format(&self) -> Vec<Vec<u32>> {
+//         let mut ret = vec![vec![0; self.width]; self.content.len() / self.width];
+//         let mut data = self.content.iter();
+//         for i in 0..self.content.len() / self.width {
+//             for j in 0..self.width {
+//                 ret[i][j] = *data.next().unwrap();
+//             }
+//         }
+//         ret
+//     }
+// }
+
+
+// #[derive(Hash, PartialEq, Eq, Debug)]
+// struct Selected {
+//     dim: (usize, usize),
+// }
+
+// impl Selected {
+//     fn new(dx: usize, dy: usize) -> Selected {
+//         Selected {
+//            dim: (
+//                dx,
+//                dy
+//            ) 
+//         }
+//     }
+// }
+
+// impl Draw for Selected {
+//     fn to_format(&self) -> Vec<Vec<u32>> {
+//         let mut ret = Vec::new();
+//         ret.push(vec![0x0; self.dim.0]);
+//         let mut temp = vec![0x0];
+//         temp.append(&mut vec![0x1000000; self.dim.1 - 2]);
+//         temp.push(0x0);
+//         for _ in 2..self.dim.1 {
+//             ret.push(temp.clone());
+//         }
+//         ret.push(vec![0x0; self.dim.0]);
+//         ret
+//     }
+// }
 
 
 fn make_shit(mut w: usize, mut h: usize) -> Result<(), Box<dyn std::error::Error>> {
@@ -199,8 +255,9 @@ fn make_shit(mut w: usize, mut h: usize) -> Result<(), Box<dyn std::error::Error
             0xFFFFFF,  0x0,      0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0x0,      0xFFFFFF, 
             0xFFFFFF,  0x0,      0x0,      0x0,      0x0,      0x0,      0xFFFFFF, 
             0x1000000, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0x1000000, 
-        ], 7, true);
-    let star = &FromImage::new("./data/star.bmp", true).unwrap();
+        ],
+        7);
+    let star = &FromImage::new("./data/star.bmp").unwrap();
 
     let mut img = Img::new(w, h);
 
@@ -215,13 +272,11 @@ fn make_shit(mut w: usize, mut h: usize) -> Result<(), Box<dyn std::error::Error
     )?;
 
 
-    let mut TEMP = 0;
-
     let mut keep = true;
     let mut change = true;
     'outer: while window.is_open() && keep {
         // img.resize(window.get_size());
-        window.limit_update_rate(Some(Duration::from_millis(50)));
+        window.limit_update_rate(Some(Duration::from_millis(5)));
         if change {
             img.update();
             window.update_with_buffer(img.get_img(), img.width(), img.height())?; // gotta switch so it only updates when needed 
@@ -242,14 +297,7 @@ fn make_shit(mut w: usize, mut h: usize) -> Result<(), Box<dyn std::error::Error
                 }
                 change = true;
             } else if window.get_mouse_down(MouseButton::Right) {
-                if TEMP % 2 == 0 {
-                    img.attach(star, (x, y), Some(3));
-                    img.set_background(0xFF);
-                } else {
-                    img.attach(smiley_tester, (x, y), Some(3));
-                    img.set_background(0xFF00);
-                }
-                TEMP += 1;
+                img.attach(star, (x, y), Some(3));
                 change = true;
             }
         }
@@ -273,8 +321,6 @@ fn make_shit(mut w: usize, mut h: usize) -> Result<(), Box<dyn std::error::Error
 
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
-    let a = saveread::reader()?;
-    println!("finished reading");
     make_shit(900, 600)?;
     Ok(())
 }
