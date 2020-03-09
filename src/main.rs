@@ -283,7 +283,7 @@ fn make_shit(mut w: usize, mut h: usize) -> Result<(), Box<dyn std::error::Error
     let star = &mut FromImage::new("./data/star.bmp", true)?;
     let ua = &mut FromImage::new("./letters/ua.bmp", false)?;
     let la = &mut FromImage::new("./letters/la.bmp", false)?;
-    let ln = &mut FromImage::new("./letters/lngit .bmp", false)?;
+    let ln = &mut FromImage::new("./letters/ln.bmp", false)?;
 
     let mut img = Img::new(w, h);
 
