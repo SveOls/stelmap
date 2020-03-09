@@ -1,7 +1,6 @@
-
-use minifb::{Key, KeyRepeat, MouseButton, MouseMode, Window, WindowOptions};
 use bmp;
-use std::{time::Duration, fmt::Debug, collections::BTreeMap};
+use minifb::{Key, KeyRepeat, MouseButton, MouseMode, Window, WindowOptions};
+use std::{collections::BTreeMap, fmt::Debug, time::Duration};
 
 mod saveread;
 
@@ -23,7 +22,9 @@ impl Img {
             objects: BTreeMap::new(),
             selected: None,
         };
-        for _ in 0..ret.dim() { ret.push(0xFFFFFF) }
+        for _ in 0..ret.dim() {
+            ret.push(0xFFFFFF)
+        }
         ret.set_background(0x666666);
         ret.set_menu(0xF0F0F0);
         ret
@@ -44,12 +45,31 @@ impl Img {
         &self.image
     }
     fn set_background(&mut self, inp: u32) {
-        self.objects.insert(0, vec![((0, 0), FromImage{ content: vec![vec![inp; self.width]; self.height], selectable: false})]);
+        self.objects.insert(
+            0,
+            vec![(
+                (0, 0),
+                FromImage {
+                    content: vec![vec![inp; self.width]; self.height],
+                    selectable: false,
+                    name: None,
+                },
+            )],
+        );
     }
     fn set_menu(&mut self, inp: u32) {
-        self.objects.insert(1, vec![((0, 0), FromImage::from_vec(vec![inp; (self.width - self.height) * self.height], self.width - self.height, false))]);
+        self.objects.insert(
+            1,
+            vec![(
+                (0, 0),
+                FromImage::from_vec(
+                    vec![inp; (self.width - self.height) * self.height],
+                    self.width - self.height,
+                    false,
+                ),
+            )],
+        );
     }
-
 
     fn attach(&mut self, object: &FromImage, coord: (usize, usize), layer: Option<usize>) {
         let temp = if let Some(a) = layer {
@@ -69,7 +89,6 @@ impl Img {
                 // println!("{} {}", object.len(), object[0].len());
                 for i in 0..object.len() {
                     for j in 0..object[0].len() {
-                        
                         if object[i][j] / 0x1000000 < 1 && object[i][j] != 0xFEFEFE {
                             self.image[(*y + i) * self.width + (*x + j)] = object[i][j];
                         }
@@ -90,7 +109,6 @@ impl Img {
                 }
             }
         }
-
     }
     fn select(&mut self, input: ((usize, usize), (usize, usize))) {
         let (pos, dim) = input;
@@ -103,19 +121,30 @@ impl Img {
             ret.push(temp.clone());
         }
         ret.push(vec![0x0; dim.0]);
-        self.selected = Some((pos, FromImage { content: ret, selectable: false }));
+        self.selected = Some((
+            pos,
+            FromImage {
+                content: ret,
+                selectable: false,
+                name: None,
+            },
+        ));
     }
 
     fn get_item(&self, pos: (usize, usize)) -> Option<(usize, usize)> {
         let mut i = 0;
         for (j, vals) in self.objects.iter().rev() {
-            for ((x, y), object) in vals { 
+            for ((x, y), object) in vals {
                 if pos.0 < object[0].len() + x
-                && pos.0 > *x
-                && pos.1 < object.len() + y
-                && pos.1 > *y 
-                && object.selectable {
-                    return Some((*j, i))
+                    && pos.0 > *x
+                    && pos.1 < object.len() + y
+                    && pos.1 > *y
+                    && object.selectable
+                {
+                    if let Some(a) = object.get_name() {
+                        println!("{}", a);
+                    }
+                    return Some((*j, i));
                 }
                 i += 1;
             }
@@ -126,7 +155,7 @@ impl Img {
     ///returns (position, width/height)
     fn obdim(&self, id: usize, pos: usize) -> ((usize, usize), (usize, usize)) {
         let (pos, a) = &self.objects[&id][pos];
-        println!("{}, {}, {}, {}", a[0].len(), pos.0, a.len(), pos.1);
+        // println!("{}, {}, {}, {}", a[0].len(), pos.0, a.len(), pos.1);
         let ext = (a[0].len(), a.len());
         (*pos, ext)
     }
@@ -135,13 +164,13 @@ impl Img {
 #[derive(Debug, Eq, Hash, PartialEq, Clone)]
 struct FromImage {
     content: Vec<Vec<u32>>,
-    selectable: bool
+    selectable: bool,
+    name: Option<String>,
 }
 
 impl FromImage {
     fn new(inp: &str, selectable: bool) -> Result<FromImage, Box<dyn std::error::Error>> {
         let mut content = Vec::new();
-        
 
         let inp = bmp::open(inp).expect("OK");
         let width = inp.get_width() - 1;
@@ -156,20 +185,34 @@ impl FromImage {
                 temp.clear();
             }
         }
-        Ok(FromImage{ content, selectable })
+        Ok(FromImage {
+            content,
+            selectable,
+            name: None,
+        })
     }
     fn from_vec(content2: Vec<u32>, width: usize, selectable: bool) -> FromImage {
         let mut content = Vec::new();
-        for i in 0..content2.len()/width {
+        for i in 0..content2.len() / width {
             content.push((0..width).map(|x| content2[x + i * width]).collect())
         }
-        FromImage{ content, selectable }
+        FromImage {
+            content,
+            selectable,
+            name: None,
+        }
     }
     fn len(&self) -> usize {
         self.content.len()
     }
     fn to_format(&self) -> FromImage {
         self.clone()
+    }
+    fn set_name(&mut self, name: Option<String>) {
+        self.name = name;
+    }
+    fn get_name(&self) -> &Option<String> {
+        &self.name
     }
 }
 
@@ -181,26 +224,66 @@ impl std::ops::Index<usize> for FromImage {
     }
 }
 
-
+// #[derive(Debug, Clone)]
+// pub struct GalObject {
+//     id: usize,
+//     x: i64,
+//     y: i64,
+//     typ: String,
+//     name: String,
+//     planets: Vec<usize>
+// }
 
 fn make_shit(mut w: usize, mut h: usize) -> Result<(), Box<dyn std::error::Error>> {
+    let smiley_tester = &FromImage::from_vec(
+        vec![
+            0x1000000, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0x1000000, 0xFFFFFF, 0x0,
+            0x0, 0xFFFFFF, 0x0, 0x0, 0xFFFFFF, 0xFFFFFF, 0x0, 0x0, 0xFFFFFF, 0x0, 0x0, 0xFFFFFF,
+            0xFFFFFF, 0x0, 0x0, 0xFFFFFF, 0x0, 0x0, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF,
+            0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF,
+            0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0x0, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0x0,
+            0xFFFFFF, 0xFFFFFF, 0x0, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0x0, 0xFFFFFF, 0xFFFFFF, 0x0,
+            0x0, 0x0, 0x0, 0x0, 0xFFFFFF, 0x1000000, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF,
+            0xFFFFFF, 0x1000000,
+        ],
+        7,
+        true,
+    );
+
+    let a = saveread::reader()?;
+    println!("finished reading");
+
+    let (_, galaxy) = a.get_obj_iter().next().unwrap();
+    let mut objit = galaxy.get_obj_iter(); // iterator over GalObjects ( in vector )
+    let mut maxx = 0f64;
+    let mut minx = 0f64;
+    let mut maxy = 0f64;
+    let mut miny = 0f64;
+    while let Some(a) = objit.next() {
+        if a.gx() > maxx {
+            maxx = a.gx();
+        } else if a.gx() < minx {
+            minx = a.gx();
+        }
+        if a.gy() > maxy {
+            maxy = a.gy();
+        } else if a.gy() < miny {
+            miny = a.gy();
+        }
+    }
+    let scale = 0.9 * (h as f64) / (maxx - minx).max(maxy - miny);
+    let mx = -minx - 0.05 * (h as f64) + 300f64;
+    let my = -miny - 0.05 * (h as f64);
+    println!("{} {} {} {}", minx, maxx, miny, maxy);
+    println!("{} {} {}", scale, mx, my);
+
     if h > w {
         std::mem::swap(&mut w, &mut h);
     }
-    let smiley_tester = &FromImage::from_vec(
-        vec![
-            0x1000000, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0x1000000, 
-            0xFFFFFF,  0x0,      0x0,      0xFFFFFF, 0x0,      0x0,      0xFFFFFF, 
-            0xFFFFFF,  0x0,      0x0,      0xFFFFFF, 0x0,      0x0,      0xFFFFFF, 
-            0xFFFFFF,  0x0,      0x0,      0xFFFFFF, 0x0,      0x0,      0xFFFFFF, 
-            0xFFFFFF,  0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 
-            0xFFFFFF,  0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF,  
-            0xFFFFFF,  0x0,      0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0x0,      0xFFFFFF,  
-            0xFFFFFF,  0x0,      0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0x0,      0xFFFFFF, 
-            0xFFFFFF,  0x0,      0x0,      0x0,      0x0,      0x0,      0xFFFFFF, 
-            0x1000000, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0xFFFFFF, 0x1000000, 
-        ], 7, true);
-    let star = &FromImage::new("./data/star.bmp", true).unwrap();
+    let star = &mut FromImage::new("./data/star.bmp", true)?;
+    let ua = &mut FromImage::new("./letters/ua.bmp", false)?;
+    let la = &mut FromImage::new("./letters/la.bmp", false)?;
+    let ln = &mut FromImage::new("./letters/lngit .bmp", false)?;
 
     let mut img = Img::new(w, h);
 
@@ -213,18 +296,32 @@ fn make_shit(mut w: usize, mut h: usize) -> Result<(), Box<dyn std::error::Error
             ..WindowOptions::default()
         },
     )?;
+    img.attach(ua, (10, 10), Some(3));
+    img.attach(la, (18, 10), Some(3));
+    img.attach(la, (26, 10), Some(3));
+    img.attach(ln, (34, 10), Some(3));
 
+
+    let mut objit = galaxy.get_obj_iter();
+    while let Some(a) = objit.next() {
+        let x = ((a.gx() * scale) + mx) as usize;
+        let y = ((a.gy() * scale) + my) as usize;
+        star.set_name(Some(String::from(a.get_name())));
+        img.attach(star, (x, y), Some(3));
+    }
+    star.name = None;
 
     let mut TEMP = 0;
 
     let mut keep = true;
     let mut change = true;
-    'outer: while window.is_open() && keep {
+    while window.is_open() && keep {
         // img.resize(window.get_size());
-        window.limit_update_rate(Some(Duration::from_millis(50)));
+        window.limit_update_rate(Some(Duration::from_millis(20)));
         if change {
             img.update();
-            window.update_with_buffer(img.get_img(), img.width(), img.height())?; // gotta switch so it only updates when needed 
+            window.update_with_buffer(img.get_img(), img.width(), img.height())?;
+        // gotta switch so it only updates when needed
         } else {
             window.update();
         }
@@ -270,11 +367,7 @@ fn make_shit(mut w: usize, mut h: usize) -> Result<(), Box<dyn std::error::Error
     Ok(())
 }
 
-
-
 fn main() -> Result<(), Box<dyn std::error::Error>> {
-    let a = saveread::reader()?;
-    println!("finished reading");
     make_shit(900, 600)?;
     Ok(())
 }
